@@ -172,9 +172,9 @@ export default function ListDetailPage() {
               </p>
             </div>
           ) : (
-            <div className="flex flex-col gap-3">
+            <div className="bg-white border border-[var(--border)] rounded-2xl divide-y divide-[var(--border)]">
               {sorted.map(item => (
-                <div key={item.id} className="bg-white border border-[var(--border)] rounded-2xl p-4 flex items-start gap-3 group hover:shadow-sm transition">
+                <div key={item.id} className="p-4 flex items-start gap-3 group hover:bg-[var(--muted)] transition first:rounded-t-2xl last:rounded-b-2xl">
                   {/* Status toggle */}
                   <button
                     onClick={() => updateStatus(item, item.status === 'pending' ? 'done' : 'pending')}
