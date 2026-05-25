@@ -1,3 +1,21 @@
-﻿{
-    "data":  "aW1wb3J0IHsgY24gfSBmcm9tICdAL2xpYi91dGlscycKCmludGVyZmFjZSBCYWRnZVByb3BzIHsKICBjaGlsZHJlbjogUmVhY3QuUmVhY3ROb2RlCiAgdmFyaWFudD86ICdkZWZhdWx0JyB8ICdzdWNjZXNzJyB8ICd3YXJuaW5nJyB8ICdtdXRlZCcKICBjbGFzc05hbWU/OiBzdHJpbmcKfQoKZXhwb3J0IGZ1bmN0aW9uIEJhZGdlKHsgY2hpbGRyZW4sIHZhcmlhbnQgPSAnZGVmYXVsdCcsIGNsYXNzTmFtZSB9OiBCYWRnZVByb3BzKSB7CiAgY29uc3QgdmFyaWFudHMgPSB7CiAgICBkZWZhdWx0OiAnYmctW3ZhcigtLXByaW1hcnktbGlnaHQpXSB0ZXh0LVt2YXIoLS1wcmltYXJ5KV0nLAogICAgc3VjY2VzczogJ2JnLWdyZWVuLTEwMCB0ZXh0LWdyZWVuLTcwMCcsCiAgICB3YXJuaW5nOiAnYmctYW1iZXItMTAwIHRleHQtYW1iZXItNzAwJywKICAgIG11dGVkOiAnYmctW3ZhcigtLW11dGVkKV0gdGV4dC1bdmFyKC0tbXV0ZWQtZm9yZWdyb3VuZCldJywKICB9CiAgcmV0dXJuICgKICAgIDxzcGFuIGNsYXNzTmFtZT17Y24oJ2lubGluZS1mbGV4IGl0ZW1zLWNlbnRlciBweC0yIHB5LTAuNSByb3VuZGVkLWZ1bGwgdGV4dC14cyBmb250LW1lZGl1bScsIHZhcmlhbnRzW3ZhcmlhbnRdLCBjbGFzc05hbWUpfT4KICAgICAge2NoaWxkcmVufQogICAgPC9zcGFuPgogICkKfQo="
+import { cn } from '@/lib/utils'
+
+interface BadgeProps {
+  children: React.ReactNode
+  variant?: 'default' | 'success' | 'warning' | 'muted'
+  className?: string
+}
+
+export function Badge({ children, variant = 'default', className }: BadgeProps) {
+  const variants = {
+    default: 'bg-[var(--primary-light)] text-[var(--primary)]',
+    success: 'bg-green-100 text-green-700',
+    warning: 'bg-amber-100 text-amber-700',
+    muted: 'bg-[var(--muted)] text-[var(--muted-foreground)]',
+  }
+  return (
+    <span className={cn('inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium', variants[variant], className)}>
+      {children}
+    </span>
+  )
 }

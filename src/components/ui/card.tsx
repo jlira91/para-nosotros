@@ -1,3 +1,25 @@
-﻿{
-    "data":  "aW1wb3J0ICogYXMgUmVhY3QgZnJvbSAncmVhY3QnCmltcG9ydCB7IGNuIH0gZnJvbSAnQC9saWIvdXRpbHMnCgpleHBvcnQgZnVuY3Rpb24gQ2FyZCh7IGNsYXNzTmFtZSwgY2hpbGRyZW4sIC4uLnByb3BzIH06IFJlYWN0LkhUTUxBdHRyaWJ1dGVzPEhUTUxEaXZFbGVtZW50PikgewogIHJldHVybiAoCiAgICA8ZGl2CiAgICAgIGNsYXNzTmFtZT17Y24oJ2JnLXdoaXRlIHJvdW5kZWQtMnhsIGJvcmRlciBib3JkZXItW3ZhcigtLWJvcmRlcildIHNoYWRvdy1zbScsIGNsYXNzTmFtZSl9CiAgICAgIHsuLi5wcm9wc30KICAgID4KICAgICAge2NoaWxkcmVufQogICAgPC9kaXY+CiAgKQp9CgpleHBvcnQgZnVuY3Rpb24gQ2FyZEhlYWRlcih7IGNsYXNzTmFtZSwgY2hpbGRyZW4sIC4uLnByb3BzIH06IFJlYWN0LkhUTUxBdHRyaWJ1dGVzPEhUTUxEaXZFbGVtZW50PikgewogIHJldHVybiA8ZGl2IGNsYXNzTmFtZT17Y24oJ3B4LTYgcHQtNiBwYi0yJywgY2xhc3NOYW1lKX0gey4uLnByb3BzfT57Y2hpbGRyZW59PC9kaXY+Cn0KCmV4cG9ydCBmdW5jdGlvbiBDYXJkVGl0bGUoeyBjbGFzc05hbWUsIGNoaWxkcmVuLCAuLi5wcm9wcyB9OiBSZWFjdC5IVE1MQXR0cmlidXRlczxIVE1MSGVhZGluZ0VsZW1lbnQ+KSB7CiAgcmV0dXJuIDxoMyBjbGFzc05hbWU9e2NuKCd0ZXh0LWJhc2UgZm9udC1zZW1pYm9sZCB0ZXh0LVt2YXIoLS1mb3JlZ3JvdW5kKV0nLCBjbGFzc05hbWUpfSB7Li4ucHJvcHN9PntjaGlsZHJlbn08L2gzPgp9CgpleHBvcnQgZnVuY3Rpb24gQ2FyZENvbnRlbnQoeyBjbGFzc05hbWUsIGNoaWxkcmVuLCAuLi5wcm9wcyB9OiBSZWFjdC5IVE1MQXR0cmlidXRlczxIVE1MRGl2RWxlbWVudD4pIHsKICByZXR1cm4gPGRpdiBjbGFzc05hbWU9e2NuKCdweC02IHBiLTYnLCBjbGFzc05hbWUpfSB7Li4ucHJvcHN9PntjaGlsZHJlbn08L2Rpdj4KfQo="
+import * as React from 'react'
+import { cn } from '@/lib/utils'
+
+export function Card({ className, children, ...props }: React.HTMLAttributes<HTMLDivElement>) {
+  return (
+    <div
+      className={cn('bg-white rounded-2xl border border-[var(--border)] shadow-sm', className)}
+      {...props}
+    >
+      {children}
+    </div>
+  )
+}
+
+export function CardHeader({ className, children, ...props }: React.HTMLAttributes<HTMLDivElement>) {
+  return <div className={cn('px-6 pt-6 pb-2', className)} {...props}>{children}</div>
+}
+
+export function CardTitle({ className, children, ...props }: React.HTMLAttributes<HTMLHeadingElement>) {
+  return <h3 className={cn('text-base font-semibold text-[var(--foreground)]', className)} {...props}>{children}</h3>
+}
+
+export function CardContent({ className, children, ...props }: React.HTMLAttributes<HTMLDivElement>) {
+  return <div className={cn('px-6 pb-6', className)} {...props}>{children}</div>
 }

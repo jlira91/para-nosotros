@@ -1,3 +1,22 @@
-﻿{
-    "data":  "aW1wb3J0IHsgY3JlYXRlU2VydmVyQ2xpZW50IH0gZnJvbSAnQHN1cGFiYXNlL3NzcicKaW1wb3J0IHsgY29va2llcyB9IGZyb20gJ25leHQvaGVhZGVycycKCmV4cG9ydCBhc3luYyBmdW5jdGlvbiBjcmVhdGVDbGllbnQoKSB7CiAgY29uc3QgY29va2llU3RvcmUgPSBhd2FpdCBjb29raWVzKCkKICByZXR1cm4gY3JlYXRlU2VydmVyQ2xpZW50KAogICAgJ2h0dHBzOi8vdXpteWl1dndsbXZhc29icW54Z3guc3VwYWJhc2UuY28nLAogICAgJ2V5SmhiR2NpT2lKSVV6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUpwYzNNaU9pSnpkWEJoWW1GelpTSXNJbkpsWmlJNkluVjZiWGxwZFhaM2JHMTJZWE52WW5GdWVHZDRJaXdpY205c1pTSTZJbUZ1YjI0aUxDSnBZWFFpT2pFM056ZzJPREEzTXprc0ltVjRjQ0k2TWpBNU5ESTFOamN6T1gwLnRqdi1RdmdRcGhyNzVZbzZuLXRXMVpXb2pEcEZpYi1iMmtWcWRLUGZVOUUnLAogICAgewogICAgICBjb29raWVzOiB7CiAgICAgICAgZ2V0QWxsKCkgeyByZXR1cm4gY29va2llU3RvcmUuZ2V0QWxsKCkgfSwKICAgICAgICBzZXRBbGwoY29va2llc1RvU2V0KSB7CiAgICAgICAgICB0cnkgewogICAgICAgICAgICBjb29raWVzVG9TZXQuZm9yRWFjaCgoeyBuYW1lLCB2YWx1ZSwgb3B0aW9ucyB9KSA9PgogICAgICAgICAgICAgIGNvb2tpZVN0b3JlLnNldChuYW1lLCB2YWx1ZSwgb3B0aW9ucykKICAgICAgICAgICAgKQogICAgICAgICAgfSBjYXRjaCB7fQogICAgICAgIH0sCiAgICAgIH0sCiAgICB9CiAgKQp9Cg=="
+import { createServerClient } from '@supabase/ssr'
+import { cookies } from 'next/headers'
+
+export async function createClient() {
+  const cookieStore = await cookies()
+  return createServerClient(
+    'https://uzmyiuvwlmvasobqnxgx.supabase.co',
+    'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InV6bXlpdXZ3bG12YXNvYnFueGd4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzg2ODA3MzksImV4cCI6MjA5NDI1NjczOX0.tjv-QvgQphr75Yo6n-tW1ZWojDpFib-b2kVqdKPfU9E',
+    {
+      cookies: {
+        getAll() { return cookieStore.getAll() },
+        setAll(cookiesToSet) {
+          try {
+            cookiesToSet.forEach(({ name, value, options }) =>
+              cookieStore.set(name, value, options)
+            )
+          } catch {}
+        },
+      },
+    }
+  )
 }

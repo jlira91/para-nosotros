@@ -1,3 +1,209 @@
-﻿{
-    "data":  "J3VzZSBjbGllbnQnCgppbXBvcnQgeyB1c2VTdGF0ZSwgdXNlRWZmZWN0LCB1c2VSZWYgfSBmcm9tICdyZWFjdCcKaW1wb3J0IHsgY3JlYXRlQ2xpZW50IH0gZnJvbSAnQC9saWIvc3VwYWJhc2UvY2xpZW50JwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICdAL2NvbXBvbmVudHMvdWkvYnV0dG9uJwppbXBvcnQgeyBJbnB1dCB9IGZyb20gJ0AvY29tcG9uZW50cy91aS9pbnB1dCcKaW1wb3J0IHR5cGUgeyBMaXN0LCBMaXN0SXRlbSB9IGZyb20gJ0AvbGliL3R5cGVzJwppbXBvcnQgeyBTaG9wcGluZ0NhcnQsIFBsdXMsIENoZWNrQ2lyY2xlMiwgQ2lyY2xlLCBUcmFzaDIsIFBlbmNpbCwgQ2hlY2ssIFggfSBmcm9tICdsdWNpZGUtcmVhY3QnCmltcG9ydCB7IG5vdGlmeVBhcnRuZXIgfSBmcm9tICdAL2xpYi9ub3RpZnknCgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBDb21wcmFzUGFnZSgpIHsKICBjb25zdCBzdXBhYmFzZSA9IGNyZWF0ZUNsaWVudCgpCiAgY29uc3QgW2xpc3QsIHNldExpc3RdID0gdXNlU3RhdGU8TGlzdCB8IG51bGw+KG51bGwpCiAgY29uc3QgW2l0ZW1zLCBzZXRJdGVtc10gPSB1c2VTdGF0ZTxMaXN0SXRlbVtdPihbXSkKICBjb25zdCBbY291cGxlSWQsIHNldENvdXBsZUlkXSA9IHVzZVN0YXRlPHN0cmluZyB8IG51bGw+KG51bGwpCiAgY29uc3QgW3VzZXJJZCwgc2V0VXNlcklkXSA9IHVzZVN0YXRlPHN0cmluZyB8IG51bGw+KG51bGwpCiAgY29uc3QgW25ld0l0ZW0sIHNldE5ld0l0ZW1dID0gdXNlU3RhdGUoJycpCiAgY29uc3QgW2FkZGluZywgc2V0QWRkaW5nXSA9IHVzZVN0YXRlKGZhbHNlKQogIGNvbnN0IFtlZGl0aW5nSWQsIHNldEVkaXRpbmdJZF0gPSB1c2VTdGF0ZTxzdHJpbmcgfCBudWxsPihudWxsKQogIGNvbnN0IFtlZGl0aW5nVGl0bGUsIHNldEVkaXRpbmdUaXRsZV0gPSB1c2VTdGF0ZSgnJykKICBjb25zdCBlZGl0SW5wdXRSZWYgPSB1c2VSZWY8SFRNTElucHV0RWxlbWVudD4obnVsbCkKCiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIGFzeW5jIGZ1bmN0aW9uIGxvYWQoKSB7CiAgICAgIGNvbnN0IHsgZGF0YTogeyB1c2VyIH0gfSA9IGF3YWl0IHN1cGFiYXNlLmF1dGguZ2V0VXNlcigpCiAgICAgIGlmICghdXNlcikgcmV0dXJuCiAgICAgIHNldFVzZXJJZCh1c2VyLmlkKQogICAgICBjb25zdCB7IGRhdGE6IHByb2ZpbGUgfSA9IGF3YWl0IHN1cGFiYXNlLmZyb20oJ3Byb2ZpbGVzJykuc2VsZWN0KCdjb3VwbGVfaWQnKS5lcSgnaWQnLCB1c2VyLmlkKS5zaW5nbGUoKQogICAgICBpZiAoIXByb2ZpbGU/LmNvdXBsZV9pZCkgcmV0dXJuCiAgICAgIHNldENvdXBsZUlkKHByb2ZpbGUuY291cGxlX2lkKQoKICAgICAgbGV0IHsgZGF0YTogc2hvcHBpbmdMaXN0IH0gPSBhd2FpdCBzdXBhYmFzZS5mcm9tKCdsaXN0cycpLnNlbGVjdCgnKicpLmVxKCdjb3VwbGVfaWQnLCBwcm9maWxlLmNvdXBsZV9pZCkuZXEoJ3R5cGUnLCAnc2hvcHBpbmcnKS5zaW5nbGUoKQogICAgICBpZiAoIXNob3BwaW5nTGlzdCkgewogICAgICAgIGNvbnN0IHsgZGF0YTogbmV3TGlzdCB9ID0gYXdhaXQgc3VwYWJhc2UuZnJvbSgnbGlzdHMnKS5pbnNlcnQoewogICAgICAgICAgY291cGxlX2lkOiBwcm9maWxlLmNvdXBsZV9pZCwKICAgICAgICAgIG5hbWU6ICdMaXN0YSBkZSBjb21wcmFzJywKICAgICAgICAgIHR5cGU6ICdzaG9wcGluZycsCiAgICAgICAgICBpY29uOiAn8J+bkicsCiAgICAgICAgICBjb2xvcjogJyM3QUM0QTAnLAogICAgICAgICAgY3JlYXRlZF9ieTogdXNlci5pZCwKICAgICAgICB9KS5zZWxlY3QoKS5zaW5nbGUoKQogICAgICAgIHNob3BwaW5nTGlzdCA9IG5ld0xpc3QKICAgICAgfQogICAgICBzZXRMaXN0KHNob3BwaW5nTGlzdCkKCiAgICAgIGlmIChzaG9wcGluZ0xpc3QpIHsKICAgICAgICBjb25zdCB7IGRhdGE6IGl0ZW1zRGF0YSB9ID0gYXdhaXQgc3VwYWJhc2UuZnJvbSgnbGlzdF9pdGVtcycpLnNlbGVjdCgnKicpLmVxKCdsaXN0X2lkJywgc2hvcHBpbmdMaXN0LmlkKS5vcmRlcignY3JlYXRlZF9hdCcsIHsgYXNjZW5kaW5nOiBmYWxzZSB9KQogICAgICAgIHNldEl0ZW1zKGl0ZW1zRGF0YSB8fCBbXSkKICAgICAgfQogICAgfQogICAgbG9hZCgpCiAgfSwgW10pCgogIGFzeW5jIGZ1bmN0aW9uIGFkZEl0ZW0oZTogUmVhY3QuRm9ybUV2ZW50KSB7CiAgICBlLnByZXZlbnREZWZhdWx0KCkKICAgIGlmICghbGlzdCB8fCAhY291cGxlSWQgfHwgIW5ld0l0ZW0udHJpbSgpKSByZXR1cm4KICAgIHNldEFkZGluZyh0cnVlKQogICAgY29uc3QgeyBkYXRhIH0gPSBhd2FpdCBzdXBhYmFzZS5mcm9tKCdsaXN0X2l0ZW1zJykuaW5zZXJ0KHsKICAgICAgbGlzdF9pZDogbGlzdC5pZCwKICAgICAgY291cGxlX2lkOiBjb3VwbGVJZCwKICAgICAgdGl0bGU6IG5ld0l0ZW0udHJpbSgpLAogICAgICBhZGRlZF9ieTogdXNlcklkLAogICAgfSkuc2VsZWN0KCkuc2luZ2xlKCkKICAgIGlmIChkYXRhKSB7CiAgICAgIHNldEl0ZW1zKGkgPT4gW2RhdGEsIC4uLmldKQogICAgICBpZiAoY291cGxlSWQgJiYgdXNlcklkKSBub3RpZnlQYXJ0bmVyKGNvdXBsZUlkLCB1c2VySWQsICdMaXN0YSBkZSBjb21wcmFzJywgYFNlIGHDsWFkacOzICIke25ld0l0ZW0udHJpbSgpfSJgLCAnL2NvbXByYXMnKQogICAgfQogICAgc2V0TmV3SXRlbSgnJykKICAgIHNldEFkZGluZyhmYWxzZSkKICB9CgogIGFzeW5jIGZ1bmN0aW9uIHRvZ2dsZUl0ZW0oaXRlbTogTGlzdEl0ZW0pIHsKICAgIGNvbnN0IHN0YXR1cyA9IGl0ZW0uc3RhdHVzID09PSAnZG9uZScgPyAncGVuZGluZycgOiAnZG9uZScKICAgIGF3YWl0IHN1cGFiYXNlLmZyb20oJ2xpc3RfaXRlbXMnKS51cGRhdGUoeyBzdGF0dXMsIGNvbXBsZXRlZF9hdDogc3RhdHVzID09PSAnZG9uZScgPyBuZXcgRGF0ZSgpLnRvSVNPU3RyaW5nKCkgOiBudWxsIH0pLmVxKCdpZCcsIGl0ZW0uaWQpCiAgICBzZXRJdGVtcyhpdGVtcy5tYXAoaSA9PiBpLmlkID09PSBpdGVtLmlkID8geyAuLi5pLCBzdGF0dXMsIGNvbXBsZXRlZF9hdDogc3RhdHVzID09PSAnZG9uZScgPyBuZXcgRGF0ZSgpLnRvSVNPU3RyaW5nKCkgOiBudWxsIH0gOiBpKSkKICB9CgogIGFzeW5jIGZ1bmN0aW9uIGRlbGV0ZUl0ZW0oaWQ6IHN0cmluZykgewogICAgYXdhaXQgc3VwYWJhc2UuZnJvbSgnbGlzdF9pdGVtcycpLmRlbGV0ZSgpLmVxKCdpZCcsIGlkKQogICAgc2V0SXRlbXMoaSA9PiBpLmZpbHRlcih4ID0+IHguaWQgIT09IGlkKSkKICB9CgogIGFzeW5jIGZ1bmN0aW9uIGNsZWFyRG9uZSgpIHsKICAgIGNvbnN0IGRvbmUgPSBpdGVtcy5maWx0ZXIoaSA9PiBpLnN0YXR1cyA9PT0gJ2RvbmUnKQogICAgaWYgKGRvbmUubGVuZ3RoID09PSAwKSByZXR1cm4KICAgIGF3YWl0IHN1cGFiYXNlLmZyb20oJ2xpc3RfaXRlbXMnKS5kZWxldGUoKS5pbignaWQnLCBkb25lLm1hcChpID0+IGkuaWQpKQogICAgc2V0SXRlbXMoaSA9PiBpLmZpbHRlcih4ID0+IHguc3RhdHVzICE9PSAnZG9uZScpKQogIH0KCiAgZnVuY3Rpb24gc3RhcnRFZGl0KGl0ZW06IExpc3RJdGVtKSB7CiAgICBzZXRFZGl0aW5nSWQoaXRlbS5pZCkKICAgIHNldEVkaXRpbmdUaXRsZShpdGVtLnRpdGxlKQogICAgc2V0VGltZW91dCgoKSA9PiBlZGl0SW5wdXRSZWYuY3VycmVudD8uZm9jdXMoKSwgNTApCiAgfQoKICBmdW5jdGlvbiBjYW5jZWxFZGl0KCkgewogICAgc2V0RWRpdGluZ0lkKG51bGwpCiAgICBzZXRFZGl0aW5nVGl0bGUoJycpCiAgfQoKICBhc3luYyBmdW5jdGlvbiBjb21taXRFZGl0KGlkOiBzdHJpbmcpIHsKICAgIGlmICghZWRpdGluZ1RpdGxlLnRyaW0oKSkgeyBjYW5jZWxFZGl0KCk7IHJldHVybiB9CiAgICBhd2FpdCBzdXBhYmFzZS5mcm9tKCdsaXN0X2l0ZW1zJykudXBkYXRlKHsgdGl0bGU6IGVkaXRpbmdUaXRsZS50cmltKCkgfSkuZXEoJ2lkJywgaWQpCiAgICBzZXRJdGVtcyhpdGVtcy5tYXAoaSA9PiBpLmlkID09PSBpZCA/IHsgLi4uaSwgdGl0bGU6IGVkaXRpbmdUaXRsZS50cmltKCkgfSA6IGkpKQogICAgY2FuY2VsRWRpdCgpCiAgfQoKICBjb25zdCBwZW5kaW5nID0gaXRlbXMuZmlsdGVyKGkgPT4gaS5zdGF0dXMgPT09ICdwZW5kaW5nJykKICBjb25zdCBkb25lID0gaXRlbXMuZmlsdGVyKGkgPT4gaS5zdGF0dXMgPT09ICdkb25lJykKCiAgZnVuY3Rpb24gSXRlbVJvdyh7IGl0ZW0sIGlzRG9uZSB9OiB7IGl0ZW06IExpc3RJdGVtOyBpc0RvbmU6IGJvb2xlYW4gfSkgewogICAgY29uc3QgaXNFZGl0aW5nID0gZWRpdGluZ0lkID09PSBpdGVtLmlkCiAgICByZXR1cm4gKAogICAgICA8ZGl2IGNsYXNzTmFtZT17YGZsZXggaXRlbXMtY2VudGVyIGdhcC0zIHJvdW5kZWQteGwgcHgtNCBweS0zIGdyb3VwIGhvdmVyOnNoYWRvdy1zbSB0cmFuc2l0aW9uICR7aXNEb25lID8gJ2JnLVt2YXIoLS1tdXRlZCldIG9wYWNpdHktNjAgaG92ZXI6b3BhY2l0eS04MCcgOiAnYmctd2hpdGUgYm9yZGVyIGJvcmRlci1bdmFyKC0tYm9yZGVyKV0nfWB9PgogICAgICAgIDxidXR0b24gb25DbGljaz17KCkgPT4gdG9nZ2xlSXRlbShpdGVtKX0gY2xhc3NOYW1lPXtgZmxleC1zaHJpbmstMCB0cmFuc2l0aW9uICR7aXNEb25lID8gJ3RleHQtZ3JlZW4tNTAwJyA6ICd0ZXh0LVt2YXIoLS1tdXRlZC1mb3JlZ3JvdW5kKV0gaG92ZXI6dGV4dC1ncmVlbi01MDAnfWB9PgogICAgICAgICAge2lzRG9uZSA/IDxDaGVja0NpcmNsZTIgc2l6ZT17MjB9IC8+IDogPENpcmNsZSBzaXplPXsyMH0gLz59CiAgICAgICAgPC9idXR0b24+CgogICAgICAgIHtpc0VkaXRpbmcgPyAoCiAgICAgICAgICA8aW5wdXQKICAgICAgICAgICAgcmVmPXtlZGl0SW5wdXRSZWZ9CiAgICAgICAgICAgIHZhbHVlPXtlZGl0aW5nVGl0bGV9CiAgICAgICAgICAgIG9uQ2hhbmdlPXtlID0+IHNldEVkaXRpbmdUaXRsZShlLnRhcmdldC52YWx1ZSl9CiAgICAgICAgICAgIG9uS2V5RG93bj17ZSA9PiB7IGlmIChlLmtleSA9PT0gJ0VudGVyJykgY29tbWl0RWRpdChpdGVtLmlkKTsgaWYgKGUua2V5ID09PSAnRXNjYXBlJykgY2FuY2VsRWRpdCgpIH19CiAgICAgICAgICAgIGNsYXNzTmFtZT0iZmxleC0xIHRleHQtc20gYmctdHJhbnNwYXJlbnQgYm9yZGVyLWIgYm9yZGVyLVt2YXIoLS1wcmltYXJ5KV0gb3V0bGluZS1ub25lIHRleHQtW3ZhcigtLWZvcmVncm91bmQpXSBweS0wLjUiCiAgICAgICAgICAvPgogICAgICAgICkgOiAoCiAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9e2B0ZXh0LXNtIGZsZXgtMSAke2lzRG9uZSA/ICd0ZXh0LVt2YXIoLS1tdXRlZC1mb3JlZ3JvdW5kKV0gbGluZS10aHJvdWdoJyA6ICd0ZXh0LVt2YXIoLS1mb3JlZ3JvdW5kKV0nfWB9PntpdGVtLnRpdGxlfTwvc3Bhbj4KICAgICAgICApfQoKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEgbWQ6b3BhY2l0eS0wIG1kOmdyb3VwLWhvdmVyOm9wYWNpdHktMTAwIHRyYW5zaXRpb24iPgogICAgICAgICAge2lzRWRpdGluZyA/ICgKICAgICAgICAgICAgPD4KICAgICAgICAgICAgICA8YnV0dG9uIG9uQ2xpY2s9eygpID0+IGNvbW1pdEVkaXQoaXRlbS5pZCl9IGNsYXNzTmFtZT0icC0xLjUgcm91bmRlZC1sZyBob3ZlcjpiZy1ncmVlbi01MCB0ZXh0LWdyZWVuLTUwMCB0cmFuc2l0aW9uIj4KICAgICAgICAgICAgICAgIDxDaGVjayBzaXplPXsxNH0gLz4KICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICA8YnV0dG9uIG9uQ2xpY2s9e2NhbmNlbEVkaXR9IGNsYXNzTmFtZT0icC0xLjUgcm91bmRlZC1sZyBob3ZlcjpiZy1bdmFyKC0tbXV0ZWQpXSB0ZXh0LVt2YXIoLS1tdXRlZC1mb3JlZ3JvdW5kKV0gdHJhbnNpdGlvbiI+CiAgICAgICAgICAgICAgICA8WCBzaXplPXsxNH0gLz4KICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgPC8+CiAgICAgICAgICApIDogKAogICAgICAgICAgICA8YnV0dG9uIG9uQ2xpY2s9eygpID0+IHN0YXJ0RWRpdChpdGVtKX0gY2xhc3NOYW1lPSJwLTEuNSByb3VuZGVkLWxnIGhvdmVyOmJnLVt2YXIoLS1tdXRlZCldIHRleHQtW3ZhcigtLW11dGVkLWZvcmVncm91bmQpXSB0cmFuc2l0aW9uIj4KICAgICAgICAgICAgICA8UGVuY2lsIHNpemU9ezE0fSAvPgogICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICl9CiAgICAgICAgICA8YnV0dG9uIG9uQ2xpY2s9eygpID0+IGRlbGV0ZUl0ZW0oaXRlbS5pZCl9IGNsYXNzTmFtZT0icC0xLjUgcm91bmRlZC1sZyBob3ZlcjpiZy1yZWQtNTAgdGV4dC1yZWQtNDAwIHRyYW5zaXRpb24iPgogICAgICAgICAgICA8VHJhc2gyIHNpemU9ezE0fSAvPgogICAgICAgICAgPC9idXR0b24+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgKQogIH0KCiAgcmV0dXJuICgKICAgIDxkaXYgY2xhc3NOYW1lPSJweC00IHB5LTYgbWQ6cC04IG1heC13LTJ4bCBteC1hdXRvIj4KICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBtYi04Ij4KICAgICAgICA8ZGl2PgogICAgICAgICAgPGgxIGNsYXNzTmFtZT0idGV4dC0yeGwgZm9udC1ib2xkIHRleHQtW3ZhcigtLWZvcmVncm91bmQpXSBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgICAgICAgIDxTaG9wcGluZ0NhcnQgc2l6ZT17MjR9IGNsYXNzTmFtZT0idGV4dC1bdmFyKC0tcHJpbWFyeSldIiAvPgogICAgICAgICAgICBMaXN0YSBkZSBjb21wcmFzCiAgICAgICAgICA8L2gxPgogICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtW3ZhcigtLW11dGVkLWZvcmVncm91bmQpXSBtdC0xIj4KICAgICAgICAgICAge3BlbmRpbmcubGVuZ3RofSBwZW5kaWVudGVzIMK3IHtkb25lLmxlbmd0aH0gY29tcGxldGFkb3MKICAgICAgICAgIDwvcD4KICAgICAgICA8L2Rpdj4KICAgICAgICB7ZG9uZS5sZW5ndGggPiAwICYmICgKICAgICAgICAgIDxCdXR0b24gdmFyaWFudD0ib3V0bGluZSIgc2l6ZT0ic20iIG9uQ2xpY2s9e2NsZWFyRG9uZX0+CiAgICAgICAgICAgIExpbXBpYXIgY29tcGxldGFkb3MKICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICl9CiAgICAgIDwvZGl2PgoKICAgICAgey8qIEFkZCBpdGVtICovfQogICAgICA8Zm9ybSBvblN1Ym1pdD17YWRkSXRlbX0gY2xhc3NOYW1lPSJmbGV4IGdhcC0yIG1iLTgiPgogICAgICAgIDxJbnB1dAogICAgICAgICAgcGxhY2Vob2xkZXI9IkHDsWFkaXIgcHJvZHVjdG8uLi4iCiAgICAgICAgICB2YWx1ZT17bmV3SXRlbX0KICAgICAgICAgIG9uQ2hhbmdlPXtlID0+IHNldE5ld0l0ZW0oZS50YXJnZXQudmFsdWUpfQogICAgICAgICAgd3JhcHBlckNsYXNzTmFtZT0iZmxleC0xIgogICAgICAgIC8+CiAgICAgICAgPEJ1dHRvbiB0eXBlPSJzdWJtaXQiIGxvYWRpbmc9e2FkZGluZ30gZGlzYWJsZWQ9eyFuZXdJdGVtLnRyaW0oKX0+CiAgICAgICAgICA8UGx1cyBzaXplPXsxNn0gLz4KICAgICAgICA8L0J1dHRvbj4KICAgICAgPC9mb3JtPgoKICAgICAge2l0ZW1zLmxlbmd0aCA9PT0gMCA/ICgKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1jZW50ZXIgcHktMTYiPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtNnhsIG1iLTQiPvCfm5I8L2Rpdj4KICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1bdmFyKC0tbXV0ZWQtZm9yZWdyb3VuZCldIj5MYSBsaXN0YSBkZSBjb21wcmFzIGVzdMOhIHZhY8OtYTwvcD4KICAgICAgICA8L2Rpdj4KICAgICAgKSA6ICgKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LWNvbCBnYXAtMiI+CiAgICAgICAgICB7cGVuZGluZy5tYXAoaXRlbSA9PiA8SXRlbVJvdyBrZXk9e2l0ZW0uaWR9IGl0ZW09e2l0ZW19IGlzRG9uZT17ZmFsc2V9IC8+KX0KCiAgICAgICAgICB7ZG9uZS5sZW5ndGggPiAwICYmICgKICAgICAgICAgICAgPD4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgbXQtNCBtYi0yIj4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJoLXB4IGZsZXgtMSBiZy1bdmFyKC0tYm9yZGVyKV0iIC8+CiAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQteHMgdGV4dC1bdmFyKC0tbXV0ZWQtZm9yZWdyb3VuZCldIHB4LTIiPkNvbXBsZXRhZG9zPC9zcGFuPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImgtcHggZmxleC0xIGJnLVt2YXIoLS1ib3JkZXIpXSIgLz4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICB7ZG9uZS5tYXAoaXRlbSA9PiA8SXRlbVJvdyBrZXk9e2l0ZW0uaWR9IGl0ZW09e2l0ZW19IGlzRG9uZT17dHJ1ZX0gLz4pfQogICAgICAgICAgICA8Lz4KICAgICAgICAgICl9CiAgICAgICAgPC9kaXY+CiAgICAgICl9CiAgICA8L2Rpdj4KICApCn0K"
+'use client'
+
+import { useState, useEffect, useRef } from 'react'
+import { createClient } from '@/lib/supabase/client'
+import { Button } from '@/components/ui/button'
+import { Input } from '@/components/ui/input'
+import type { List, ListItem } from '@/lib/types'
+import { ShoppingCart, Plus, CheckCircle2, Circle, Trash2, Pencil, Check, X } from 'lucide-react'
+import { notifyPartner } from '@/lib/notify'
+
+export default function ComprasPage() {
+  const supabase = createClient()
+  const [list, setList] = useState<List | null>(null)
+  const [items, setItems] = useState<ListItem[]>([])
+  const [coupleId, setCoupleId] = useState<string | null>(null)
+  const [userId, setUserId] = useState<string | null>(null)
+  const [newItem, setNewItem] = useState('')
+  const [adding, setAdding] = useState(false)
+  const [editingId, setEditingId] = useState<string | null>(null)
+  const [editingTitle, setEditingTitle] = useState('')
+  const editInputRef = useRef<HTMLInputElement>(null)
+
+  useEffect(() => {
+    async function load() {
+      const { data: { user } } = await supabase.auth.getUser()
+      if (!user) return
+      setUserId(user.id)
+      const { data: profile } = await supabase.from('profiles').select('couple_id').eq('id', user.id).single()
+      if (!profile?.couple_id) return
+      setCoupleId(profile.couple_id)
+
+      let { data: shoppingList } = await supabase.from('lists').select('*').eq('couple_id', profile.couple_id).eq('type', 'shopping').single()
+      if (!shoppingList) {
+        const { data: newList } = await supabase.from('lists').insert({
+          couple_id: profile.couple_id,
+          name: 'Lista de compras',
+          type: 'shopping',
+          icon: '🛒',
+          color: '#7AC4A0',
+          created_by: user.id,
+        }).select().single()
+        shoppingList = newList
+      }
+      setList(shoppingList)
+
+      if (shoppingList) {
+        const { data: itemsData } = await supabase.from('list_items').select('*').eq('list_id', shoppingList.id).order('created_at', { ascending: false })
+        setItems(itemsData || [])
+      }
+    }
+    load()
+  }, [])
+
+  async function addItem(e: React.FormEvent) {
+    e.preventDefault()
+    if (!list || !coupleId || !newItem.trim()) return
+    setAdding(true)
+    const { data } = await supabase.from('list_items').insert({
+      list_id: list.id,
+      couple_id: coupleId,
+      title: newItem.trim(),
+      added_by: userId,
+    }).select().single()
+    if (data) {
+      setItems(i => [data, ...i])
+      if (coupleId && userId) notifyPartner(coupleId, userId, 'Lista de compras', `Se añadió "${newItem.trim()}"`, '/compras')
+    }
+    setNewItem('')
+    setAdding(false)
+  }
+
+  async function toggleItem(item: ListItem) {
+    const status = item.status === 'done' ? 'pending' : 'done'
+    await supabase.from('list_items').update({ status, completed_at: status === 'done' ? new Date().toISOString() : null }).eq('id', item.id)
+    setItems(items.map(i => i.id === item.id ? { ...i, status, completed_at: status === 'done' ? new Date().toISOString() : null } : i))
+  }
+
+  async function deleteItem(id: string) {
+    await supabase.from('list_items').delete().eq('id', id)
+    setItems(i => i.filter(x => x.id !== id))
+  }
+
+  async function clearDone() {
+    const done = items.filter(i => i.status === 'done')
+    if (done.length === 0) return
+    await supabase.from('list_items').delete().in('id', done.map(i => i.id))
+    setItems(i => i.filter(x => x.status !== 'done'))
+  }
+
+  function startEdit(item: ListItem) {
+    setEditingId(item.id)
+    setEditingTitle(item.title)
+    setTimeout(() => editInputRef.current?.focus(), 50)
+  }
+
+  function cancelEdit() {
+    setEditingId(null)
+    setEditingTitle('')
+  }
+
+  async function commitEdit(id: string) {
+    if (!editingTitle.trim()) { cancelEdit(); return }
+    await supabase.from('list_items').update({ title: editingTitle.trim() }).eq('id', id)
+    setItems(items.map(i => i.id === id ? { ...i, title: editingTitle.trim() } : i))
+    cancelEdit()
+  }
+
+  const pending = items.filter(i => i.status === 'pending')
+  const done = items.filter(i => i.status === 'done')
+
+  function ItemRow({ item, isDone }: { item: ListItem; isDone: boolean }) {
+    const isEditing = editingId === item.id
+    return (
+      <div className={`flex items-center gap-3 rounded-xl px-4 py-3 group hover:shadow-sm transition ${isDone ? 'bg-[var(--muted)] opacity-60 hover:opacity-80' : 'bg-white border border-[var(--border)]'}`}>
+        <button onClick={() => toggleItem(item)} className={`flex-shrink-0 transition ${isDone ? 'text-green-500' : 'text-[var(--muted-foreground)] hover:text-green-500'}`}>
+          {isDone ? <CheckCircle2 size={20} /> : <Circle size={20} />}
+        </button>
+
+        {isEditing ? (
+          <input
+            ref={editInputRef}
+            value={editingTitle}
+            onChange={e => setEditingTitle(e.target.value)}
+            onKeyDown={e => { if (e.key === 'Enter') commitEdit(item.id); if (e.key === 'Escape') cancelEdit() }}
+            className="flex-1 text-sm bg-transparent border-b border-[var(--primary)] outline-none text-[var(--foreground)] py-0.5"
+          />
+        ) : (
+          <span className={`text-sm flex-1 ${isDone ? 'text-[var(--muted-foreground)] line-through' : 'text-[var(--foreground)]'}`}>{item.title}</span>
+        )}
+
+        <div className="flex items-center gap-1 md:opacity-0 md:group-hover:opacity-100 transition">
+          {isEditing ? (
+            <>
+              <button onClick={() => commitEdit(item.id)} className="p-1.5 rounded-lg hover:bg-green-50 text-green-500 transition">
+                <Check size={14} />
+              </button>
+              <button onClick={cancelEdit} className="p-1.5 rounded-lg hover:bg-[var(--muted)] text-[var(--muted-foreground)] transition">
+                <X size={14} />
+              </button>
+            </>
+          ) : (
+            <button onClick={() => startEdit(item)} className="p-1.5 rounded-lg hover:bg-[var(--muted)] text-[var(--muted-foreground)] transition">
+              <Pencil size={14} />
+            </button>
+          )}
+          <button onClick={() => deleteItem(item.id)} className="p-1.5 rounded-lg hover:bg-red-50 text-red-400 transition">
+            <Trash2 size={14} />
+          </button>
+        </div>
+      </div>
+    )
+  }
+
+  return (
+    <div className="px-4 py-6 md:p-8 max-w-2xl mx-auto">
+      <div className="flex items-center justify-between mb-8">
+        <div>
+          <h1 className="text-2xl font-bold text-[var(--foreground)] flex items-center gap-2">
+            <ShoppingCart size={24} className="text-[var(--primary)]" />
+            Lista de compras
+          </h1>
+          <p className="text-sm text-[var(--muted-foreground)] mt-1">
+            {pending.length} pendientes · {done.length} completados
+          </p>
+        </div>
+        {done.length > 0 && (
+          <Button variant="outline" size="sm" onClick={clearDone}>
+            Limpiar completados
+          </Button>
+        )}
+      </div>
+
+      {/* Add item */}
+      <form onSubmit={addItem} className="flex gap-2 mb-8">
+        <Input
+          placeholder="Añadir producto..."
+          value={newItem}
+          onChange={e => setNewItem(e.target.value)}
+          wrapperClassName="flex-1"
+        />
+        <Button type="submit" loading={adding} disabled={!newItem.trim()}>
+          <Plus size={16} />
+        </Button>
+      </form>
+
+      {items.length === 0 ? (
+        <div className="text-center py-16">
+          <div className="text-6xl mb-4">🛒</div>
+          <p className="text-[var(--muted-foreground)]">La lista de compras está vacía</p>
+        </div>
+      ) : (
+        <div className="flex flex-col gap-2">
+          {pending.map(item => <ItemRow key={item.id} item={item} isDone={false} />)}
+
+          {done.length > 0 && (
+            <>
+              <div className="flex items-center gap-2 mt-4 mb-2">
+                <div className="h-px flex-1 bg-[var(--border)]" />
+                <span className="text-xs text-[var(--muted-foreground)] px-2">Completados</span>
+                <div className="h-px flex-1 bg-[var(--border)]" />
+              </div>
+              {done.map(item => <ItemRow key={item.id} item={item} isDone={true} />)}
+            </>
+          )}
+        </div>
+      )}
+    </div>
+  )
 }

@@ -1,3 +1,37 @@
-﻿{
-    "data":  "aW1wb3J0IHdlYnB1c2ggZnJvbSAnd2ViLXB1c2gnCmltcG9ydCB7IGNyZWF0ZUJyb3dzZXJDbGllbnQgfSBmcm9tICdAc3VwYWJhc2Uvc3NyJwppbXBvcnQgeyBOZXh0UmVxdWVzdCwgTmV4dFJlc3BvbnNlIH0gZnJvbSAnbmV4dC9zZXJ2ZXInCgpjb25zdCBTVVBBQkFTRV9VUkwgPSAnaHR0cHM6Ly91em15aXV2d2xtdmFzb2JxbnhneC5zdXBhYmFzZS5jbycKY29uc3QgU1VQQUJBU0VfQU5PTl9LRVkgPSAnZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKemRYQmhZbUZ6WlNJc0luSmxaaUk2SW5WNmJYbHBkWFozYkcxMllYTnZZbkZ1ZUdkNElpd2ljbTlzWlNJNkltRnViMjRpTENKcFlYUWlPakUzTnpnMk9EQTNNemtzSW1WNGNDSTZNakE1TkRJMU5qY3pPWDAudGp2LVF2Z1FwaHI3NVlvNm4tdFcxWldvakRwRmliLWIya1ZxZEtQZlU5RScKCmNvbnN0IFZBUElEX1BVQkxJQyA9ICdCQ2xfZ3BwWnNlT2dqYmQwQ3YxdGJmeldINmE5SHpQUUlxMDI3WFVHU2t3SDRmRjFfazAyVzBMeHBFNDZ2SG5faEgyaDh6UVJybUNxRy1BS3piczd0aDAnCmNvbnN0IFZBUElEX1BSSVZBVEUgPSAnUldQWnJycjZCZC1mUWhfSzU0M2pyTW42SGZFUTBlUTZ0MXkxTHRLeTM4RScKCndlYnB1c2guc2V0VmFwaWREZXRhaWxzKCdtYWlsdG86aG9sYUBwYXJhbm9zb3Ryb3MuYXBwJywgVkFQSURfUFVCTElDLCBWQVBJRF9QUklWQVRFKQoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIFBPU1QocmVxOiBOZXh0UmVxdWVzdCkgewogIGNvbnN0IHsgY291cGxlSWQsIHNlbmRlcklkLCB0aXRsZSwgYm9keSwgdXJsIH0gPSBhd2FpdCByZXEuanNvbigpCiAgaWYgKCFjb3VwbGVJZCB8fCAhc2VuZGVySWQgfHwgIXRpdGxlKSByZXR1cm4gTmV4dFJlc3BvbnNlLmpzb24oeyBvazogZmFsc2UgfSwgeyBzdGF0dXM6IDQwMCB9KQoKICBjb25zdCBzdXBhYmFzZSA9IGNyZWF0ZUJyb3dzZXJDbGllbnQoU1VQQUJBU0VfVVJMLCBTVVBBQkFTRV9BTk9OX0tFWSkKICBjb25zdCB7IGRhdGE6IHN1YnMgfSA9IGF3YWl0IHN1cGFiYXNlLnJwYygnZ2V0X3BhcnRuZXJfc3Vic2NyaXB0aW9uJywgewogICAgcF9jb3VwbGVfaWQ6IGNvdXBsZUlkLAogICAgcF9zZW5kZXJfaWQ6IHNlbmRlcklkLAogIH0pCgogIGlmICghc3VicyB8fCBzdWJzLmxlbmd0aCA9PT0gMCkgcmV0dXJuIE5leHRSZXNwb25zZS5qc29uKHsgb2s6IGZhbHNlLCByZWFzb246ICdub19zdWJzY3JpcHRpb24nIH0pCgogIGNvbnN0IHBheWxvYWQgPSBKU09OLnN0cmluZ2lmeSh7IHRpdGxlLCBib2R5LCB1cmw6IHVybCB8fCAnLycgfSkKCiAgYXdhaXQgUHJvbWlzZS5hbGxTZXR0bGVkKAogICAgc3Vicy5tYXAoKHN1YjogeyBlbmRwb2ludDogc3RyaW5nOyBwMjU2ZGg6IHN0cmluZzsgYXV0aDogc3RyaW5nIH0pID0+CiAgICAgIHdlYnB1c2guc2VuZE5vdGlmaWNhdGlvbigKICAgICAgICB7IGVuZHBvaW50OiBzdWIuZW5kcG9pbnQsIGtleXM6IHsgcDI1NmRoOiBzdWIucDI1NmRoLCBhdXRoOiBzdWIuYXV0aCB9IH0sCiAgICAgICAgcGF5bG9hZAogICAgICApCiAgICApCiAgKQoKICByZXR1cm4gTmV4dFJlc3BvbnNlLmpzb24oeyBvazogdHJ1ZSB9KQp9Cg=="
+import webpush from 'web-push'
+import { createBrowserClient } from '@supabase/ssr'
+import { NextRequest, NextResponse } from 'next/server'
+
+const SUPABASE_URL = 'https://uzmyiuvwlmvasobqnxgx.supabase.co'
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InV6bXlpdXZ3bG12YXNvYnFueGd4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzg2ODA3MzksImV4cCI6MjA5NDI1NjczOX0.tjv-QvgQphr75Yo6n-tW1ZWojDpFib-b2kVqdKPfU9E'
+
+const VAPID_PUBLIC = 'BCl_gppZseOgjbd0Cv1tbfzWH6a9HzPQIq027XUGSkwH4fF1_k02W0LxpE46vHn_hH2h8zQRrmCqG-AKzbs7th0'
+const VAPID_PRIVATE = 'RWPZrrr6Bd-fQh_K543jrMn6HfEQ0eQ6t1y1LtKy38E'
+
+webpush.setVapidDetails('mailto:hola@paranosotros.app', VAPID_PUBLIC, VAPID_PRIVATE)
+
+export async function POST(req: NextRequest) {
+  const { coupleId, senderId, title, body, url } = await req.json()
+  if (!coupleId || !senderId || !title) return NextResponse.json({ ok: false }, { status: 400 })
+
+  const supabase = createBrowserClient(SUPABASE_URL, SUPABASE_ANON_KEY)
+  const { data: subs } = await supabase.rpc('get_partner_subscription', {
+    p_couple_id: coupleId,
+    p_sender_id: senderId,
+  })
+
+  if (!subs || subs.length === 0) return NextResponse.json({ ok: false, reason: 'no_subscription' })
+
+  const payload = JSON.stringify({ title, body, url: url || '/' })
+
+  await Promise.allSettled(
+    subs.map((sub: { endpoint: string; p256dh: string; auth: string }) =>
+      webpush.sendNotification(
+        { endpoint: sub.endpoint, keys: { p256dh: sub.p256dh, auth: sub.auth } },
+        payload
+      )
+    )
+  )
+
+  return NextResponse.json({ ok: true })
 }

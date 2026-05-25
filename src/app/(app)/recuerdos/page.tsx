@@ -1,3 +1,190 @@
-﻿{
-    "data":  "J3VzZSBjbGllbnQnCgppbXBvcnQgeyB1c2VTdGF0ZSwgdXNlRWZmZWN0LCB1c2VSZWYgfSBmcm9tICdyZWFjdCcKaW1wb3J0IHsgY3JlYXRlQ2xpZW50IH0gZnJvbSAnQC9saWIvc3VwYWJhc2UvY2xpZW50JwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICdAL2NvbXBvbmVudHMvdWkvYnV0dG9uJwppbXBvcnQgeyBJbnB1dCwgVGV4dGFyZWEgfSBmcm9tICdAL2NvbXBvbmVudHMvdWkvaW5wdXQnCmltcG9ydCB7IERpYWxvZyB9IGZyb20gJ0AvY29tcG9uZW50cy91aS9kaWFsb2cnCmltcG9ydCB7IGZvcm1hdERhdGUgfSBmcm9tICdAL2xpYi91dGlscycKaW1wb3J0IHR5cGUgeyBNZW1vcnkgfSBmcm9tICdAL2xpYi90eXBlcycKaW1wb3J0IHsgQm9va0hlYXJ0LCBQbHVzLCBUcmFzaDIsIEltYWdlLCBYIH0gZnJvbSAnbHVjaWRlLXJlYWN0JwoKY29uc3QgTU9PRFMgPSBbJ/Cfkp0nLCAn8J+YjScsICfwn6WwJywgJ/CfmIonLCAn8J+OiScsICfinIjvuI8nLCAn8J+Nve+4jycsICfwn4yFJywgJ/Cfj5bvuI8nLCAn8J+OrScsICfwn46sJywgJ/CfjL8nXQoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gUmVjdWVyZG9zUGFnZSgpIHsKICBjb25zdCBzdXBhYmFzZSA9IGNyZWF0ZUNsaWVudCgpCiAgY29uc3QgW21lbW9yaWVzLCBzZXRNZW1vcmllc10gPSB1c2VTdGF0ZTxNZW1vcnlbXT4oW10pCiAgY29uc3QgW2NvdXBsZUlkLCBzZXRDb3VwbGVJZF0gPSB1c2VTdGF0ZTxzdHJpbmcgfCBudWxsPihudWxsKQogIGNvbnN0IFt1c2VySWQsIHNldFVzZXJJZF0gPSB1c2VTdGF0ZTxzdHJpbmcgfCBudWxsPihudWxsKQogIGNvbnN0IFtzaG93RGlhbG9nLCBzZXRTaG93RGlhbG9nXSA9IHVzZVN0YXRlKGZhbHNlKQogIGNvbnN0IFtmb3JtLCBzZXRGb3JtXSA9IHVzZVN0YXRlKHsgdGl0bGU6ICcnLCBjb250ZW50OiAnJywgbW9vZDogJ/Cfkp0nIH0pCiAgY29uc3QgW3NlbGVjdGVkSW1hZ2UsIHNldFNlbGVjdGVkSW1hZ2VdID0gdXNlU3RhdGU8RmlsZSB8IG51bGw+KG51bGwpCiAgY29uc3QgW2ltYWdlVXJscywgc2V0SW1hZ2VVcmxzXSA9IHVzZVN0YXRlPFJlY29yZDxzdHJpbmcsIHN0cmluZz4+KHt9KQogIGNvbnN0IFtsb2FkaW5nLCBzZXRMb2FkaW5nXSA9IHVzZVN0YXRlKGZhbHNlKQogIGNvbnN0IGZpbGVSZWYgPSB1c2VSZWY8SFRNTElucHV0RWxlbWVudD4obnVsbCkKCiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIGFzeW5jIGZ1bmN0aW9uIGxvYWQoKSB7CiAgICAgIGNvbnN0IHsgZGF0YTogeyB1c2VyIH0gfSA9IGF3YWl0IHN1cGFiYXNlLmF1dGguZ2V0VXNlcigpCiAgICAgIGlmICghdXNlcikgcmV0dXJuCiAgICAgIHNldFVzZXJJZCh1c2VyLmlkKQogICAgICBjb25zdCB7IGRhdGE6IHByb2ZpbGUgfSA9IGF3YWl0IHN1cGFiYXNlLmZyb20oJ3Byb2ZpbGVzJykuc2VsZWN0KCdjb3VwbGVfaWQnKS5lcSgnaWQnLCB1c2VyLmlkKS5zaW5nbGUoKQogICAgICBpZiAoIXByb2ZpbGU/LmNvdXBsZV9pZCkgcmV0dXJuCiAgICAgIHNldENvdXBsZUlkKHByb2ZpbGUuY291cGxlX2lkKQogICAgICBjb25zdCB7IGRhdGEgfSA9IGF3YWl0IHN1cGFiYXNlLmZyb20oJ21lbW9yaWVzJykuc2VsZWN0KCcqJykuZXEoJ2NvdXBsZV9pZCcsIHByb2ZpbGUuY291cGxlX2lkKS5vcmRlcignY3JlYXRlZF9hdCcsIHsgYXNjZW5kaW5nOiBmYWxzZSB9KQogICAgICBzZXRNZW1vcmllcyhkYXRhIHx8IFtdKQoKICAgICAgLy8gTG9hZCBpbWFnZSBVUkxzCiAgICAgIGNvbnN0IHdpdGhJbWFnZXMgPSAoZGF0YSB8fCBbXSkuZmlsdGVyKG0gPT4gbS5pbWFnZV9wYXRoKQogICAgICBjb25zdCB1cmxzOiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+ID0ge30KICAgICAgYXdhaXQgUHJvbWlzZS5hbGwod2l0aEltYWdlcy5tYXAoYXN5bmMgbSA9PiB7CiAgICAgICAgY29uc3QgeyBkYXRhOiB1cmxEYXRhIH0gPSBhd2FpdCBzdXBhYmFzZS5zdG9yYWdlLmZyb20oJ21lbW9yaWVzJykuY3JlYXRlU2lnbmVkVXJsKG0uaW1hZ2VfcGF0aCEsIDM2MDApCiAgICAgICAgaWYgKHVybERhdGE/LnNpZ25lZFVybCkgdXJsc1ttLmlkXSA9IHVybERhdGEuc2lnbmVkVXJsCiAgICAgIH0pKQogICAgICBzZXRJbWFnZVVybHModXJscykKICAgIH0KICAgIGxvYWQoKQogIH0sIFtdKQoKICBhc3luYyBmdW5jdGlvbiBhZGRNZW1vcnkoKSB7CiAgICBpZiAoIWNvdXBsZUlkIHx8ICFmb3JtLnRpdGxlLnRyaW0oKSkgcmV0dXJuCiAgICBzZXRMb2FkaW5nKHRydWUpCiAgICBsZXQgaW1hZ2VQYXRoOiBzdHJpbmcgfCBudWxsID0gbnVsbAoKICAgIGlmIChzZWxlY3RlZEltYWdlKSB7CiAgICAgIGNvbnN0IHBhdGggPSBgJHtjb3VwbGVJZH0vJHtEYXRlLm5vdygpfS0ke3NlbGVjdGVkSW1hZ2UubmFtZX1gCiAgICAgIGNvbnN0IHsgZXJyb3IgfSA9IGF3YWl0IHN1cGFiYXNlLnN0b3JhZ2UuZnJvbSgnbWVtb3JpZXMnKS51cGxvYWQocGF0aCwgc2VsZWN0ZWRJbWFnZSkKICAgICAgaWYgKCFlcnJvcikgaW1hZ2VQYXRoID0gcGF0aAogICAgfQoKICAgIGNvbnN0IHsgZGF0YSB9ID0gYXdhaXQgc3VwYWJhc2UuZnJvbSgnbWVtb3JpZXMnKS5pbnNlcnQoewogICAgICBjb3VwbGVfaWQ6IGNvdXBsZUlkLAogICAgICB0aXRsZTogZm9ybS50aXRsZSwKICAgICAgY29udGVudDogZm9ybS5jb250ZW50IHx8IG51bGwsCiAgICAgIG1vb2Q6IGZvcm0ubW9vZCwKICAgICAgaW1hZ2VfcGF0aDogaW1hZ2VQYXRoLAogICAgICBjcmVhdGVkX2J5OiB1c2VySWQsCiAgICB9KS5zZWxlY3QoKS5zaW5nbGUoKQoKICAgIGlmIChkYXRhKSB7CiAgICAgIGlmIChpbWFnZVBhdGgpIHsKICAgICAgICBjb25zdCB7IGRhdGE6IHVybERhdGEgfSA9IGF3YWl0IHN1cGFiYXNlLnN0b3JhZ2UuZnJvbSgnbWVtb3JpZXMnKS5jcmVhdGVTaWduZWRVcmwoaW1hZ2VQYXRoLCAzNjAwKQogICAgICAgIGlmICh1cmxEYXRhPy5zaWduZWRVcmwpIHNldEltYWdlVXJscyh1ID0+ICh7IC4uLnUsIFtkYXRhLmlkXTogdXJsRGF0YS5zaWduZWRVcmwgfSkpCiAgICAgIH0KICAgICAgc2V0TWVtb3JpZXMobSA9PiBbZGF0YSwgLi4ubV0pCiAgICB9CiAgICBzZXRGb3JtKHsgdGl0bGU6ICcnLCBjb250ZW50OiAnJywgbW9vZDogJ/Cfkp0nIH0pCiAgICBzZXRTZWxlY3RlZEltYWdlKG51bGwpCiAgICBzZXRMb2FkaW5nKGZhbHNlKQogICAgc2V0U2hvd0RpYWxvZyhmYWxzZSkKICB9CgogIGFzeW5jIGZ1bmN0aW9uIGRlbGV0ZU1lbW9yeShtZW1vcnk6IE1lbW9yeSkgewogICAgaWYgKCFjb25maXJtKCfCv0VsaW1pbmFyIGVzdGUgcmVjdWVyZG8/JykpIHJldHVybgogICAgaWYgKG1lbW9yeS5pbWFnZV9wYXRoKSBhd2FpdCBzdXBhYmFzZS5zdG9yYWdlLmZyb20oJ21lbW9yaWVzJykucmVtb3ZlKFttZW1vcnkuaW1hZ2VfcGF0aF0pCiAgICBhd2FpdCBzdXBhYmFzZS5mcm9tKCdtZW1vcmllcycpLmRlbGV0ZSgpLmVxKCdpZCcsIG1lbW9yeS5pZCkKICAgIHNldE1lbW9yaWVzKG0gPT4gbS5maWx0ZXIoeCA9PiB4LmlkICE9PSBtZW1vcnkuaWQpKQogIH0KCiAgcmV0dXJuICgKICAgIDxkaXYgY2xhc3NOYW1lPSJweC00IHB5LTYgbWQ6cC04IG1heC13LTR4bCBteC1hdXRvIj4KICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBtYi04Ij4KICAgICAgICA8ZGl2PgogICAgICAgICAgPGgxIGNsYXNzTmFtZT0idGV4dC0yeGwgZm9udC1ib2xkIHRleHQtW3ZhcigtLWZvcmVncm91bmQpXSBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgICAgICAgIDxCb29rSGVhcnQgc2l6ZT17MjR9IGNsYXNzTmFtZT0idGV4dC1bdmFyKC0tcHJpbWFyeSldIiAvPgogICAgICAgICAgICBSZWN1ZXJkb3MKICAgICAgICAgIDwvaDE+CiAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1bdmFyKC0tbXV0ZWQtZm9yZWdyb3VuZCldIG10LTEiPgogICAgICAgICAgICBWdWVzdHJvIGRpYXJpbyBjb21wYXJ0aWRvCiAgICAgICAgICA8L3A+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPEJ1dHRvbiBvbkNsaWNrPXsoKSA9PiBzZXRTaG93RGlhbG9nKHRydWUpfT4KICAgICAgICAgIDxQbHVzIHNpemU9ezE2fSAvPiBOdWV2byByZWN1ZXJkbwogICAgICAgIDwvQnV0dG9uPgogICAgICA8L2Rpdj4KCiAgICAgIHttZW1vcmllcy5sZW5ndGggPT09IDAgPyAoCiAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtY2VudGVyIHB5LTIwIj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LTZ4bCBtYi00Ij7wn5KdPC9kaXY+CiAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtW3ZhcigtLW11dGVkLWZvcmVncm91bmQpXSBtYi00Ij5HdWFyZGEgdnVlc3Ryb3MgbW9tZW50b3MgZXNwZWNpYWxlczwvcD4KICAgICAgICAgIDxCdXR0b24gb25DbGljaz17KCkgPT4gc2V0U2hvd0RpYWxvZyh0cnVlKX0+PFBsdXMgc2l6ZT17MTZ9IC8+IENyZWFyIHByaW1lcm8gcmVjdWVyZG88L0J1dHRvbj4KICAgICAgICA8L2Rpdj4KICAgICAgKSA6ICgKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iY29sdW1ucy0xIG1kOmNvbHVtbnMtMiBnYXAtNCBzcGFjZS15LTQiPgogICAgICAgICAge21lbW9yaWVzLm1hcChtZW1vcnkgPT4gKAogICAgICAgICAgICA8ZGl2IGtleT17bWVtb3J5LmlkfSBjbGFzc05hbWU9ImJyZWFrLWluc2lkZS1hdm9pZCBiZy13aGl0ZSBib3JkZXIgYm9yZGVyLVt2YXIoLS1ib3JkZXIpXSByb3VuZGVkLTJ4bCBvdmVyZmxvdy1oaWRkZW4gaG92ZXI6c2hhZG93LW1kIHRyYW5zaXRpb24gZ3JvdXAiPgogICAgICAgICAgICAgIHtpbWFnZVVybHNbbWVtb3J5LmlkXSAmJiAoCiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idy1mdWxsIGgtNDggb3ZlcmZsb3ctaGlkZGVuIj4KICAgICAgICAgICAgICAgICAgPGltZyBzcmM9e2ltYWdlVXJsc1ttZW1vcnkuaWRdfSBhbHQ9e21lbW9yeS50aXRsZX0gY2xhc3NOYW1lPSJ3LWZ1bGwgaC1mdWxsIG9iamVjdC1jb3ZlciIgLz4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InAtNSI+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1zdGFydCBqdXN0aWZ5LWJldHdlZW4gbWItMiI+CiAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LTJ4bCI+e21lbW9yeS5tb29kfTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICA8aDMgY2xhc3NOYW1lPSJmb250LXNlbWlib2xkIHRleHQtW3ZhcigtLWZvcmVncm91bmQpXSI+e21lbW9yeS50aXRsZX08L2gzPgogICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IGRlbGV0ZU1lbW9yeShtZW1vcnkpfQogICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0ibWQ6b3BhY2l0eS0wIG1kOmdyb3VwLWhvdmVyOm9wYWNpdHktMTAwIHAtMS41IHJvdW5kZWQtbGcgaG92ZXI6YmctcmVkLTUwIHRleHQtcmVkLTQwMCB0cmFuc2l0aW9uIGZsZXgtc2hyaW5rLTAiCiAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICA8VHJhc2gyIHNpemU9ezE0fSAvPgogICAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAge21lbW9yeS5jb250ZW50ICYmICgKICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtW3ZhcigtLW11dGVkLWZvcmVncm91bmQpXSBsZWFkaW5nLXJlbGF4ZWQiPnttZW1vcnkuY29udGVudH08L3A+CiAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtW3ZhcigtLW11dGVkLWZvcmVncm91bmQpXSBtdC0zIj57Zm9ybWF0RGF0ZShtZW1vcnkuY3JlYXRlZF9hdCl9PC9wPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICkpfQogICAgICAgIDwvZGl2PgogICAgICApfQoKICAgICAgPERpYWxvZyBvcGVuPXtzaG93RGlhbG9nfSBvbkNsb3NlPXsoKSA9PiBzZXRTaG93RGlhbG9nKGZhbHNlKX0gdGl0bGU9Ik51ZXZvIHJlY3VlcmRvIiBjbGFzc05hbWU9Im1heC13LWxnIj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LWNvbCBnYXAtNCI+CiAgICAgICAgICA8SW5wdXQgbGFiZWw9IlTDrXR1bG8iIHBsYWNlaG9sZGVyPSLCv1F1w6kgbW9tZW50byBlc3BlY2lhbCBmdWUgZXN0ZT8iIHZhbHVlPXtmb3JtLnRpdGxlfSBvbkNoYW5nZT17ZSA9PiBzZXRGb3JtKGYgPT4gKHsgLi4uZiwgdGl0bGU6IGUudGFyZ2V0LnZhbHVlIH0pKX0gLz4KICAgICAgICAgIDxUZXh0YXJlYSBsYWJlbD0iRGVzY3JpcGNpw7NuIChvcGNpb25hbCkiIHBsYWNlaG9sZGVyPSJDdcOpbnRhbm9zIHF1w6kgcGFzw7MsIGPDs21vIG9zIHNlbnRpc3RlaXMuLi4iIHZhbHVlPXtmb3JtLmNvbnRlbnR9IG9uQ2hhbmdlPXtlID0+IHNldEZvcm0oZiA9PiAoeyAuLi5mLCBjb250ZW50OiBlLnRhcmdldC52YWx1ZSB9KSl9IHJvd3M9ezR9IC8+CiAgICAgICAgICA8ZGl2PgogICAgICAgICAgICA8bGFiZWwgY2xhc3NOYW1lPSJ0ZXh0LXNtIGZvbnQtbWVkaXVtIHRleHQtW3ZhcigtLWZvcmVncm91bmQpXSBibG9jayBtYi0yIj5FbW9qaSBkZWwgbW9tZW50bzwvbGFiZWw+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGZsZXgtd3JhcCBnYXAtMiI+CiAgICAgICAgICAgICAge01PT0RTLm1hcChtID0+ICgKICAgICAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICAgICAga2V5PXttfQogICAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiBzZXRGb3JtKGYgPT4gKHsgLi4uZiwgbW9vZDogbSB9KSl9CiAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT17YHctMTAgaC0xMCByb3VuZGVkLXhsIHRleHQteGwgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgdHJhbnNpdGlvbiAke2Zvcm0ubW9vZCA9PT0gbSA/ICdiZy1bdmFyKC0tcHJpbWFyeS1saWdodCldIHJpbmctMiByaW5nLVt2YXIoLS1wcmltYXJ5KV0nIDogJ2hvdmVyOmJnLVt2YXIoLS1tdXRlZCldJ31gfQogICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICB7bX0KICAgICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICAgICkpfQogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGRpdj4KICAgICAgICAgICAgPGxhYmVsIGNsYXNzTmFtZT0idGV4dC1zbSBmb250LW1lZGl1bSB0ZXh0LVt2YXIoLS1mb3JlZ3JvdW5kKV0gYmxvY2sgbWItMiI+Rm90byAob3BjaW9uYWwpPC9sYWJlbD4KICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgIGNsYXNzTmFtZT0iYm9yZGVyLTIgYm9yZGVyLWRhc2hlZCBib3JkZXItW3ZhcigtLWJvcmRlcildIHJvdW5kZWQteGwgcC00IHRleHQtY2VudGVyIGN1cnNvci1wb2ludGVyIGhvdmVyOmJvcmRlci1bdmFyKC0tcHJpbWFyeSldIHRyYW5zaXRpb24iCiAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gZmlsZVJlZi5jdXJyZW50Py5jbGljaygpfQogICAgICAgICAgICA+CiAgICAgICAgICAgICAge3NlbGVjdGVkSW1hZ2UgPyAoCiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAgICAgICAgICA8SW1hZ2Ugc2l6ZT17MTZ9IGNsYXNzTmFtZT0idGV4dC1bdmFyKC0tcHJpbWFyeSldIiAvPgogICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtc20iPntzZWxlY3RlZEltYWdlLm5hbWV9PC9zcGFuPgogICAgICAgICAgICAgICAgICA8YnV0dG9uIG9uQ2xpY2s9e2UgPT4geyBlLnN0b3BQcm9wYWdhdGlvbigpOyBzZXRTZWxlY3RlZEltYWdlKG51bGwpIH19PgogICAgICAgICAgICAgICAgICAgIDxYIHNpemU9ezE0fSBjbGFzc05hbWU9InRleHQtW3ZhcigtLW11dGVkLWZvcmVncm91bmQpXSIgLz4KICAgICAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICApIDogKAogICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtW3ZhcigtLW11dGVkLWZvcmVncm91bmQpXSI+QcOxYWRpciBmb3RvIGRlbCByZWN1ZXJkbzwvcD4KICAgICAgICAgICAgICApfQogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPGlucHV0IHJlZj17ZmlsZVJlZn0gdHlwZT0iZmlsZSIgY2xhc3NOYW1lPSJoaWRkZW4iIGFjY2VwdD0iaW1hZ2UvKiIgb25DaGFuZ2U9e2UgPT4gc2V0U2VsZWN0ZWRJbWFnZShlLnRhcmdldC5maWxlcz8uWzBdIHx8IG51bGwpfSAvPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBqdXN0aWZ5LWVuZCBnYXAtMiBtdC0yIj4KICAgICAgICAgICAgPEJ1dHRvbiB2YXJpYW50PSJvdXRsaW5lIiBvbkNsaWNrPXsoKSA9PiBzZXRTaG93RGlhbG9nKGZhbHNlKX0+Q2FuY2VsYXI8L0J1dHRvbj4KICAgICAgICAgICAgPEJ1dHRvbiBvbkNsaWNrPXthZGRNZW1vcnl9IGxvYWRpbmc9e2xvYWRpbmd9IGRpc2FibGVkPXshZm9ybS50aXRsZS50cmltKCl9Pkd1YXJkYXIgcmVjdWVyZG88L0J1dHRvbj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICA8L0RpYWxvZz4KICAgIDwvZGl2PgogICkKfQo="
+'use client'
+
+import { useState, useEffect, useRef } from 'react'
+import { createClient } from '@/lib/supabase/client'
+import { Button } from '@/components/ui/button'
+import { Input, Textarea } from '@/components/ui/input'
+import { Dialog } from '@/components/ui/dialog'
+import { formatDate } from '@/lib/utils'
+import type { Memory } from '@/lib/types'
+import { BookHeart, Plus, Trash2, Image, X } from 'lucide-react'
+
+const MOODS = ['💝', '😍', '🥰', '😊', '🎉', '✈️', '🍽️', '🌅', '🏖️', '🎭', '🎬', '🌿']
+
+export default function RecuerdosPage() {
+  const supabase = createClient()
+  const [memories, setMemories] = useState<Memory[]>([])
+  const [coupleId, setCoupleId] = useState<string | null>(null)
+  const [userId, setUserId] = useState<string | null>(null)
+  const [showDialog, setShowDialog] = useState(false)
+  const [form, setForm] = useState({ title: '', content: '', mood: '💝' })
+  const [selectedImage, setSelectedImage] = useState<File | null>(null)
+  const [imageUrls, setImageUrls] = useState<Record<string, string>>({})
+  const [loading, setLoading] = useState(false)
+  const fileRef = useRef<HTMLInputElement>(null)
+
+  useEffect(() => {
+    async function load() {
+      const { data: { user } } = await supabase.auth.getUser()
+      if (!user) return
+      setUserId(user.id)
+      const { data: profile } = await supabase.from('profiles').select('couple_id').eq('id', user.id).single()
+      if (!profile?.couple_id) return
+      setCoupleId(profile.couple_id)
+      const { data } = await supabase.from('memories').select('*').eq('couple_id', profile.couple_id).order('created_at', { ascending: false })
+      setMemories(data || [])
+
+      // Load image URLs
+      const withImages = (data || []).filter(m => m.image_path)
+      const urls: Record<string, string> = {}
+      await Promise.all(withImages.map(async m => {
+        const { data: urlData } = await supabase.storage.from('memories').createSignedUrl(m.image_path!, 3600)
+        if (urlData?.signedUrl) urls[m.id] = urlData.signedUrl
+      }))
+      setImageUrls(urls)
+    }
+    load()
+  }, [])
+
+  async function addMemory() {
+    if (!coupleId || !form.title.trim()) return
+    setLoading(true)
+    let imagePath: string | null = null
+
+    if (selectedImage) {
+      const path = `${coupleId}/${Date.now()}-${selectedImage.name}`
+      const { error } = await supabase.storage.from('memories').upload(path, selectedImage)
+      if (!error) imagePath = path
+    }
+
+    const { data } = await supabase.from('memories').insert({
+      couple_id: coupleId,
+      title: form.title,
+      content: form.content || null,
+      mood: form.mood,
+      image_path: imagePath,
+      created_by: userId,
+    }).select().single()
+
+    if (data) {
+      if (imagePath) {
+        const { data: urlData } = await supabase.storage.from('memories').createSignedUrl(imagePath, 3600)
+        if (urlData?.signedUrl) setImageUrls(u => ({ ...u, [data.id]: urlData.signedUrl }))
+      }
+      setMemories(m => [data, ...m])
+    }
+    setForm({ title: '', content: '', mood: '💝' })
+    setSelectedImage(null)
+    setLoading(false)
+    setShowDialog(false)
+  }
+
+  async function deleteMemory(memory: Memory) {
+    if (!confirm('¿Eliminar este recuerdo?')) return
+    if (memory.image_path) await supabase.storage.from('memories').remove([memory.image_path])
+    await supabase.from('memories').delete().eq('id', memory.id)
+    setMemories(m => m.filter(x => x.id !== memory.id))
+  }
+
+  return (
+    <div className="px-4 py-6 md:p-8 max-w-4xl mx-auto">
+      <div className="flex items-center justify-between mb-8">
+        <div>
+          <h1 className="text-2xl font-bold text-[var(--foreground)] flex items-center gap-2">
+            <BookHeart size={24} className="text-[var(--primary)]" />
+            Recuerdos
+          </h1>
+          <p className="text-sm text-[var(--muted-foreground)] mt-1">
+            Vuestro diario compartido
+          </p>
+        </div>
+        <Button onClick={() => setShowDialog(true)}>
+          <Plus size={16} /> Nuevo recuerdo
+        </Button>
+      </div>
+
+      {memories.length === 0 ? (
+        <div className="text-center py-20">
+          <div className="text-6xl mb-4">💝</div>
+          <p className="text-[var(--muted-foreground)] mb-4">Guarda vuestros momentos especiales</p>
+          <Button onClick={() => setShowDialog(true)}><Plus size={16} /> Crear primero recuerdo</Button>
+        </div>
+      ) : (
+        <div className="columns-1 md:columns-2 gap-4 space-y-4">
+          {memories.map(memory => (
+            <div key={memory.id} className="break-inside-avoid bg-white border border-[var(--border)] rounded-2xl overflow-hidden hover:shadow-md transition group">
+              {imageUrls[memory.id] && (
+                <div className="w-full h-48 overflow-hidden">
+                  <img src={imageUrls[memory.id]} alt={memory.title} className="w-full h-full object-cover" />
+                </div>
+              )}
+              <div className="p-5">
+                <div className="flex items-start justify-between mb-2">
+                  <div className="flex items-center gap-2">
+                    <span className="text-2xl">{memory.mood}</span>
+                    <h3 className="font-semibold text-[var(--foreground)]">{memory.title}</h3>
+                  </div>
+                  <button
+                    onClick={() => deleteMemory(memory)}
+                    className="md:opacity-0 md:group-hover:opacity-100 p-1.5 rounded-lg hover:bg-red-50 text-red-400 transition flex-shrink-0"
+                  >
+                    <Trash2 size={14} />
+                  </button>
+                </div>
+                {memory.content && (
+                  <p className="text-sm text-[var(--muted-foreground)] leading-relaxed">{memory.content}</p>
+                )}
+                <p className="text-xs text-[var(--muted-foreground)] mt-3">{formatDate(memory.created_at)}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      )}
+
+      <Dialog open={showDialog} onClose={() => setShowDialog(false)} title="Nuevo recuerdo" className="max-w-lg">
+        <div className="flex flex-col gap-4">
+          <Input label="Título" placeholder="¿Qué momento especial fue este?" value={form.title} onChange={e => setForm(f => ({ ...f, title: e.target.value }))} />
+          <Textarea label="Descripción (opcional)" placeholder="Cuéntanos qué pasó, cómo os sentisteis..." value={form.content} onChange={e => setForm(f => ({ ...f, content: e.target.value }))} rows={4} />
+          <div>
+            <label className="text-sm font-medium text-[var(--foreground)] block mb-2">Emoji del momento</label>
+            <div className="flex flex-wrap gap-2">
+              {MOODS.map(m => (
+                <button
+                  key={m}
+                  onClick={() => setForm(f => ({ ...f, mood: m }))}
+                  className={`w-10 h-10 rounded-xl text-xl flex items-center justify-center transition ${form.mood === m ? 'bg-[var(--primary-light)] ring-2 ring-[var(--primary)]' : 'hover:bg-[var(--muted)]'}`}
+                >
+                  {m}
+                </button>
+              ))}
+            </div>
+          </div>
+          <div>
+            <label className="text-sm font-medium text-[var(--foreground)] block mb-2">Foto (opcional)</label>
+            <div
+              className="border-2 border-dashed border-[var(--border)] rounded-xl p-4 text-center cursor-pointer hover:border-[var(--primary)] transition"
+              onClick={() => fileRef.current?.click()}
+            >
+              {selectedImage ? (
+                <div className="flex items-center justify-center gap-2">
+                  <Image size={16} className="text-[var(--primary)]" />
+                  <span className="text-sm">{selectedImage.name}</span>
+                  <button onClick={e => { e.stopPropagation(); setSelectedImage(null) }}>
+                    <X size={14} className="text-[var(--muted-foreground)]" />
+                  </button>
+                </div>
+              ) : (
+                <p className="text-sm text-[var(--muted-foreground)]">Añadir foto del recuerdo</p>
+              )}
+            </div>
+            <input ref={fileRef} type="file" className="hidden" accept="image/*" onChange={e => setSelectedImage(e.target.files?.[0] || null)} />
+          </div>
+          <div className="flex justify-end gap-2 mt-2">
+            <Button variant="outline" onClick={() => setShowDialog(false)}>Cancelar</Button>
+            <Button onClick={addMemory} loading={loading} disabled={!form.title.trim()}>Guardar recuerdo</Button>
+          </div>
+        </div>
+      </Dialog>
+    </div>
+  )
 }

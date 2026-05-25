@@ -1,3 +1,148 @@
-﻿{
-    "data":  "ZXhwb3J0IHR5cGUgSnNvbiA9IHN0cmluZyB8IG51bWJlciB8IGJvb2xlYW4gfCBudWxsIHwgeyBba2V5OiBzdHJpbmddOiBKc29uIH0gfCBKc29uW10KCmV4cG9ydCB0eXBlIExpc3RUeXBlID0gJ3Jlc3RhdXJhbnRzJyB8ICdtb3ZpZXMnIHwgJ3NlcmllcycgfCAnYnVja2V0JyB8ICdnaWZ0cycgfCAnc2hvcHBpbmcnIHwgJ2N1c3RvbScKZXhwb3J0IHR5cGUgSXRlbVN0YXR1cyA9ICdwZW5kaW5nJyB8ICdkb25lJyB8ICdza2lwcGVkJwoKZXhwb3J0IGludGVyZmFjZSBQcm9maWxlIHsKICBpZDogc3RyaW5nCiAgZW1haWw6IHN0cmluZwogIGZ1bGxfbmFtZTogc3RyaW5nIHwgbnVsbAogIGF2YXRhcl91cmw6IHN0cmluZyB8IG51bGwKICBjb3VwbGVfaWQ6IHN0cmluZyB8IG51bGwKICBjcmVhdGVkX2F0OiBzdHJpbmcKfQoKZXhwb3J0IGludGVyZmFjZSBDb3VwbGUgewogIGlkOiBzdHJpbmcKICB1c2VyMV9pZDogc3RyaW5nCiAgdXNlcjJfaWQ6IHN0cmluZyB8IG51bGwKICBjb3VwbGVfbmFtZTogc3RyaW5nIHwgbnVsbAogIGNyZWF0ZWRfYXQ6IHN0cmluZwp9CgpleHBvcnQgaW50ZXJmYWNlIENvdXBsZUludml0ZSB7CiAgaWQ6IHN0cmluZwogIGNvZGU6IHN0cmluZwogIGludml0ZXJfaWQ6IHN0cmluZwogIHVzZWRfYnk6IHN0cmluZyB8IG51bGwKICB1c2VkX2F0OiBzdHJpbmcgfCBudWxsCiAgZXhwaXJlc19hdDogc3RyaW5nCiAgY3JlYXRlZF9hdDogc3RyaW5nCn0KCmV4cG9ydCBpbnRlcmZhY2UgRm9sZGVyIHsKICBpZDogc3RyaW5nCiAgY291cGxlX2lkOiBzdHJpbmcKICBuYW1lOiBzdHJpbmcKICBjb2xvcjogc3RyaW5nCiAgaWNvbjogc3RyaW5nCiAgY3JlYXRlZF9ieTogc3RyaW5nIHwgbnVsbAogIGNyZWF0ZWRfYXQ6IHN0cmluZwp9CgpleHBvcnQgaW50ZXJmYWNlIERvY3VtZW50IHsKICBpZDogc3RyaW5nCiAgY291cGxlX2lkOiBzdHJpbmcKICBmb2xkZXJfaWQ6IHN0cmluZyB8IG51bGwKICBuYW1lOiBzdHJpbmcKICBkZXNjcmlwdGlvbjogc3RyaW5nIHwgbnVsbAogIGZpbGVfcGF0aDogc3RyaW5nCiAgZmlsZV90eXBlOiBzdHJpbmcgfCBudWxsCiAgZmlsZV9zaXplOiBudW1iZXIgfCBudWxsCiAgdXBsb2FkZWRfYnk6IHN0cmluZyB8IG51bGwKICBjcmVhdGVkX2F0OiBzdHJpbmcKfQoKZXhwb3J0IGludGVyZmFjZSBMaXN0IHsKICBpZDogc3RyaW5nCiAgY291cGxlX2lkOiBzdHJpbmcKICBuYW1lOiBzdHJpbmcKICB0eXBlOiBMaXN0VHlwZQogIGljb246IHN0cmluZyB8IG51bGwKICBjb2xvcjogc3RyaW5nCiAgY3JlYXRlZF9ieTogc3RyaW5nIHwgbnVsbAogIGNyZWF0ZWRfYXQ6IHN0cmluZwogIGl0ZW1fY291bnQ/OiBudW1iZXIKfQoKZXhwb3J0IGludGVyZmFjZSBMaXN0SXRlbSB7CiAgaWQ6IHN0cmluZwogIGxpc3RfaWQ6IHN0cmluZwogIGNvdXBsZV9pZDogc3RyaW5nCiAgdGl0bGU6IHN0cmluZwogIG5vdGVzOiBzdHJpbmcgfCBudWxsCiAgdXJsOiBzdHJpbmcgfCBudWxsCiAgcmF0aW5nOiBudW1iZXIgfCBudWxsCiAgc3RhdHVzOiBJdGVtU3RhdHVzCiAgYWRkZWRfYnk6IHN0cmluZyB8IG51bGwKICBjb21wbGV0ZWRfYXQ6IHN0cmluZyB8IG51bGwKICBjcmVhdGVkX2F0OiBzdHJpbmcKfQoKZXhwb3J0IGludGVyZmFjZSBCaXJ0aGRheSB7CiAgaWQ6IHN0cmluZwogIGNvdXBsZV9pZDogc3RyaW5nCiAgbmFtZTogc3RyaW5nCiAgYmlydGhfZGF0ZTogc3RyaW5nCiAgcmVsYXRpb246IHN0cmluZyB8IG51bGwKICBub3Rlczogc3RyaW5nIHwgbnVsbAogIGFkZGVkX2J5OiBzdHJpbmcgfCBudWxsCiAgY3JlYXRlZF9hdDogc3RyaW5nCn0KCmV4cG9ydCBpbnRlcmZhY2UgQ2FsZW5kYXJFdmVudCB7CiAgaWQ6IHN0cmluZwogIGNvdXBsZV9pZDogc3RyaW5nCiAgdGl0bGU6IHN0cmluZwogIGRlc2NyaXB0aW9uOiBzdHJpbmcgfCBudWxsCiAgc3RhcnRfZGF0ZTogc3RyaW5nCiAgZW5kX2RhdGU6IHN0cmluZyB8IG51bGwKICBhbGxfZGF5OiBib29sZWFuCiAgY29sb3I6IHN0cmluZwogIGxvY2F0aW9uOiBzdHJpbmcgfCBudWxsCiAgcmVjdXJyaW5nOiBzdHJpbmcgfCBudWxsCiAgY3JlYXRlZF9ieTogc3RyaW5nIHwgbnVsbAogIGNyZWF0ZWRfYXQ6IHN0cmluZwp9CgpleHBvcnQgaW50ZXJmYWNlIE1lbW9yeSB7CiAgaWQ6IHN0cmluZwogIGNvdXBsZV9pZDogc3RyaW5nCiAgdGl0bGU6IHN0cmluZwogIGNvbnRlbnQ6IHN0cmluZyB8IG51bGwKICBpbWFnZV9wYXRoOiBzdHJpbmcgfCBudWxsCiAgbW9vZDogc3RyaW5nIHwgbnVsbAogIGNyZWF0ZWRfYnk6IHN0cmluZyB8IG51bGwKICBjcmVhdGVkX2F0OiBzdHJpbmcKfQoKZXhwb3J0IHR5cGUgTm90ZUNhdGVnb3J5ID0gJ2dlbmVyYWwnIHwgJ2lkZWFzJyB8ICdpbXBvcnRhbnRlJyB8ICdyZWNldGFzJyB8ICd2aWFqZXMnIHwgJ3BlbmRpZW50ZScKCmV4cG9ydCBpbnRlcmZhY2UgTm90ZSB7CiAgaWQ6IHN0cmluZwogIGNvdXBsZV9pZDogc3RyaW5nCiAgdGl0bGU6IHN0cmluZwogIGNvbnRlbnQ6IHN0cmluZyB8IG51bGwKICBjYXRlZ29yeTogTm90ZUNhdGVnb3J5CiAgY3JlYXRlZF9ieTogc3RyaW5nIHwgbnVsbAogIGNyZWF0ZWRfYXQ6IHN0cmluZwogIHVwZGF0ZWRfYXQ6IHN0cmluZwp9CgpleHBvcnQgdHlwZSBEYXRhYmFzZSA9IHsKICBwdWJsaWM6IHsKICAgIFRhYmxlczogewogICAgICBwcm9maWxlczogeyBSb3c6IFByb2ZpbGU7IEluc2VydDogUGFydGlhbDxQcm9maWxlPjsgVXBkYXRlOiBQYXJ0aWFsPFByb2ZpbGU+IH0KICAgICAgY291cGxlczogeyBSb3c6IENvdXBsZTsgSW5zZXJ0OiBQYXJ0aWFsPENvdXBsZT47IFVwZGF0ZTogUGFydGlhbDxDb3VwbGU+IH0KICAgICAgY291cGxlX2ludml0ZXM6IHsgUm93OiBDb3VwbGVJbnZpdGU7IEluc2VydDogUGFydGlhbDxDb3VwbGVJbnZpdGU+OyBVcGRhdGU6IFBhcnRpYWw8Q291cGxlSW52aXRlPiB9CiAgICAgIGZvbGRlcnM6IHsgUm93OiBGb2xkZXI7IEluc2VydDogUGFydGlhbDxGb2xkZXI+OyBVcGRhdGU6IFBhcnRpYWw8Rm9sZGVyPiB9CiAgICAgIGRvY3VtZW50czogeyBSb3c6IERvY3VtZW50OyBJbnNlcnQ6IFBhcnRpYWw8RG9jdW1lbnQ+OyBVcGRhdGU6IFBhcnRpYWw8RG9jdW1lbnQ+IH0KICAgICAgbGlzdHM6IHsgUm93OiBMaXN0OyBJbnNlcnQ6IFBhcnRpYWw8TGlzdD47IFVwZGF0ZTogUGFydGlhbDxMaXN0PiB9CiAgICAgIGxpc3RfaXRlbXM6IHsgUm93OiBMaXN0SXRlbTsgSW5zZXJ0OiBQYXJ0aWFsPExpc3RJdGVtPjsgVXBkYXRlOiBQYXJ0aWFsPExpc3RJdGVtPiB9CiAgICAgIGJpcnRoZGF5czogeyBSb3c6IEJpcnRoZGF5OyBJbnNlcnQ6IFBhcnRpYWw8QmlydGhkYXk+OyBVcGRhdGU6IFBhcnRpYWw8QmlydGhkYXk+IH0KICAgICAgZXZlbnRzOiB7IFJvdzogQ2FsZW5kYXJFdmVudDsgSW5zZXJ0OiBQYXJ0aWFsPENhbGVuZGFyRXZlbnQ+OyBVcGRhdGU6IFBhcnRpYWw8Q2FsZW5kYXJFdmVudD4gfQogICAgICBtZW1vcmllczogeyBSb3c6IE1lbW9yeTsgSW5zZXJ0OiBQYXJ0aWFsPE1lbW9yeT47IFVwZGF0ZTogUGFydGlhbDxNZW1vcnk+IH0KICAgICAgbm90ZXM6IHsgUm93OiBOb3RlOyBJbnNlcnQ6IFBhcnRpYWw8Tm90ZT47IFVwZGF0ZTogUGFydGlhbDxOb3RlPiB9CiAgICB9CiAgfQp9Cg=="
+export type Json = string | number | boolean | null | { [key: string]: Json } | Json[]
+
+export type ListType = 'restaurants' | 'movies' | 'series' | 'bucket' | 'gifts' | 'shopping' | 'custom'
+export type ItemStatus = 'pending' | 'done' | 'skipped'
+
+export interface Profile {
+  id: string
+  email: string
+  full_name: string | null
+  avatar_url: string | null
+  couple_id: string | null
+  created_at: string
+}
+
+export interface Couple {
+  id: string
+  user1_id: string
+  user2_id: string | null
+  couple_name: string | null
+  created_at: string
+}
+
+export interface CoupleInvite {
+  id: string
+  code: string
+  inviter_id: string
+  used_by: string | null
+  used_at: string | null
+  expires_at: string
+  created_at: string
+}
+
+export interface Folder {
+  id: string
+  couple_id: string
+  name: string
+  color: string
+  icon: string
+  created_by: string | null
+  created_at: string
+}
+
+export interface Document {
+  id: string
+  couple_id: string
+  folder_id: string | null
+  name: string
+  description: string | null
+  file_path: string
+  file_type: string | null
+  file_size: number | null
+  uploaded_by: string | null
+  created_at: string
+}
+
+export interface List {
+  id: string
+  couple_id: string
+  name: string
+  type: ListType
+  icon: string | null
+  color: string
+  created_by: string | null
+  created_at: string
+  item_count?: number
+}
+
+export interface ListItem {
+  id: string
+  list_id: string
+  couple_id: string
+  title: string
+  notes: string | null
+  url: string | null
+  rating: number | null
+  status: ItemStatus
+  added_by: string | null
+  completed_at: string | null
+  created_at: string
+}
+
+export interface Birthday {
+  id: string
+  couple_id: string
+  name: string
+  birth_date: string
+  relation: string | null
+  notes: string | null
+  added_by: string | null
+  created_at: string
+}
+
+export interface CalendarEvent {
+  id: string
+  couple_id: string
+  title: string
+  description: string | null
+  start_date: string
+  end_date: string | null
+  all_day: boolean
+  color: string
+  location: string | null
+  recurring: string | null
+  created_by: string | null
+  created_at: string
+}
+
+export interface Memory {
+  id: string
+  couple_id: string
+  title: string
+  content: string | null
+  image_path: string | null
+  mood: string | null
+  created_by: string | null
+  created_at: string
+}
+
+export type NoteCategory = 'general' | 'ideas' | 'importante' | 'recetas' | 'viajes' | 'pendiente'
+
+export interface Note {
+  id: string
+  couple_id: string
+  title: string
+  content: string | null
+  category: NoteCategory
+  created_by: string | null
+  created_at: string
+  updated_at: string
+}
+
+export type Database = {
+  public: {
+    Tables: {
+      profiles: { Row: Profile; Insert: Partial<Profile>; Update: Partial<Profile> }
+      couples: { Row: Couple; Insert: Partial<Couple>; Update: Partial<Couple> }
+      couple_invites: { Row: CoupleInvite; Insert: Partial<CoupleInvite>; Update: Partial<CoupleInvite> }
+      folders: { Row: Folder; Insert: Partial<Folder>; Update: Partial<Folder> }
+      documents: { Row: Document; Insert: Partial<Document>; Update: Partial<Document> }
+      lists: { Row: List; Insert: Partial<List>; Update: Partial<List> }
+      list_items: { Row: ListItem; Insert: Partial<ListItem>; Update: Partial<ListItem> }
+      birthdays: { Row: Birthday; Insert: Partial<Birthday>; Update: Partial<Birthday> }
+      events: { Row: CalendarEvent; Insert: Partial<CalendarEvent>; Update: Partial<CalendarEvent> }
+      memories: { Row: Memory; Insert: Partial<Memory>; Update: Partial<Memory> }
+      notes: { Row: Note; Insert: Partial<Note>; Update: Partial<Note> }
+    }
+  }
 }

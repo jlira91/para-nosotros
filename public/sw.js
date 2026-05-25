@@ -1,3 +1,28 @@
-﻿{
-    "data":  "c2VsZi5hZGRFdmVudExpc3RlbmVyKCdwdXNoJywgZXZlbnQgPT4gewogIGlmICghZXZlbnQuZGF0YSkgcmV0dXJuCiAgY29uc3QgZGF0YSA9IGV2ZW50LmRhdGEuanNvbigpCiAgZXZlbnQud2FpdFVudGlsKAogICAgc2VsZi5yZWdpc3RyYXRpb24uc2hvd05vdGlmaWNhdGlvbihkYXRhLnRpdGxlLCB7CiAgICAgIGJvZHk6IGRhdGEuYm9keSwKICAgICAgaWNvbjogJy9pY29uJywKICAgICAgYmFkZ2U6ICcvaWNvbicsCiAgICAgIGRhdGE6IGRhdGEudXJsID8geyB1cmw6IGRhdGEudXJsIH0gOiB1bmRlZmluZWQsCiAgICB9KQogICkKfSkKCnNlbGYuYWRkRXZlbnRMaXN0ZW5lcignbm90aWZpY2F0aW9uY2xpY2snLCBldmVudCA9PiB7CiAgZXZlbnQubm90aWZpY2F0aW9uLmNsb3NlKCkKICBjb25zdCB1cmwgPSBldmVudC5ub3RpZmljYXRpb24uZGF0YT8udXJsIHx8ICcvJwogIGV2ZW50LndhaXRVbnRpbCgKICAgIGNsaWVudHMubWF0Y2hBbGwoeyB0eXBlOiAnd2luZG93JywgaW5jbHVkZVVuY29udHJvbGxlZDogdHJ1ZSB9KS50aGVuKGNsaWVudExpc3QgPT4gewogICAgICBmb3IgKGNvbnN0IGNsaWVudCBvZiBjbGllbnRMaXN0KSB7CiAgICAgICAgaWYgKGNsaWVudC51cmwuaW5jbHVkZXMoc2VsZi5sb2NhdGlvbi5vcmlnaW4pICYmICdmb2N1cycgaW4gY2xpZW50KSB7CiAgICAgICAgICBjbGllbnQubmF2aWdhdGUodXJsKQogICAgICAgICAgcmV0dXJuIGNsaWVudC5mb2N1cygpCiAgICAgICAgfQogICAgICB9CiAgICAgIGlmIChjbGllbnRzLm9wZW5XaW5kb3cpIHJldHVybiBjbGllbnRzLm9wZW5XaW5kb3codXJsKQogICAgfSkKICApCn0pCg=="
-}
+self.addEventListener('push', event => {
+  if (!event.data) return
+  const data = event.data.json()
+  event.waitUntil(
+    self.registration.showNotification(data.title, {
+      body: data.body,
+      icon: '/icon',
+      badge: '/icon',
+      data: data.url ? { url: data.url } : undefined,
+    })
+  )
+})
+
+self.addEventListener('notificationclick', event => {
+  event.notification.close()
+  const url = event.notification.data?.url || '/'
+  event.waitUntil(
+    clients.matchAll({ type: 'window', includeUncontrolled: true }).then(clientList => {
+      for (const client of clientList) {
+        if (client.url.includes(self.location.origin) && 'focus' in client) {
+          client.navigate(url)
+          return client.focus()
+        }
+      }
+      if (clients.openWindow) return clients.openWindow(url)
+    })
+  )
+})

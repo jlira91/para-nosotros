@@ -1,3 +1,28 @@
-﻿{
-    "data":  "aW1wb3J0IHsgdHlwZSBDbGFzc1ZhbHVlLCBjbHN4IH0gZnJvbSAnY2xzeCcKaW1wb3J0IHsgdHdNZXJnZSB9IGZyb20gJ3RhaWx3aW5kLW1lcmdlJwoKZXhwb3J0IGZ1bmN0aW9uIGNuKC4uLmlucHV0czogQ2xhc3NWYWx1ZVtdKSB7CiAgcmV0dXJuIHR3TWVyZ2UoY2xzeChpbnB1dHMpKQp9CgpleHBvcnQgZnVuY3Rpb24gZm9ybWF0RGF0ZShkYXRlOiBzdHJpbmcgfCBEYXRlKSB7CiAgcmV0dXJuIG5ldyBJbnRsLkRhdGVUaW1lRm9ybWF0KCdlcycsIHsgZGF5OiAnbnVtZXJpYycsIG1vbnRoOiAnbG9uZycsIHllYXI6ICdudW1lcmljJyB9KS5mb3JtYXQoCiAgICB0eXBlb2YgZGF0ZSA9PT0gJ3N0cmluZycgPyBuZXcgRGF0ZShkYXRlKSA6IGRhdGUKICApCn0KCmV4cG9ydCBmdW5jdGlvbiBkYXlzVW50aWxCaXJ0aGRheShiaXJ0aERhdGU6IHN0cmluZyk6IG51bWJlciB7CiAgY29uc3QgdG9kYXkgPSBuZXcgRGF0ZSgpCiAgY29uc3QgYmlydGggPSBuZXcgRGF0ZShiaXJ0aERhdGUpCiAgY29uc3QgbmV4dCA9IG5ldyBEYXRlKHRvZGF5LmdldEZ1bGxZZWFyKCksIGJpcnRoLmdldE1vbnRoKCksIGJpcnRoLmdldERhdGUoKSkKICBpZiAobmV4dCA8IHRvZGF5KSBuZXh0LnNldEZ1bGxZZWFyKHRvZGF5LmdldEZ1bGxZZWFyKCkgKyAxKQogIHJldHVybiBNYXRoLmNlaWwoKG5leHQuZ2V0VGltZSgpIC0gdG9kYXkuZ2V0VGltZSgpKSAvICgxMDAwICogNjAgKiA2MCAqIDI0KSkKfQoKZXhwb3J0IGZ1bmN0aW9uIGdldEFnZShiaXJ0aERhdGU6IHN0cmluZyk6IG51bWJlciB7CiAgY29uc3QgdG9kYXkgPSBuZXcgRGF0ZSgpCiAgY29uc3QgYmlydGggPSBuZXcgRGF0ZShiaXJ0aERhdGUpCiAgbGV0IGFnZSA9IHRvZGF5LmdldEZ1bGxZZWFyKCkgLSBiaXJ0aC5nZXRGdWxsWWVhcigpCiAgaWYgKHRvZGF5IDwgbmV3IERhdGUodG9kYXkuZ2V0RnVsbFllYXIoKSwgYmlydGguZ2V0TW9udGgoKSwgYmlydGguZ2V0RGF0ZSgpKSkgYWdlLS0KICByZXR1cm4gYWdlCn0K"
+import { type ClassValue, clsx } from 'clsx'
+import { twMerge } from 'tailwind-merge'
+
+export function cn(...inputs: ClassValue[]) {
+  return twMerge(clsx(inputs))
+}
+
+export function formatDate(date: string | Date) {
+  return new Intl.DateTimeFormat('es', { day: 'numeric', month: 'long', year: 'numeric' }).format(
+    typeof date === 'string' ? new Date(date) : date
+  )
+}
+
+export function daysUntilBirthday(birthDate: string): number {
+  const today = new Date()
+  const birth = new Date(birthDate)
+  const next = new Date(today.getFullYear(), birth.getMonth(), birth.getDate())
+  if (next < today) next.setFullYear(today.getFullYear() + 1)
+  return Math.ceil((next.getTime() - today.getTime()) / (1000 * 60 * 60 * 24))
+}
+
+export function getAge(birthDate: string): number {
+  const today = new Date()
+  const birth = new Date(birthDate)
+  let age = today.getFullYear() - birth.getFullYear()
+  if (today < new Date(today.getFullYear(), birth.getMonth(), birth.getDate())) age--
+  return age
 }

@@ -1,3 +1,186 @@
-﻿{
-    "data":  "J3VzZSBjbGllbnQnCgppbXBvcnQgTGluayBmcm9tICduZXh0L2xpbmsnCmltcG9ydCB7IHVzZVBhdGhuYW1lIH0gZnJvbSAnbmV4dC9uYXZpZ2F0aW9uJwppbXBvcnQgeyBjbiB9IGZyb20gJ0AvbGliL3V0aWxzJwppbXBvcnQgewogIEhvbWUsIEZvbGRlck9wZW4sIExpc3QsIENha2UsIENhbGVuZGFyLCBOb3RlYm9va1BlbiwKICBTaG9wcGluZ0NhcnQsIExvZ091dCwgSGVhcnQsIENvcHksIENoZWNrLCBNZW51LCBYLCBMYXlvdXREYXNoYm9hcmQKfSBmcm9tICdsdWNpZGUtcmVhY3QnCmltcG9ydCB7IGNyZWF0ZUNsaWVudCB9IGZyb20gJ0AvbGliL3N1cGFiYXNlL2NsaWVudCcKaW1wb3J0IHsgdXNlUm91dGVyIH0gZnJvbSAnbmV4dC9uYXZpZ2F0aW9uJwppbXBvcnQgeyB1c2VTdGF0ZSB9IGZyb20gJ3JlYWN0JwppbXBvcnQgdHlwZSB7IFByb2ZpbGUsIENvdXBsZUludml0ZSB9IGZyb20gJ0AvbGliL3R5cGVzJwoKY29uc3QgbmF2SXRlbXMgPSBbCiAgeyBocmVmOiAnL2Rhc2hib2FyZCcsIGljb246IEhvbWUsIGxhYmVsOiAnSW5pY2lvJyB9LAogIHsgaHJlZjogJy9kb2N1bWVudG9zJywgaWNvbjogRm9sZGVyT3BlbiwgbGFiZWw6ICdEb2N1bWVudG9zJyB9LAogIHsgaHJlZjogJy9saXN0YXMnLCBpY29uOiBMaXN0LCBsYWJlbDogJ0xpc3RhcycgfSwKICB7IGhyZWY6ICcvY29tcHJhcycsIGljb246IFNob3BwaW5nQ2FydCwgbGFiZWw6ICdDb21wcmFzJyB9LAogIHsgaHJlZjogJy9jdW1wbGVhbm9zJywgaWNvbjogQ2FrZSwgbGFiZWw6ICdDdW1wbGVhw7FvcycgfSwKICB7IGhyZWY6ICcvY2FsZW5kYXJpbycsIGljb246IENhbGVuZGFyLCBsYWJlbDogJ0NhbGVuZGFyaW8nIH0sCiAgeyBocmVmOiAnL25vdGFzJywgaWNvbjogTm90ZWJvb2tQZW4sIGxhYmVsOiAnTm90YXMnIH0sCl0KCmludGVyZmFjZSBTaWRlYmFyUHJvcHMgewogIHByb2ZpbGU6IFByb2ZpbGUgfCBudWxsCiAgcGFydG5lclByb2ZpbGU6IFByb2ZpbGUgfCBudWxsCiAgaW52aXRlOiBDb3VwbGVJbnZpdGUgfCBudWxsCn0KCmV4cG9ydCBmdW5jdGlvbiBTaWRlYmFyKHsgcHJvZmlsZSwgcGFydG5lclByb2ZpbGUsIGludml0ZSB9OiBTaWRlYmFyUHJvcHMpIHsKICBjb25zdCBwYXRobmFtZSA9IHVzZVBhdGhuYW1lKCkKICBjb25zdCByb3V0ZXIgPSB1c2VSb3V0ZXIoKQogIGNvbnN0IFtjb3BpZWQsIHNldENvcGllZF0gPSB1c2VTdGF0ZShmYWxzZSkKICBjb25zdCBbb3Blbiwgc2V0T3Blbl0gPSB1c2VTdGF0ZShmYWxzZSkKCiAgYXN5bmMgZnVuY3Rpb24gaGFuZGxlTG9nb3V0KCkgewogICAgY29uc3Qgc3VwYWJhc2UgPSBjcmVhdGVDbGllbnQoKQogICAgYXdhaXQgc3VwYWJhc2UuYXV0aC5zaWduT3V0KCkKICAgIHJvdXRlci5wdXNoKCcvbG9naW4nKQogIH0KCiAgYXN5bmMgZnVuY3Rpb24gY29weUNvZGUoKSB7CiAgICBpZiAoaW52aXRlPy5jb2RlKSB7CiAgICAgIGF3YWl0IG5hdmlnYXRvci5jbGlwYm9hcmQud3JpdGVUZXh0KGludml0ZS5jb2RlKQogICAgICBzZXRDb3BpZWQodHJ1ZSkKICAgICAgc2V0VGltZW91dCgoKSA9PiBzZXRDb3BpZWQoZmFsc2UpLCAyMDAwKQogICAgfQogIH0KCiAgY29uc3Qgc2lkZWJhckNvbnRlbnQgPSAoCiAgICA8YXNpZGUgY2xhc3NOYW1lPSJ3LTY0IGgtZnVsbCBiZy13aGl0ZSBib3JkZXItciBib3JkZXItW3ZhcigtLWJvcmRlcildIGZsZXggZmxleC1jb2wiPgogICAgICB7LyogTG9nbyAqL30KICAgICAgPGRpdiBjbGFzc05hbWU9InB4LTYgcHktNiBib3JkZXItYiBib3JkZXItW3ZhcigtLWJvcmRlcildIj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTMiPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9InctMTAgaC0xMCByb3VuZGVkLXhsIGJnLVt2YXIoLS1wcmltYXJ5KV0gZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgc2hhZG93LXNtIj4KICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LWxnIj7wn5KRPC9zcGFuPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleC0xIj4KICAgICAgICAgICAgPGgxIGNsYXNzTmFtZT0iZm9udC1ib2xkIHRleHQtW3ZhcigtLWZvcmVncm91bmQpXSB0ZXh0LXNtIGxlYWRpbmctdGlnaHQiPlBhcmEgTm9zb3Ryb3M8L2gxPgogICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQteHMgdGV4dC1bdmFyKC0tbXV0ZWQtZm9yZWdyb3VuZCldIj5Fc3BhY2lvIGNvbXBhcnRpZG88L3A+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIHsvKiBDbG9zZSBidXR0b24g4oCUIG1vYmlsZSBvbmx5ICovfQogICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICBjbGFzc05hbWU9Im1kOmhpZGRlbiB0ZXh0LVt2YXIoLS1tdXRlZC1mb3JlZ3JvdW5kKV0iCiAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHNldE9wZW4oZmFsc2UpfQogICAgICAgICAgPgogICAgICAgICAgICA8WCBzaXplPXsyMH0gLz4KICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KCiAgICAgIHsvKiBOYXYgKi99CiAgICAgIDxuYXYgY2xhc3NOYW1lPSJmbGV4LTEgcHgtMyBweS00IGZsZXggZmxleC1jb2wgZ2FwLTEgb3ZlcmZsb3cteS1hdXRvIj4KICAgICAgICB7bmF2SXRlbXMubWFwKCh7IGhyZWYsIGljb246IEljb24sIGxhYmVsIH0pID0+IHsKICAgICAgICAgIGNvbnN0IGFjdGl2ZSA9IHBhdGhuYW1lID09PSBocmVmIHx8IChocmVmICE9PSAnLycgJiYgcGF0aG5hbWUuc3RhcnRzV2l0aChocmVmKSkKICAgICAgICAgIHJldHVybiAoCiAgICAgICAgICAgIDxMaW5rCiAgICAgICAgICAgICAga2V5PXtocmVmfQogICAgICAgICAgICAgIGhyZWY9e2hyZWZ9CiAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gc2V0T3BlbihmYWxzZSl9CiAgICAgICAgICAgICAgY2xhc3NOYW1lPXtjbigKICAgICAgICAgICAgICAgICdmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMyBweC0zIHB5LTIuNSByb3VuZGVkLXhsIHRleHQtc20gZm9udC1tZWRpdW0gdHJhbnNpdGlvbi1hbGwnLAogICAgICAgICAgICAgICAgYWN0aXZlCiAgICAgICAgICAgICAgICAgID8gJ2JnLVt2YXIoLS1wcmltYXJ5LWxpZ2h0KV0gdGV4dC1bdmFyKC0tcHJpbWFyeSldJwogICAgICAgICAgICAgICAgICA6ICd0ZXh0LVt2YXIoLS1tdXRlZC1mb3JlZ3JvdW5kKV0gaG92ZXI6YmctW3ZhcigtLW11dGVkKV0gaG92ZXI6dGV4dC1bdmFyKC0tZm9yZWdyb3VuZCldJwogICAgICAgICAgICAgICl9CiAgICAgICAgICAgID4KICAgICAgICAgICAgICA8SWNvbiBzaXplPXsxOH0gLz4KICAgICAgICAgICAgICB7bGFiZWx9CiAgICAgICAgICAgIDwvTGluaz4KICAgICAgICAgICkKICAgICAgICB9KX0KICAgICAgPC9uYXY+CgogICAgICB7LyogUGFydG5lciBzZWN0aW9uICovfQogICAgICA8ZGl2IGNsYXNzTmFtZT0icHgtNCBweS00IGJvcmRlci10IGJvcmRlci1bdmFyKC0tYm9yZGVyKV0iPgogICAgICAgIHtwYXJ0bmVyUHJvZmlsZSA/ICgKICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMyBweC0yIHB5LTIiPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idy04IGgtOCByb3VuZGVkLWZ1bGwgYmctW3ZhcigtLXByaW1hcnktbGlnaHQpXSBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciI+CiAgICAgICAgICAgICAgPEhlYXJ0IHNpemU9ezE0fSBjbGFzc05hbWU9InRleHQtW3ZhcigtLXByaW1hcnkpXSIgLz4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4LTEgbWluLXctMCI+CiAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtW3ZhcigtLW11dGVkLWZvcmVncm91bmQpXSI+VHUgcGFyZWphPC9wPgogICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSBmb250LW1lZGl1bSB0ZXh0LVt2YXIoLS1mb3JlZ3JvdW5kKV0gdHJ1bmNhdGUiPgogICAgICAgICAgICAgICAge3BhcnRuZXJQcm9maWxlLmZ1bGxfbmFtZSB8fCBwYXJ0bmVyUHJvZmlsZS5lbWFpbH0KICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgKSA6IGludml0ZSA/ICgKICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJiZy1bdmFyKC0tcHJpbWFyeS1saWdodCldIHJvdW5kZWQteGwgcC0zIj4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtW3ZhcigtLWFjY2VudCldIGZvbnQtbWVkaXVtIG1iLTEiPkludml0YSBhIHR1IHBhcmVqYTwvcD4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIj4KICAgICAgICAgICAgICA8Y29kZSBjbGFzc05hbWU9InRleHQtc20gZm9udC1ib2xkIHRleHQtW3ZhcigtLXByaW1hcnkpXSB0cmFja2luZy13aWRlc3QgZmxleC0xIj4KICAgICAgICAgICAgICAgIHtpbnZpdGUuY29kZX0KICAgICAgICAgICAgICA8L2NvZGU+CiAgICAgICAgICAgICAgPGJ1dHRvbiBvbkNsaWNrPXtjb3B5Q29kZX0gY2xhc3NOYW1lPSJ0ZXh0LVt2YXIoLS1wcmltYXJ5KV0gaG92ZXI6dGV4dC1bdmFyKC0tYWNjZW50KV0gdHJhbnNpdGlvbiI+CiAgICAgICAgICAgICAgICB7Y29waWVkID8gPENoZWNrIHNpemU9ezE1fSAvPiA6IDxDb3B5IHNpemU9ezE1fSAvPn0KICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICApIDogbnVsbH0KICAgICAgPC9kaXY+CgogICAgICB7LyogVXNlciArIGxvZ291dCAqL30KICAgICAgPGRpdiBjbGFzc05hbWU9InB4LTQgcHktNCBib3JkZXItdCBib3JkZXItW3ZhcigtLWJvcmRlcildIj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTMiPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9InctOCBoLTggcm91bmRlZC1mdWxsIGJnLVt2YXIoLS1zZWNvbmRhcnkpXSBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciB0ZXh0LXNtIGZvbnQtc2VtaWJvbGQgdGV4dC1bdmFyKC0tcHJpbWFyeSldIj4KICAgICAgICAgICAgeyhwcm9maWxlPy5mdWxsX25hbWUgfHwgJ1UnKVswXS50b1VwcGVyQ2FzZSgpfQogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleC0xIG1pbi13LTAiPgogICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gZm9udC1tZWRpdW0gdGV4dC1bdmFyKC0tZm9yZWdyb3VuZCldIHRydW5jYXRlIj4KICAgICAgICAgICAgICB7cHJvZmlsZT8uZnVsbF9uYW1lIHx8ICdNaSBwZXJmaWwnfQogICAgICAgICAgICA8L3A+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgb25DbGljaz17aGFuZGxlTG9nb3V0fQogICAgICAgICAgICBjbGFzc05hbWU9InRleHQtW3ZhcigtLW11dGVkLWZvcmVncm91bmQpXSBob3Zlcjp0ZXh0LXJlZC01MDAgdHJhbnNpdGlvbiIKICAgICAgICAgICAgdGl0bGU9IkNlcnJhciBzZXNpw7NuIgogICAgICAgICAgPgogICAgICAgICAgICA8TG9nT3V0IHNpemU9ezE2fSAvPgogICAgICAgICAgPC9idXR0b24+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgPC9hc2lkZT4KICApCgogIHJldHVybiAoCiAgICA8PgogICAgICB7LyogTW9iaWxlIHRvcCBiYXIgKi99CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJtZDpoaWRkZW4gZml4ZWQgdG9wLTAgbGVmdC0wIHJpZ2h0LTAgei00MCBiZy13aGl0ZSBib3JkZXItYiBib3JkZXItW3ZhcigtLWJvcmRlcildIGZsZXggaXRlbXMtY2VudGVyIGdhcC0zIHB4LTQgaC0xNCI+CiAgICAgICAgPGJ1dHRvbiBvbkNsaWNrPXsoKSA9PiBzZXRPcGVuKHRydWUpfSBjbGFzc05hbWU9InRleHQtW3ZhcigtLWZvcmVncm91bmQpXSI+CiAgICAgICAgICA8TWVudSBzaXplPXsyMn0gLz4KICAgICAgICA8L2J1dHRvbj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idy03IGgtNyByb3VuZGVkLWxnIGJnLVt2YXIoLS1wcmltYXJ5KV0gZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIiPgogICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXNtIj7wn5KRPC9zcGFuPgogICAgICAgIDwvZGl2PgogICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iZm9udC1ib2xkIHRleHQtc20gdGV4dC1bdmFyKC0tZm9yZWdyb3VuZCldIGZsZXgtMSI+UGFyYSBOb3NvdHJvczwvc3Bhbj4KICAgICAgICA8TGluayBocmVmPSIvZGFzaGJvYXJkIiBjbGFzc05hbWU9InAtMiByb3VuZGVkLXhsIGhvdmVyOmJnLVt2YXIoLS1tdXRlZCldIHRleHQtW3ZhcigtLW11dGVkLWZvcmVncm91bmQpXSB0cmFuc2l0aW9uIj4KICAgICAgICAgIDxMYXlvdXREYXNoYm9hcmQgc2l6ZT17MjB9IC8+CiAgICAgICAgPC9MaW5rPgogICAgICA8L2Rpdj4KCiAgICAgIHsvKiBNb2JpbGUgb3ZlcmxheSAqL30KICAgICAge29wZW4gJiYgKAogICAgICAgIDxkaXYKICAgICAgICAgIGNsYXNzTmFtZT0ibWQ6aGlkZGVuIGZpeGVkIGluc2V0LTAgei00MCBiZy1ibGFjay80MCIKICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHNldE9wZW4oZmFsc2UpfQogICAgICAgIC8+CiAgICAgICl9CgogICAgICB7LyogTW9iaWxlIGRyYXdlciAqL30KICAgICAgPGRpdiBjbGFzc05hbWU9e2NuKAogICAgICAgICdtZDpoaWRkZW4gZml4ZWQgdG9wLTAgbGVmdC0wIGgtZnVsbCB6LTUwIHRyYW5zaXRpb24tdHJhbnNmb3JtIGR1cmF0aW9uLTMwMCcsCiAgICAgICAgb3BlbiA/ICd0cmFuc2xhdGUteC0wJyA6ICctdHJhbnNsYXRlLXgtZnVsbCcKICAgICAgKX0+CiAgICAgICAge3NpZGViYXJDb250ZW50fQogICAgICA8L2Rpdj4KCiAgICAgIHsvKiBEZXNrdG9wIHNpZGViYXIgKi99CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJoaWRkZW4gbWQ6YmxvY2sgbWluLWgtc2NyZWVuIHctNjQgZmxleC1zaHJpbmstMCI+CiAgICAgICAge3NpZGViYXJDb250ZW50fQogICAgICA8L2Rpdj4KICAgIDwvPgogICkKfQo="
+'use client'
+
+import Link from 'next/link'
+import { usePathname } from 'next/navigation'
+import { cn } from '@/lib/utils'
+import {
+  Home, FolderOpen, List, Cake, Calendar, NotebookPen,
+  ShoppingCart, LogOut, Heart, Copy, Check, Menu, X, LayoutDashboard
+} from 'lucide-react'
+import { createClient } from '@/lib/supabase/client'
+import { useRouter } from 'next/navigation'
+import { useState } from 'react'
+import type { Profile, CoupleInvite } from '@/lib/types'
+
+const navItems = [
+  { href: '/dashboard', icon: Home, label: 'Inicio' },
+  { href: '/documentos', icon: FolderOpen, label: 'Documentos' },
+  { href: '/listas', icon: List, label: 'Listas' },
+  { href: '/compras', icon: ShoppingCart, label: 'Compras' },
+  { href: '/cumpleanos', icon: Cake, label: 'Cumpleaños' },
+  { href: '/calendario', icon: Calendar, label: 'Calendario' },
+  { href: '/notas', icon: NotebookPen, label: 'Notas' },
+]
+
+interface SidebarProps {
+  profile: Profile | null
+  partnerProfile: Profile | null
+  invite: CoupleInvite | null
+}
+
+export function Sidebar({ profile, partnerProfile, invite }: SidebarProps) {
+  const pathname = usePathname()
+  const router = useRouter()
+  const [copied, setCopied] = useState(false)
+  const [open, setOpen] = useState(false)
+
+  async function handleLogout() {
+    const supabase = createClient()
+    await supabase.auth.signOut()
+    router.push('/login')
+  }
+
+  async function copyCode() {
+    if (invite?.code) {
+      await navigator.clipboard.writeText(invite.code)
+      setCopied(true)
+      setTimeout(() => setCopied(false), 2000)
+    }
+  }
+
+  const sidebarContent = (
+    <aside className="w-64 h-full bg-white border-r border-[var(--border)] flex flex-col">
+      {/* Logo */}
+      <div className="px-6 py-6 border-b border-[var(--border)]">
+        <div className="flex items-center gap-3">
+          <div className="w-10 h-10 rounded-xl bg-[var(--primary)] flex items-center justify-center shadow-sm">
+            <span className="text-lg">💑</span>
+          </div>
+          <div className="flex-1">
+            <h1 className="font-bold text-[var(--foreground)] text-sm leading-tight">Para Nosotros</h1>
+            <p className="text-xs text-[var(--muted-foreground)]">Espacio compartido</p>
+          </div>
+          {/* Close button — mobile only */}
+          <button
+            className="md:hidden text-[var(--muted-foreground)]"
+            onClick={() => setOpen(false)}
+          >
+            <X size={20} />
+          </button>
+        </div>
+      </div>
+
+      {/* Nav */}
+      <nav className="flex-1 px-3 py-4 flex flex-col gap-1 overflow-y-auto">
+        {navItems.map(({ href, icon: Icon, label }) => {
+          const active = pathname === href || (href !== '/' && pathname.startsWith(href))
+          return (
+            <Link
+              key={href}
+              href={href}
+              onClick={() => setOpen(false)}
+              className={cn(
+                'flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium transition-all',
+                active
+                  ? 'bg-[var(--primary-light)] text-[var(--primary)]'
+                  : 'text-[var(--muted-foreground)] hover:bg-[var(--muted)] hover:text-[var(--foreground)]'
+              )}
+            >
+              <Icon size={18} />
+              {label}
+            </Link>
+          )
+        })}
+      </nav>
+
+      {/* Partner section */}
+      <div className="px-4 py-4 border-t border-[var(--border)]">
+        {partnerProfile ? (
+          <div className="flex items-center gap-3 px-2 py-2">
+            <div className="w-8 h-8 rounded-full bg-[var(--primary-light)] flex items-center justify-center">
+              <Heart size={14} className="text-[var(--primary)]" />
+            </div>
+            <div className="flex-1 min-w-0">
+              <p className="text-xs text-[var(--muted-foreground)]">Tu pareja</p>
+              <p className="text-sm font-medium text-[var(--foreground)] truncate">
+                {partnerProfile.full_name || partnerProfile.email}
+              </p>
+            </div>
+          </div>
+        ) : invite ? (
+          <div className="bg-[var(--primary-light)] rounded-xl p-3">
+            <p className="text-xs text-[var(--accent)] font-medium mb-1">Invita a tu pareja</p>
+            <div className="flex items-center gap-2">
+              <code className="text-sm font-bold text-[var(--primary)] tracking-widest flex-1">
+                {invite.code}
+              </code>
+              <button onClick={copyCode} className="text-[var(--primary)] hover:text-[var(--accent)] transition">
+                {copied ? <Check size={15} /> : <Copy size={15} />}
+              </button>
+            </div>
+          </div>
+        ) : null}
+      </div>
+
+      {/* User + logout */}
+      <div className="px-4 py-4 border-t border-[var(--border)]">
+        <div className="flex items-center gap-3">
+          <div className="w-8 h-8 rounded-full bg-[var(--secondary)] flex items-center justify-center text-sm font-semibold text-[var(--primary)]">
+            {(profile?.full_name || 'U')[0].toUpperCase()}
+          </div>
+          <div className="flex-1 min-w-0">
+            <p className="text-sm font-medium text-[var(--foreground)] truncate">
+              {profile?.full_name || 'Mi perfil'}
+            </p>
+          </div>
+          <button
+            onClick={handleLogout}
+            className="text-[var(--muted-foreground)] hover:text-red-500 transition"
+            title="Cerrar sesión"
+          >
+            <LogOut size={16} />
+          </button>
+        </div>
+      </div>
+    </aside>
+  )
+
+  return (
+    <>
+      {/* Mobile top bar */}
+      <div className="md:hidden fixed top-0 left-0 right-0 z-40 bg-white border-b border-[var(--border)] flex items-center gap-3 px-4 h-14">
+        <button onClick={() => setOpen(true)} className="text-[var(--foreground)]">
+          <Menu size={22} />
+        </button>
+        <div className="w-7 h-7 rounded-lg bg-[var(--primary)] flex items-center justify-center">
+          <span className="text-sm">💑</span>
+        </div>
+        <span className="font-bold text-sm text-[var(--foreground)] flex-1">Para Nosotros</span>
+        <Link href="/dashboard" className="p-2 rounded-xl hover:bg-[var(--muted)] text-[var(--muted-foreground)] transition">
+          <LayoutDashboard size={20} />
+        </Link>
+      </div>
+
+      {/* Mobile overlay */}
+      {open && (
+        <div
+          className="md:hidden fixed inset-0 z-40 bg-black/40"
+          onClick={() => setOpen(false)}
+        />
+      )}
+
+      {/* Mobile drawer */}
+      <div className={cn(
+        'md:hidden fixed top-0 left-0 h-full z-50 transition-transform duration-300',
+        open ? 'translate-x-0' : '-translate-x-full'
+      )}>
+        {sidebarContent}
+      </div>
+
+      {/* Desktop sidebar */}
+      <div className="hidden md:block min-h-screen w-64 flex-shrink-0">
+        {sidebarContent}
+      </div>
+    </>
+  )
 }

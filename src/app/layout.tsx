@@ -1,3 +1,39 @@
-﻿{
-    "data":  "aW1wb3J0IHR5cGUgeyBNZXRhZGF0YSB9IGZyb20gIm5leHQiOwppbXBvcnQgeyBHZWlzdCwgR2Vpc3RfTW9ubyB9IGZyb20gIm5leHQvZm9udC9nb29nbGUiOwppbXBvcnQgIi4vZ2xvYmFscy5jc3MiOwoKY29uc3QgZ2Vpc3RTYW5zID0gR2Vpc3QoewogIHZhcmlhYmxlOiAiLS1mb250LWdlaXN0LXNhbnMiLAogIHN1YnNldHM6IFsibGF0aW4iXSwKfSk7Cgpjb25zdCBnZWlzdE1vbm8gPSBHZWlzdF9Nb25vKHsKICB2YXJpYWJsZTogIi0tZm9udC1nZWlzdC1tb25vIiwKICBzdWJzZXRzOiBbImxhdGluIl0sCn0pOwoKZXhwb3J0IGNvbnN0IG1ldGFkYXRhOiBNZXRhZGF0YSA9IHsKICB0aXRsZTogIlBhcmEgTm9zb3Ryb3MiLAogIGRlc2NyaXB0aW9uOiAiVHUgZXNwYWNpbyBjb21wYXJ0aWRvIGVuIHBhcmVqYSIsCiAgbWFuaWZlc3Q6ICcvbWFuaWZlc3Qud2VibWFuaWZlc3QnLAogIGFwcGxlV2ViQXBwOiB7CiAgICBjYXBhYmxlOiB0cnVlLAogICAgc3RhdHVzQmFyU3R5bGU6ICdkZWZhdWx0JywKICAgIHRpdGxlOiAnUGFyYSBOb3NvdHJvcycsCiAgfSwKfTsKCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIFJvb3RMYXlvdXQoewogIGNoaWxkcmVuLAp9OiBSZWFkb25seTx7CiAgY2hpbGRyZW46IFJlYWN0LlJlYWN0Tm9kZTsKfT4pIHsKICByZXR1cm4gKAogICAgPGh0bWwKICAgICAgbGFuZz0iZXMiCiAgICAgIGNsYXNzTmFtZT17YCR7Z2Vpc3RTYW5zLnZhcmlhYmxlfSAke2dlaXN0TW9uby52YXJpYWJsZX0gaC1mdWxsIGFudGlhbGlhc2VkYH0KICAgID4KICAgICAgPGJvZHkgY2xhc3NOYW1lPSJtaW4taC1mdWxsIGZsZXggZmxleC1jb2wiPntjaGlsZHJlbn08L2JvZHk+CiAgICA8L2h0bWw+CiAgKTsKfQo="
+import type { Metadata } from "next";
+import { Geist, Geist_Mono } from "next/font/google";
+import "./globals.css";
+
+const geistSans = Geist({
+  variable: "--font-geist-sans",
+  subsets: ["latin"],
+});
+
+const geistMono = Geist_Mono({
+  variable: "--font-geist-mono",
+  subsets: ["latin"],
+});
+
+export const metadata: Metadata = {
+  title: "Para Nosotros",
+  description: "Tu espacio compartido en pareja",
+  manifest: '/manifest.webmanifest',
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: 'default',
+    title: 'Para Nosotros',
+  },
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html
+      lang="es"
+      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+    >
+      <body className="min-h-full flex flex-col">{children}</body>
+    </html>
+  );
 }

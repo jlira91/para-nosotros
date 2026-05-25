@@ -1,3 +1,433 @@
-﻿{
-    "data":  "J3VzZSBjbGllbnQnCgppbXBvcnQgeyB1c2VTdGF0ZSwgdXNlRWZmZWN0LCB1c2VSZWYgfSBmcm9tICdyZWFjdCcKaW1wb3J0IHsgY3JlYXRlQ2xpZW50IH0gZnJvbSAnQC9saWIvc3VwYWJhc2UvY2xpZW50JwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICdAL2NvbXBvbmVudHMvdWkvYnV0dG9uJwppbXBvcnQgeyBJbnB1dCwgVGV4dGFyZWEgfSBmcm9tICdAL2NvbXBvbmVudHMvdWkvaW5wdXQnCmltcG9ydCB7IERpYWxvZyB9IGZyb20gJ0AvY29tcG9uZW50cy91aS9kaWFsb2cnCmltcG9ydCB7IENhcmQgfSBmcm9tICdAL2NvbXBvbmVudHMvdWkvY2FyZCcKaW1wb3J0IHsgZm9ybWF0RGF0ZSB9IGZyb20gJ0AvbGliL3V0aWxzJwppbXBvcnQgdHlwZSB7IEZvbGRlciwgRG9jdW1lbnQgfSBmcm9tICdAL2xpYi90eXBlcycKaW1wb3J0IHsKICBGb2xkZXJPcGVuLCBQbHVzLCBVcGxvYWQsIEZpbGUsIEZpbGVJbWFnZSwgVHJhc2gyLAogIERvd25sb2FkLCBDaGV2cm9uUmlnaHQsIEhvbWUsIEZvbGRlclBsdXMsIFgsIFBlbmNpbAp9IGZyb20gJ2x1Y2lkZS1yZWFjdCcKCmNvbnN0IEZPTERFUl9DT0xPUlMgPSBbJyNDNDczN0EnLCAnIzdBOUJDNCcsICcjN0FDNEEwJywgJyNDNEE4N0EnLCAnI0E4N0FDNCcsICcjQzRDNDdBJ10KCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIERvY3VtZW50b3NQYWdlKCkgewogIGNvbnN0IHN1cGFiYXNlID0gY3JlYXRlQ2xpZW50KCkKICBjb25zdCBbZm9sZGVycywgc2V0Rm9sZGVyc10gPSB1c2VTdGF0ZTxGb2xkZXJbXT4oW10pCiAgY29uc3QgW2RvY3VtZW50cywgc2V0RG9jdW1lbnRzXSA9IHVzZVN0YXRlPERvY3VtZW50W10+KFtdKQogIGNvbnN0IFtzZWxlY3RlZEZvbGRlciwgc2V0U2VsZWN0ZWRGb2xkZXJdID0gdXNlU3RhdGU8Rm9sZGVyIHwgbnVsbD4obnVsbCkKICBjb25zdCBbY291cGxlSWQsIHNldENvdXBsZUlkXSA9IHVzZVN0YXRlPHN0cmluZyB8IG51bGw+KG51bGwpCiAgY29uc3QgW3VzZXJJZCwgc2V0VXNlcklkXSA9IHVzZVN0YXRlPHN0cmluZyB8IG51bGw+KG51bGwpCiAgY29uc3QgW3Nob3dGb2xkZXJEaWFsb2csIHNldFNob3dGb2xkZXJEaWFsb2ddID0gdXNlU3RhdGUoZmFsc2UpCiAgY29uc3QgW2VkaXRpbmdGb2xkZXIsIHNldEVkaXRpbmdGb2xkZXJdID0gdXNlU3RhdGU8Rm9sZGVyIHwgbnVsbD4obnVsbCkKICBjb25zdCBbZWRpdGluZ0RvYywgc2V0RWRpdGluZ0RvY10gPSB1c2VTdGF0ZTxEb2N1bWVudCB8IG51bGw+KG51bGwpCiAgY29uc3QgW2VkaXRpbmdEb2NOYW1lLCBzZXRFZGl0aW5nRG9jTmFtZV0gPSB1c2VTdGF0ZSgnJykKICBjb25zdCBbcHJldmlld0RvYywgc2V0UHJldmlld0RvY10gPSB1c2VTdGF0ZTx7IGRvYzogRG9jdW1lbnQ7IHVybDogc3RyaW5nIH0gfCBudWxsPihudWxsKQogIGNvbnN0IFtzaG93VXBsb2FkRGlhbG9nLCBzZXRTaG93VXBsb2FkRGlhbG9nXSA9IHVzZVN0YXRlKGZhbHNlKQogIGNvbnN0IFt1cGxvYWRpbmcsIHNldFVwbG9hZGluZ10gPSB1c2VTdGF0ZShmYWxzZSkKICBjb25zdCBbbmV3Rm9sZGVyLCBzZXROZXdGb2xkZXJdID0gdXNlU3RhdGUoeyBuYW1lOiAnJywgY29sb3I6IEZPTERFUl9DT0xPUlNbMF0gfSkKICBjb25zdCBbbmV3RG9jLCBzZXROZXdEb2NdID0gdXNlU3RhdGUoeyBuYW1lOiAnJywgZGVzY3JpcHRpb246ICcnIH0pCiAgY29uc3QgW3NlbGVjdGVkRmlsZSwgc2V0U2VsZWN0ZWRGaWxlXSA9IHVzZVN0YXRlPEZpbGUgfCBudWxsPihudWxsKQogIGNvbnN0IGZpbGVSZWYgPSB1c2VSZWY8SFRNTElucHV0RWxlbWVudD4obnVsbCkKCiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIGFzeW5jIGZ1bmN0aW9uIGxvYWQoKSB7CiAgICAgIGNvbnN0IHsgZGF0YTogeyB1c2VyIH0gfSA9IGF3YWl0IHN1cGFiYXNlLmF1dGguZ2V0VXNlcigpCiAgICAgIGlmICghdXNlcikgcmV0dXJuCiAgICAgIHNldFVzZXJJZCh1c2VyLmlkKQogICAgICBjb25zdCB7IGRhdGE6IHByb2ZpbGUgfSA9IGF3YWl0IHN1cGFiYXNlLmZyb20oJ3Byb2ZpbGVzJykuc2VsZWN0KCdjb3VwbGVfaWQnKS5lcSgnaWQnLCB1c2VyLmlkKS5zaW5nbGUoKQogICAgICBpZiAoIXByb2ZpbGU/LmNvdXBsZV9pZCkgcmV0dXJuCiAgICAgIHNldENvdXBsZUlkKHByb2ZpbGUuY291cGxlX2lkKQogICAgICBjb25zdCB7IGRhdGE6IGZvbHMgfSA9IGF3YWl0IHN1cGFiYXNlLmZyb20oJ2ZvbGRlcnMnKS5zZWxlY3QoJyonKS5lcSgnY291cGxlX2lkJywgcHJvZmlsZS5jb3VwbGVfaWQpLm9yZGVyKCdjcmVhdGVkX2F0JykKICAgICAgc2V0Rm9sZGVycyhmb2xzIHx8IFtdKQogICAgfQogICAgbG9hZCgpCiAgfSwgW10pCgogIHVzZUVmZmVjdCgoKSA9PiB7CiAgICBpZiAoIWNvdXBsZUlkKSByZXR1cm4KICAgIGFzeW5jIGZ1bmN0aW9uIGxvYWREb2NzKCkgewogICAgICBsZXQgcXVlcnkgPSBzdXBhYmFzZS5mcm9tKCdkb2N1bWVudHMnKS5zZWxlY3QoJyonKS5lcSgnY291cGxlX2lkJywgY291cGxlSWQhKS5vcmRlcignY3JlYXRlZF9hdCcsIHsgYXNjZW5kaW5nOiBmYWxzZSB9KQogICAgICBpZiAoc2VsZWN0ZWRGb2xkZXIpIHF1ZXJ5ID0gcXVlcnkuZXEoJ2ZvbGRlcl9pZCcsIHNlbGVjdGVkRm9sZGVyLmlkKQogICAgICBlbHNlIHF1ZXJ5ID0gcXVlcnkuaXMoJ2ZvbGRlcl9pZCcsIG51bGwpCiAgICAgIGNvbnN0IHsgZGF0YSB9ID0gYXdhaXQgcXVlcnkKICAgICAgc2V0RG9jdW1lbnRzKGRhdGEgfHwgW10pCiAgICB9CiAgICBsb2FkRG9jcygpCiAgfSwgW2NvdXBsZUlkLCBzZWxlY3RlZEZvbGRlcl0pCgogIGZ1bmN0aW9uIG9wZW5DcmVhdGVGb2xkZXIoKSB7CiAgICBzZXRFZGl0aW5nRm9sZGVyKG51bGwpCiAgICBzZXROZXdGb2xkZXIoeyBuYW1lOiAnJywgY29sb3I6IEZPTERFUl9DT0xPUlNbMF0gfSkKICAgIHNldFNob3dGb2xkZXJEaWFsb2codHJ1ZSkKICB9CgogIGZ1bmN0aW9uIG9wZW5FZGl0Rm9sZGVyKGU6IFJlYWN0Lk1vdXNlRXZlbnQsIGZvbGRlcjogRm9sZGVyKSB7CiAgICBlLnN0b3BQcm9wYWdhdGlvbigpCiAgICBzZXRFZGl0aW5nRm9sZGVyKGZvbGRlcikKICAgIHNldE5ld0ZvbGRlcih7IG5hbWU6IGZvbGRlci5uYW1lLCBjb2xvcjogZm9sZGVyLmNvbG9yIHx8IEZPTERFUl9DT0xPUlNbMF0gfSkKICAgIHNldFNob3dGb2xkZXJEaWFsb2codHJ1ZSkKICB9CgogIGFzeW5jIGZ1bmN0aW9uIHNhdmVGb2xkZXIoKSB7CiAgICBpZiAoIW5ld0ZvbGRlci5uYW1lLnRyaW0oKSkgcmV0dXJuCiAgICBpZiAoZWRpdGluZ0ZvbGRlcikgewogICAgICBhd2FpdCBzdXBhYmFzZS5mcm9tKCdmb2xkZXJzJykudXBkYXRlKHsgbmFtZTogbmV3Rm9sZGVyLm5hbWUsIGNvbG9yOiBuZXdGb2xkZXIuY29sb3IgfSkuZXEoJ2lkJywgZWRpdGluZ0ZvbGRlci5pZCkKICAgICAgc2V0Rm9sZGVycyhmID0+IGYubWFwKHggPT4geC5pZCA9PT0gZWRpdGluZ0ZvbGRlci5pZCA/IHsgLi4ueCwgbmFtZTogbmV3Rm9sZGVyLm5hbWUsIGNvbG9yOiBuZXdGb2xkZXIuY29sb3IgfSA6IHgpKQogICAgICBpZiAoc2VsZWN0ZWRGb2xkZXI/LmlkID09PSBlZGl0aW5nRm9sZGVyLmlkKSBzZXRTZWxlY3RlZEZvbGRlcihzID0+IHMgPyB7IC4uLnMsIG5hbWU6IG5ld0ZvbGRlci5uYW1lLCBjb2xvcjogbmV3Rm9sZGVyLmNvbG9yIH0gOiBzKQogICAgfSBlbHNlIHsKICAgICAgaWYgKCFjb3VwbGVJZCkgcmV0dXJuCiAgICAgIGNvbnN0IHsgZGF0YSB9ID0gYXdhaXQgc3VwYWJhc2UuZnJvbSgnZm9sZGVycycpCiAgICAgICAgLmluc2VydCh7IGNvdXBsZV9pZDogY291cGxlSWQsIG5hbWU6IG5ld0ZvbGRlci5uYW1lLCBjb2xvcjogbmV3Rm9sZGVyLmNvbG9yLCBjcmVhdGVkX2J5OiB1c2VySWQgfSkKICAgICAgICAuc2VsZWN0KCkuc2luZ2xlKCkKICAgICAgaWYgKGRhdGEpIHNldEZvbGRlcnMoZiA9PiBbLi4uZiwgZGF0YV0pCiAgICB9CiAgICBzZXROZXdGb2xkZXIoeyBuYW1lOiAnJywgY29sb3I6IEZPTERFUl9DT0xPUlNbMF0gfSkKICAgIHNldFNob3dGb2xkZXJEaWFsb2coZmFsc2UpCiAgfQoKICBhc3luYyBmdW5jdGlvbiBkZWxldGVGb2xkZXIoaWQ6IHN0cmluZykgewogICAgaWYgKCFjb25maXJtKCfCv0VsaW1pbmFyIGVzdGEgY2FycGV0YSB5IHRvZG9zIHN1cyBkb2N1bWVudG9zPycpKSByZXR1cm4KICAgIGF3YWl0IHN1cGFiYXNlLmZyb20oJ2ZvbGRlcnMnKS5kZWxldGUoKS5lcSgnaWQnLCBpZCkKICAgIHNldEZvbGRlcnMoZiA9PiBmLmZpbHRlcih4ID0+IHguaWQgIT09IGlkKSkKICAgIGlmIChzZWxlY3RlZEZvbGRlcj8uaWQgPT09IGlkKSBzZXRTZWxlY3RlZEZvbGRlcihudWxsKQogIH0KCiAgYXN5bmMgZnVuY3Rpb24gdXBsb2FkRG9jdW1lbnQoKSB7CiAgICBpZiAoIWNvdXBsZUlkIHx8ICFzZWxlY3RlZEZpbGUgfHwgIW5ld0RvYy5uYW1lLnRyaW0oKSkgcmV0dXJuCiAgICBzZXRVcGxvYWRpbmcodHJ1ZSkKICAgIGNvbnN0IGV4dCA9IHNlbGVjdGVkRmlsZS5uYW1lLnNwbGl0KCcuJykucG9wKCkKICAgIGNvbnN0IHBhdGggPSBgJHtjb3VwbGVJZH0vJHtEYXRlLm5vdygpfS0ke3NlbGVjdGVkRmlsZS5uYW1lfWAKICAgIGNvbnN0IHsgZXJyb3I6IHVwbG9hZEVycm9yIH0gPSBhd2FpdCBzdXBhYmFzZS5zdG9yYWdlLmZyb20oJ2RvY3VtZW50cycpLnVwbG9hZChwYXRoLCBzZWxlY3RlZEZpbGUpCiAgICBpZiAodXBsb2FkRXJyb3IpIHsgc2V0VXBsb2FkaW5nKGZhbHNlKTsgcmV0dXJuIH0KCiAgICBjb25zdCB7IGRhdGEgfSA9IGF3YWl0IHN1cGFiYXNlLmZyb20oJ2RvY3VtZW50cycpLmluc2VydCh7CiAgICAgIGNvdXBsZV9pZDogY291cGxlSWQsCiAgICAgIGZvbGRlcl9pZDogc2VsZWN0ZWRGb2xkZXI/LmlkIHx8IG51bGwsCiAgICAgIG5hbWU6IG5ld0RvYy5uYW1lLAogICAgICBkZXNjcmlwdGlvbjogbmV3RG9jLmRlc2NyaXB0aW9uLAogICAgICBmaWxlX3BhdGg6IHBhdGgsCiAgICAgIGZpbGVfdHlwZTogZXh0LAogICAgICBmaWxlX3NpemU6IHNlbGVjdGVkRmlsZS5zaXplLAogICAgICB1cGxvYWRlZF9ieTogdXNlcklkLAogICAgfSkuc2VsZWN0KCkuc2luZ2xlKCkKCiAgICBpZiAoZGF0YSkgc2V0RG9jdW1lbnRzKGQgPT4gW2RhdGEsIC4uLmRdKQogICAgc2V0TmV3RG9jKHsgbmFtZTogJycsIGRlc2NyaXB0aW9uOiAnJyB9KQogICAgc2V0U2VsZWN0ZWRGaWxlKG51bGwpCiAgICBzZXRVcGxvYWRpbmcoZmFsc2UpCiAgICBzZXRTaG93VXBsb2FkRGlhbG9nKGZhbHNlKQogIH0KCiAgYXN5bmMgZnVuY3Rpb24gZGVsZXRlRG9jdW1lbnQoZG9jOiBEb2N1bWVudCkgewogICAgaWYgKCFjb25maXJtKCfCv0VsaW1pbmFyIGVzdGUgZG9jdW1lbnRvPycpKSByZXR1cm4KICAgIGF3YWl0IHN1cGFiYXNlLnN0b3JhZ2UuZnJvbSgnZG9jdW1lbnRzJykucmVtb3ZlKFtkb2MuZmlsZV9wYXRoXSkKICAgIGF3YWl0IHN1cGFiYXNlLmZyb20oJ2RvY3VtZW50cycpLmRlbGV0ZSgpLmVxKCdpZCcsIGRvYy5pZCkKICAgIHNldERvY3VtZW50cyhkID0+IGQuZmlsdGVyKHggPT4geC5pZCAhPT0gZG9jLmlkKSkKICB9CgogIGZ1bmN0aW9uIG9wZW5FZGl0RG9jKGU6IFJlYWN0Lk1vdXNlRXZlbnQsIGRvYzogRG9jdW1lbnQpIHsKICAgIGUuc3RvcFByb3BhZ2F0aW9uKCkKICAgIHNldEVkaXRpbmdEb2MoZG9jKQogICAgc2V0RWRpdGluZ0RvY05hbWUoZG9jLm5hbWUpCiAgfQoKICBhc3luYyBmdW5jdGlvbiBzYXZlRG9jTmFtZSgpIHsKICAgIGlmICghZWRpdGluZ0RvYyB8fCAhZWRpdGluZ0RvY05hbWUudHJpbSgpKSByZXR1cm4KICAgIGF3YWl0IHN1cGFiYXNlLmZyb20oJ2RvY3VtZW50cycpLnVwZGF0ZSh7IG5hbWU6IGVkaXRpbmdEb2NOYW1lLnRyaW0oKSB9KS5lcSgnaWQnLCBlZGl0aW5nRG9jLmlkKQogICAgc2V0RG9jdW1lbnRzKGQgPT4gZC5tYXAoeCA9PiB4LmlkID09PSBlZGl0aW5nRG9jLmlkID8geyAuLi54LCBuYW1lOiBlZGl0aW5nRG9jTmFtZS50cmltKCkgfSA6IHgpKQogICAgc2V0RWRpdGluZ0RvYyhudWxsKQogIH0KCiAgYXN5bmMgZnVuY3Rpb24gZG93bmxvYWREb2N1bWVudChkb2M6IERvY3VtZW50KSB7CiAgICBjb25zdCB7IGRhdGEgfSA9IGF3YWl0IHN1cGFiYXNlLnN0b3JhZ2UuZnJvbSgnZG9jdW1lbnRzJykuY3JlYXRlU2lnbmVkVXJsKGRvYy5maWxlX3BhdGgsIDYwLCB7IGRvd25sb2FkOiBkb2MubmFtZSB9KQogICAgaWYgKGRhdGE/LnNpZ25lZFVybCkgewogICAgICBjb25zdCBhID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnYScpCiAgICAgIGEuaHJlZiA9IGRhdGEuc2lnbmVkVXJsCiAgICAgIGEuZG93bmxvYWQgPSBkb2MubmFtZQogICAgICBkb2N1bWVudC5ib2R5LmFwcGVuZENoaWxkKGEpCiAgICAgIGEuY2xpY2soKQogICAgICBkb2N1bWVudC5ib2R5LnJlbW92ZUNoaWxkKGEpCiAgICB9CiAgfQoKICBhc3luYyBmdW5jdGlvbiBwcmV2aWV3RG9jdW1lbnQoZG9jOiBEb2N1bWVudCkgewogICAgY29uc3QgeyBkYXRhIH0gPSBhd2FpdCBzdXBhYmFzZS5zdG9yYWdlLmZyb20oJ2RvY3VtZW50cycpLmNyZWF0ZVNpZ25lZFVybChkb2MuZmlsZV9wYXRoLCAzMDApCiAgICBpZiAoZGF0YT8uc2lnbmVkVXJsKSBzZXRQcmV2aWV3RG9jKHsgZG9jLCB1cmw6IGRhdGEuc2lnbmVkVXJsIH0pCiAgfQoKICBmdW5jdGlvbiBpc0ltYWdlKHR5cGU6IHN0cmluZyB8IG51bGwpIHsKICAgIHJldHVybiBbJ2pwZycsICdqcGVnJywgJ3BuZycsICdnaWYnLCAnd2VicCddLmluY2x1ZGVzKHR5cGU/LnRvTG93ZXJDYXNlKCkgfHwgJycpCiAgfQoKICBmdW5jdGlvbiBpc1BERih0eXBlOiBzdHJpbmcgfCBudWxsKSB7CiAgICByZXR1cm4gdHlwZT8udG9Mb3dlckNhc2UoKSA9PT0gJ3BkZicKICB9CgogIGZ1bmN0aW9uIGNhblByZXZpZXcodHlwZTogc3RyaW5nIHwgbnVsbCkgewogICAgcmV0dXJuIGlzSW1hZ2UodHlwZSkgfHwgaXNQREYodHlwZSkKICB9CgogIGZ1bmN0aW9uIGZpbGVJY29uKHR5cGU6IHN0cmluZyB8IG51bGwpIHsKICAgIGlmICghdHlwZSkgcmV0dXJuIDxGaWxlIHNpemU9ezIwfSAvPgogICAgaWYgKFsnanBnJywgJ2pwZWcnLCAncG5nJywgJ2dpZicsICd3ZWJwJ10uaW5jbHVkZXModHlwZSkpIHJldHVybiA8RmlsZUltYWdlIHNpemU9ezIwfSAvPgogICAgcmV0dXJuIDxGaWxlIHNpemU9ezIwfSAvPgogIH0KCiAgZnVuY3Rpb24gZm9ybWF0U2l6ZShieXRlczogbnVtYmVyIHwgbnVsbCkgewogICAgaWYgKCFieXRlcykgcmV0dXJuICcnCiAgICBpZiAoYnl0ZXMgPCAxMDI0KSByZXR1cm4gYCR7Ynl0ZXN9IEJgCiAgICBpZiAoYnl0ZXMgPCAxMDI0ICogMTAyNCkgcmV0dXJuIGAkeyhieXRlcyAvIDEwMjQpLnRvRml4ZWQoMSl9IEtCYAogICAgcmV0dXJuIGAkeyhieXRlcyAvIDEwMjQgLyAxMDI0KS50b0ZpeGVkKDEpfSBNQmAKICB9CgogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0icHgtNCBweS02IG1kOnAtOCBtYXgtdy01eGwgbXgtYXV0byI+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGZsZXgtY29sIHNtOmZsZXgtcm93IHNtOml0ZW1zLWNlbnRlciBzbTpqdXN0aWZ5LWJldHdlZW4gZ2FwLTMgbWItOCI+CiAgICAgICAgPGRpdj4KICAgICAgICAgIDxoMSBjbGFzc05hbWU9InRleHQtMnhsIGZvbnQtYm9sZCB0ZXh0LVt2YXIoLS1mb3JlZ3JvdW5kKV0gZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAgICA8Rm9sZGVyT3BlbiBzaXplPXsyNH0gY2xhc3NOYW1lPSJ0ZXh0LVt2YXIoLS1wcmltYXJ5KV0iIC8+CiAgICAgICAgICAgIERvY3VtZW50b3MKICAgICAgICAgIDwvaDE+CiAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1bdmFyKC0tbXV0ZWQtZm9yZWdyb3VuZCldIG10LTEiPgogICAgICAgICAgICBHdWFyZGEgeSBvcmdhbml6YSB2dWVzdHJvcyBkb2N1bWVudG9zIGltcG9ydGFudGVzCiAgICAgICAgICA8L3A+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZ2FwLTIgZmxleC1zaHJpbmstMCI+CiAgICAgICAgICA8QnV0dG9uIHZhcmlhbnQ9Im91dGxpbmUiIG9uQ2xpY2s9e29wZW5DcmVhdGVGb2xkZXJ9PgogICAgICAgICAgICA8Rm9sZGVyUGx1cyBzaXplPXsxNn0gLz4gTnVldmEgY2FycGV0YQogICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICA8QnV0dG9uIG9uQ2xpY2s9eygpID0+IHNldFNob3dVcGxvYWREaWFsb2codHJ1ZSl9PgogICAgICAgICAgICA8VXBsb2FkIHNpemU9ezE2fSAvPiBTdWJpciBkb2N1bWVudG8KICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KCiAgICAgIHsvKiBCcmVhZGNydW1iICovfQogICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgbWItNiB0ZXh0LXNtIj4KICAgICAgICA8YnV0dG9uCiAgICAgICAgICBvbkNsaWNrPXsoKSA9PiBzZXRTZWxlY3RlZEZvbGRlcihudWxsKX0KICAgICAgICAgIGNsYXNzTmFtZT17YGZsZXggaXRlbXMtY2VudGVyIGdhcC0xIHRyYW5zaXRpb24gJHshc2VsZWN0ZWRGb2xkZXIgPyAndGV4dC1bdmFyKC0tcHJpbWFyeSldIGZvbnQtbWVkaXVtJyA6ICd0ZXh0LVt2YXIoLS1tdXRlZC1mb3JlZ3JvdW5kKV0gaG92ZXI6dGV4dC1bdmFyKC0tZm9yZWdyb3VuZCldJ31gfQogICAgICAgID4KICAgICAgICAgIDxIb21lIHNpemU9ezE0fSAvPiBJbmljaW8KICAgICAgICA8L2J1dHRvbj4KICAgICAgICB7c2VsZWN0ZWRGb2xkZXIgJiYgKAogICAgICAgICAgPD4KICAgICAgICAgICAgPENoZXZyb25SaWdodCBzaXplPXsxNH0gY2xhc3NOYW1lPSJ0ZXh0LVt2YXIoLS1tdXRlZC1mb3JlZ3JvdW5kKV0iIC8+CiAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1bdmFyKC0tZm9yZWdyb3VuZCldIGZvbnQtbWVkaXVtIj57c2VsZWN0ZWRGb2xkZXIubmFtZX08L3NwYW4+CiAgICAgICAgICA8Lz4KICAgICAgICApfQogICAgICA8L2Rpdj4KCiAgICAgIHsvKiBGb2xkZXJzIGdyaWQgKi99CiAgICAgIHshc2VsZWN0ZWRGb2xkZXIgJiYgZm9sZGVycy5sZW5ndGggPiAwICYmICgKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibWItOCI+CiAgICAgICAgICA8aDIgY2xhc3NOYW1lPSJ0ZXh0LXNtIGZvbnQtbWVkaXVtIHRleHQtW3ZhcigtLW11dGVkLWZvcmVncm91bmQpXSBtYi0zIj5DYXJwZXRhczwvaDI+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZ3JpZCBncmlkLWNvbHMtMiBtZDpncmlkLWNvbHMtNCBnYXAtMyI+CiAgICAgICAgICAgIHtmb2xkZXJzLm1hcChmb2xkZXIgPT4gKAogICAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICAgIGtleT17Zm9sZGVyLmlkfQogICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJncm91cCByZWxhdGl2ZSBiZy13aGl0ZSBib3JkZXIgYm9yZGVyLVt2YXIoLS1ib3JkZXIpXSByb3VuZGVkLTJ4bCBwLTQgY3Vyc29yLXBvaW50ZXIgaG92ZXI6c2hhZG93LW1kIHRyYW5zaXRpb24tYWxsIGhvdmVyOi10cmFuc2xhdGUteS0wLjUiCiAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiBzZXRTZWxlY3RlZEZvbGRlcihmb2xkZXIpfQogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJhYnNvbHV0ZSB0b3AtMiByaWdodC0yIG1kOm9wYWNpdHktMCBtZDpncm91cC1ob3ZlcjpvcGFjaXR5LTEwMCBmbGV4IGdhcC0xIHRyYW5zaXRpb24iPgogICAgICAgICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgICAgICAgb25DbGljaz17ZSA9PiBvcGVuRWRpdEZvbGRlcihlLCBmb2xkZXIpfQogICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0icC0xIHJvdW5kZWQtbGcgaG92ZXI6YmctW3ZhcigtLW11dGVkKV0gdGV4dC1bdmFyKC0tbXV0ZWQtZm9yZWdyb3VuZCldIHRyYW5zaXRpb24iCiAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICA8UGVuY2lsIHNpemU9ezEzfSAvPgogICAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9e2UgPT4geyBlLnN0b3BQcm9wYWdhdGlvbigpOyBkZWxldGVGb2xkZXIoZm9sZGVyLmlkKSB9fQogICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0icC0xIHJvdW5kZWQtbGcgaG92ZXI6YmctcmVkLTUwIHRleHQtcmVkLTQwMCB0cmFuc2l0aW9uIgogICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgPFRyYXNoMiBzaXplPXsxM30gLz4KICAgICAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ3LTEwIGgtMTAgcm91bmRlZC14bCBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBtYi0zIgogICAgICAgICAgICAgICAgICBzdHlsZT17eyBiYWNrZ3JvdW5kQ29sb3I6IGZvbGRlci5jb2xvciArICcyNScsIGNvbG9yOiBmb2xkZXIuY29sb3IgfX0KICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgPEZvbGRlck9wZW4gc2l6ZT17MjB9IC8+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSBmb250LW1lZGl1bSB0ZXh0LVt2YXIoLS1mb3JlZ3JvdW5kKV0gdHJ1bmNhdGUiPntmb2xkZXIubmFtZX08L3A+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICkpfQogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgICl9CgogICAgICB7LyogRG9jdW1lbnRzICovfQogICAgICA8ZGl2PgogICAgICAgIHshc2VsZWN0ZWRGb2xkZXIgJiYgPGgyIGNsYXNzTmFtZT0idGV4dC1zbSBmb250LW1lZGl1bSB0ZXh0LVt2YXIoLS1tdXRlZC1mb3JlZ3JvdW5kKV0gbWItMyI+RG9jdW1lbnRvcyBzaW4gY2FycGV0YTwvaDI+fQogICAgICAgIHtkb2N1bWVudHMubGVuZ3RoID09PSAwID8gKAogICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtY2VudGVyIHB5LTE2Ij4KICAgICAgICAgICAgPEZvbGRlck9wZW4gc2l6ZT17NDh9IGNsYXNzTmFtZT0ibXgtYXV0byB0ZXh0LVt2YXIoLS1tdXRlZC1mb3JlZ3JvdW5kKV0gb3BhY2l0eS0zMCBtYi0zIiAvPgogICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtW3ZhcigtLW11dGVkLWZvcmVncm91bmQpXSI+Tm8gaGF5IGRvY3VtZW50b3MgYXF1w608L3A+CiAgICAgICAgICAgIDxCdXR0b24gY2xhc3NOYW1lPSJtdC00IiBvbkNsaWNrPXsoKSA9PiBzZXRTaG93VXBsb2FkRGlhbG9nKHRydWUpfT4KICAgICAgICAgICAgICA8VXBsb2FkIHNpemU9ezE2fSAvPiBTdWJpciBwcmltZXJvIGRvY3VtZW50bwogICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgIDwvZGl2PgogICAgICAgICkgOiAoCiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LWNvbCBnYXAtMiI+CiAgICAgICAgICAgIHtkb2N1bWVudHMubWFwKGRvYyA9PiAoCiAgICAgICAgICAgICAgPENhcmQKICAgICAgICAgICAgICAgIGtleT17ZG9jLmlkfQogICAgICAgICAgICAgICAgY2xhc3NOYW1lPXtgZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTQgcHgtNSBweS00IGhvdmVyOnNoYWRvdy1tZCB0cmFuc2l0aW9uICR7Y2FuUHJldmlldyhkb2MuZmlsZV90eXBlKSA/ICdjdXJzb3ItcG9pbnRlcicgOiAnJ31gfQogICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gY2FuUHJldmlldyhkb2MuZmlsZV90eXBlKSAmJiBwcmV2aWV3RG9jdW1lbnQoZG9jKX0KICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idy0xMCBoLTEwIHJvdW5kZWQteGwgYmctW3ZhcigtLXByaW1hcnktbGlnaHQpXSBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciB0ZXh0LVt2YXIoLS1wcmltYXJ5KV0gZmxleC1zaHJpbmstMCI+CiAgICAgICAgICAgICAgICAgIHtmaWxlSWNvbihkb2MuZmlsZV90eXBlKX0KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXgtMSBtaW4tdy0wIj4KICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIGZvbnQtbWVkaXVtIHRleHQtW3ZhcigtLWZvcmVncm91bmQpXSB0cnVuY2F0ZSI+e2RvYy5uYW1lfTwvcD4KICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtW3ZhcigtLW11dGVkLWZvcmVncm91bmQpXSI+CiAgICAgICAgICAgICAgICAgICAge2RvYy5maWxlX3R5cGU/LnRvVXBwZXJDYXNlKCl9IMK3IHtmb3JtYXRTaXplKGRvYy5maWxlX3NpemUpfSDCtyB7Zm9ybWF0RGF0ZShkb2MuY3JlYXRlZF9hdCl9CiAgICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICAgICAge2RvYy5kZXNjcmlwdGlvbiAmJiA8cCBjbGFzc05hbWU9InRleHQteHMgdGV4dC1bdmFyKC0tbXV0ZWQtZm9yZWdyb3VuZCldIG10LTAuNSB0cnVuY2F0ZSI+e2RvYy5kZXNjcmlwdGlvbn08L3A+fQogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBnYXAtMSIgb25DbGljaz17ZSA9PiBlLnN0b3BQcm9wYWdhdGlvbigpfT4KICAgICAgICAgICAgICAgICAgPGJ1dHRvbiBvbkNsaWNrPXtlID0+IG9wZW5FZGl0RG9jKGUsIGRvYyl9IGNsYXNzTmFtZT0icC0yIHJvdW5kZWQtbGcgaG92ZXI6YmctW3ZhcigtLW11dGVkKV0gdGV4dC1bdmFyKC0tbXV0ZWQtZm9yZWdyb3VuZCldIHRyYW5zaXRpb24iIHRpdGxlPSJFZGl0YXIiPgogICAgICAgICAgICAgICAgICAgIDxQZW5jaWwgc2l6ZT17MTZ9IC8+CiAgICAgICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICAgICAgICA8YnV0dG9uIG9uQ2xpY2s9eygpID0+IGRvd25sb2FkRG9jdW1lbnQoZG9jKX0gY2xhc3NOYW1lPSJwLTIgcm91bmRlZC1sZyBob3ZlcjpiZy1bdmFyKC0tbXV0ZWQpXSB0ZXh0LVt2YXIoLS1tdXRlZC1mb3JlZ3JvdW5kKV0gdHJhbnNpdGlvbiIgdGl0bGU9IkRlc2NhcmdhciI+CiAgICAgICAgICAgICAgICAgICAgPERvd25sb2FkIHNpemU9ezE2fSAvPgogICAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICAgICAgPGJ1dHRvbiBvbkNsaWNrPXsoKSA9PiBkZWxldGVEb2N1bWVudChkb2MpfSBjbGFzc05hbWU9InAtMiByb3VuZGVkLWxnIGhvdmVyOmJnLXJlZC01MCB0ZXh0LXJlZC00MDAgdHJhbnNpdGlvbiIgdGl0bGU9IkVsaW1pbmFyIj4KICAgICAgICAgICAgICAgICAgICA8VHJhc2gyIHNpemU9ezE2fSAvPgogICAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDwvQ2FyZD4KICAgICAgICAgICAgKSl9CiAgICAgICAgICA8L2Rpdj4KICAgICAgICApfQogICAgICA8L2Rpdj4KCiAgICAgIHsvKiBGb2xkZXIgZGlhbG9nIChjcmVhdGUgLyBlZGl0KSAqL30KICAgICAgPERpYWxvZyBvcGVuPXtzaG93Rm9sZGVyRGlhbG9nfSBvbkNsb3NlPXsoKSA9PiBzZXRTaG93Rm9sZGVyRGlhbG9nKGZhbHNlKX0gdGl0bGU9e2VkaXRpbmdGb2xkZXIgPyAnRWRpdGFyIGNhcnBldGEnIDogJ051ZXZhIGNhcnBldGEnfT4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LWNvbCBnYXAtNCI+CiAgICAgICAgICA8SW5wdXQgbGFiZWw9Ik5vbWJyZSIgcGxhY2Vob2xkZXI9IkVqOiBETkkgeSBwYXNhcG9ydGVzIiB2YWx1ZT17bmV3Rm9sZGVyLm5hbWV9IG9uQ2hhbmdlPXtlID0+IHNldE5ld0ZvbGRlcihmID0+ICh7IC4uLmYsIG5hbWU6IGUudGFyZ2V0LnZhbHVlIH0pKX0gLz4KICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgIDxsYWJlbCBjbGFzc05hbWU9InRleHQtc20gZm9udC1tZWRpdW0gdGV4dC1bdmFyKC0tZm9yZWdyb3VuZCldIGJsb2NrIG1iLTIiPkNvbG9yPC9sYWJlbD4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZ2FwLTIiPgogICAgICAgICAgICAgIHtGT0xERVJfQ09MT1JTLm1hcChjID0+ICgKICAgICAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICAgICAga2V5PXtjfQogICAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiBzZXROZXdGb2xkZXIoZiA9PiAoeyAuLi5mLCBjb2xvcjogYyB9KSl9CiAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT17YHctOCBoLTggcm91bmRlZC1mdWxsIHRyYW5zaXRpb24gJHtuZXdGb2xkZXIuY29sb3IgPT09IGMgPyAncmluZy0yIHJpbmctb2Zmc2V0LTIgcmluZy1bdmFyKC0tcHJpbWFyeSldJyA6ICcnfWB9CiAgICAgICAgICAgICAgICAgIHN0eWxlPXt7IGJhY2tncm91bmRDb2xvcjogYyB9fQogICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGp1c3RpZnktZW5kIGdhcC0yIG10LTIiPgogICAgICAgICAgICA8QnV0dG9uIHZhcmlhbnQ9Im91dGxpbmUiIG9uQ2xpY2s9eygpID0+IHNldFNob3dGb2xkZXJEaWFsb2coZmFsc2UpfT5DYW5jZWxhcjwvQnV0dG9uPgogICAgICAgICAgICA8QnV0dG9uIG9uQ2xpY2s9e3NhdmVGb2xkZXJ9IGRpc2FibGVkPXshbmV3Rm9sZGVyLm5hbWUudHJpbSgpfT57ZWRpdGluZ0ZvbGRlciA/ICdHdWFyZGFyJyA6ICdDcmVhciBjYXJwZXRhJ308L0J1dHRvbj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICA8L0RpYWxvZz4KCiAgICAgIHsvKiBQcmV2aWV3IG92ZXJsYXkgKi99CiAgICAgIHtwcmV2aWV3RG9jICYmICgKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZml4ZWQgaW5zZXQtMCB6LTUwIGJnLWJsYWNrLzkwIGZsZXggZmxleC1jb2wiIG9uQ2xpY2s9eygpID0+IHNldFByZXZpZXdEb2MobnVsbCl9PgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBweC00IHB5LTMgZmxleC1zaHJpbmstMCIgb25DbGljaz17ZSA9PiBlLnN0b3BQcm9wYWdhdGlvbigpfT4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXdoaXRlIGZvbnQtbWVkaXVtIHRleHQtc20gdHJ1bmNhdGUgZmxleC0xIG1yLTQiPntwcmV2aWV3RG9jLmRvYy5uYW1lfTwvcD4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZ2FwLTIiPgogICAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHdpbmRvdy5vcGVuKHByZXZpZXdEb2MudXJsLCAnX2JsYW5rJyl9CiAgICAgICAgICAgICAgICBjbGFzc05hbWU9InAtMiByb3VuZGVkLWxnIGJnLXdoaXRlLzEwIGhvdmVyOmJnLXdoaXRlLzIwIHRleHQtd2hpdGUgdHJhbnNpdGlvbiIKICAgICAgICAgICAgICAgIHRpdGxlPSJEZXNjYXJnYXIiCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgPERvd25sb2FkIHNpemU9ezE4fSAvPgogICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHNldFByZXZpZXdEb2MobnVsbCl9CiAgICAgICAgICAgICAgICBjbGFzc05hbWU9InAtMiByb3VuZGVkLWxnIGJnLXdoaXRlLzEwIGhvdmVyOmJnLXdoaXRlLzIwIHRleHQtd2hpdGUgdHJhbnNpdGlvbiIKICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICA8WCBzaXplPXsxOH0gLz4KICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4LTEgb3ZlcmZsb3ctYXV0byBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBwLTQiIG9uQ2xpY2s9e2UgPT4gZS5zdG9wUHJvcGFnYXRpb24oKX0+CiAgICAgICAgICAgIHtpc0ltYWdlKHByZXZpZXdEb2MuZG9jLmZpbGVfdHlwZSkgPyAoCiAgICAgICAgICAgICAgPGltZwogICAgICAgICAgICAgICAgc3JjPXtwcmV2aWV3RG9jLnVybH0KICAgICAgICAgICAgICAgIGFsdD17cHJldmlld0RvYy5kb2MubmFtZX0KICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0ibWF4LXctZnVsbCBtYXgtaC1mdWxsIG9iamVjdC1jb250YWluIHJvdW5kZWQtbGciCiAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgKSA6IGlzUERGKHByZXZpZXdEb2MuZG9jLmZpbGVfdHlwZSkgPyAoCiAgICAgICAgICAgICAgPGlmcmFtZQogICAgICAgICAgICAgICAgc3JjPXtwcmV2aWV3RG9jLnVybH0KICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0idy1mdWxsIHJvdW5kZWQtbGcgYmctd2hpdGUiCiAgICAgICAgICAgICAgICBzdHlsZT17eyBoZWlnaHQ6ICdjYWxjKDEwMHZoIC0gMTAwcHgpJyB9fQogICAgICAgICAgICAgICAgdGl0bGU9e3ByZXZpZXdEb2MuZG9jLm5hbWV9CiAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgKSA6IG51bGx9CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgKX0KCiAgICAgIHsvKiBFZGl0IGRvY3VtZW50IG5hbWUgZGlhbG9nICovfQogICAgICA8RGlhbG9nIG9wZW49eyEhZWRpdGluZ0RvY30gb25DbG9zZT17KCkgPT4gc2V0RWRpdGluZ0RvYyhudWxsKX0gdGl0bGU9IkVkaXRhciBkb2N1bWVudG8iPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGZsZXgtY29sIGdhcC00Ij4KICAgICAgICAgIDxJbnB1dAogICAgICAgICAgICBsYWJlbD0iTm9tYnJlIgogICAgICAgICAgICB2YWx1ZT17ZWRpdGluZ0RvY05hbWV9CiAgICAgICAgICAgIG9uQ2hhbmdlPXtlID0+IHNldEVkaXRpbmdEb2NOYW1lKGUudGFyZ2V0LnZhbHVlKX0KICAgICAgICAgICAgb25LZXlEb3duPXtlID0+IGUua2V5ID09PSAnRW50ZXInICYmIHNhdmVEb2NOYW1lKCl9CiAgICAgICAgICAgIGF1dG9Gb2N1cwogICAgICAgICAgLz4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGp1c3RpZnktZW5kIGdhcC0yIG10LTIiPgogICAgICAgICAgICA8QnV0dG9uIHZhcmlhbnQ9Im91dGxpbmUiIG9uQ2xpY2s9eygpID0+IHNldEVkaXRpbmdEb2MobnVsbCl9PkNhbmNlbGFyPC9CdXR0b24+CiAgICAgICAgICAgIDxCdXR0b24gb25DbGljaz17c2F2ZURvY05hbWV9IGRpc2FibGVkPXshZWRpdGluZ0RvY05hbWUudHJpbSgpfT5HdWFyZGFyPC9CdXR0b24+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9EaWFsb2c+CgogICAgICB7LyogVXBsb2FkIGRpYWxvZyAqL30KICAgICAgPERpYWxvZyBvcGVuPXtzaG93VXBsb2FkRGlhbG9nfSBvbkNsb3NlPXsoKSA9PiBzZXRTaG93VXBsb2FkRGlhbG9nKGZhbHNlKX0gdGl0bGU9IlN1YmlyIGRvY3VtZW50byI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZmxleC1jb2wgZ2FwLTQiPgogICAgICAgICAgPElucHV0IGxhYmVsPSJOb21icmUgZGVsIGRvY3VtZW50byIgcGxhY2Vob2xkZXI9IkVqOiBETkkgZGUgQW5hIiB2YWx1ZT17bmV3RG9jLm5hbWV9IG9uQ2hhbmdlPXtlID0+IHNldE5ld0RvYyhkID0+ICh7IC4uLmQsIG5hbWU6IGUudGFyZ2V0LnZhbHVlIH0pKX0gLz4KICAgICAgICAgIDxUZXh0YXJlYSBsYWJlbD0iRGVzY3JpcGNpw7NuIChvcGNpb25hbCkiIHBsYWNlaG9sZGVyPSJOb3RhcyBhZGljaW9uYWxlcy4uLiIgdmFsdWU9e25ld0RvYy5kZXNjcmlwdGlvbn0gb25DaGFuZ2U9e2UgPT4gc2V0TmV3RG9jKGQgPT4gKHsgLi4uZCwgZGVzY3JpcHRpb246IGUudGFyZ2V0LnZhbHVlIH0pKX0gcm93cz17Mn0gLz4KICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgIDxsYWJlbCBjbGFzc05hbWU9InRleHQtc20gZm9udC1tZWRpdW0gdGV4dC1bdmFyKC0tZm9yZWdyb3VuZCldIGJsb2NrIG1iLTIiPkFyY2hpdm88L2xhYmVsPgogICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgY2xhc3NOYW1lPSJib3JkZXItMiBib3JkZXItZGFzaGVkIGJvcmRlci1bdmFyKC0tYm9yZGVyKV0gcm91bmRlZC14bCBwLTYgdGV4dC1jZW50ZXIgY3Vyc29yLXBvaW50ZXIgaG92ZXI6Ym9yZGVyLVt2YXIoLS1wcmltYXJ5KV0gdHJhbnNpdGlvbiIKICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiBmaWxlUmVmLmN1cnJlbnQ/LmNsaWNrKCl9CiAgICAgICAgICAgID4KICAgICAgICAgICAgICB7c2VsZWN0ZWRGaWxlID8gKAogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIGdhcC0yIj4KICAgICAgICAgICAgICAgICAgPEZpbGUgc2l6ZT17MTh9IGNsYXNzTmFtZT0idGV4dC1bdmFyKC0tcHJpbWFyeSldIiAvPgogICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtc20gdGV4dC1bdmFyKC0tZm9yZWdyb3VuZCldIj57c2VsZWN0ZWRGaWxlLm5hbWV9PC9zcGFuPgogICAgICAgICAgICAgICAgICA8YnV0dG9uIG9uQ2xpY2s9e2UgPT4geyBlLnN0b3BQcm9wYWdhdGlvbigpOyBzZXRTZWxlY3RlZEZpbGUobnVsbCkgfX0+CiAgICAgICAgICAgICAgICAgICAgPFggc2l6ZT17MTR9IGNsYXNzTmFtZT0idGV4dC1bdmFyKC0tbXV0ZWQtZm9yZWdyb3VuZCldIiAvPgogICAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICkgOiAoCiAgICAgICAgICAgICAgICA8PgogICAgICAgICAgICAgICAgICA8VXBsb2FkIHNpemU9ezI0fSBjbGFzc05hbWU9Im14LWF1dG8gdGV4dC1bdmFyKC0tbXV0ZWQtZm9yZWdyb3VuZCldIG1iLTIiIC8+CiAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LVt2YXIoLS1tdXRlZC1mb3JlZ3JvdW5kKV0iPkhheiBjbGljIHBhcmEgc2VsZWNjaW9uYXIgdW4gYXJjaGl2bzwvcD4KICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtW3ZhcigtLW11dGVkLWZvcmVncm91bmQpXSBtdC0xIj5QREYsIEpQRywgUE5HLCBldGMuPC9wPgogICAgICAgICAgICAgICAgPC8+CiAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxpbnB1dCByZWY9e2ZpbGVSZWZ9IHR5cGU9ImZpbGUiIGNsYXNzTmFtZT0iaGlkZGVuIiBhY2NlcHQ9Ii5wZGYsLmpwZywuanBlZywucG5nLC53ZWJwLC5kb2MsLmRvY3giIG9uQ2hhbmdlPXtlID0+IHNldFNlbGVjdGVkRmlsZShlLnRhcmdldC5maWxlcz8uWzBdIHx8IG51bGwpfSAvPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICB7c2VsZWN0ZWRGb2xkZXIgJiYgKAogICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQteHMgdGV4dC1bdmFyKC0tbXV0ZWQtZm9yZWdyb3VuZCldIj5TZSBndWFyZGFyw6EgZW46IDxzdHJvbmc+e3NlbGVjdGVkRm9sZGVyLm5hbWV9PC9zdHJvbmc+PC9wPgogICAgICAgICAgKX0KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGp1c3RpZnktZW5kIGdhcC0yIG10LTIiPgogICAgICAgICAgICA8QnV0dG9uIHZhcmlhbnQ9Im91dGxpbmUiIG9uQ2xpY2s9eygpID0+IHNldFNob3dVcGxvYWREaWFsb2coZmFsc2UpfT5DYW5jZWxhcjwvQnV0dG9uPgogICAgICAgICAgICA8QnV0dG9uIG9uQ2xpY2s9e3VwbG9hZERvY3VtZW50fSBsb2FkaW5nPXt1cGxvYWRpbmd9IGRpc2FibGVkPXshc2VsZWN0ZWRGaWxlIHx8ICFuZXdEb2MubmFtZS50cmltKCl9PgogICAgICAgICAgICAgIFN1YmlyCiAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvRGlhbG9nPgogICAgPC9kaXY+CiAgKQp9Cg=="
+'use client'
+
+import { useState, useEffect, useRef } from 'react'
+import { createClient } from '@/lib/supabase/client'
+import { Button } from '@/components/ui/button'
+import { Input, Textarea } from '@/components/ui/input'
+import { Dialog } from '@/components/ui/dialog'
+import { Card } from '@/components/ui/card'
+import { formatDate } from '@/lib/utils'
+import type { Folder, Document } from '@/lib/types'
+import {
+  FolderOpen, Plus, Upload, File, FileImage, Trash2,
+  Download, ChevronRight, Home, FolderPlus, X, Pencil
+} from 'lucide-react'
+
+const FOLDER_COLORS = ['#C4737A', '#7A9BC4', '#7AC4A0', '#C4A87A', '#A87AC4', '#C4C47A']
+
+export default function DocumentosPage() {
+  const supabase = createClient()
+  const [folders, setFolders] = useState<Folder[]>([])
+  const [documents, setDocuments] = useState<Document[]>([])
+  const [selectedFolder, setSelectedFolder] = useState<Folder | null>(null)
+  const [coupleId, setCoupleId] = useState<string | null>(null)
+  const [userId, setUserId] = useState<string | null>(null)
+  const [showFolderDialog, setShowFolderDialog] = useState(false)
+  const [editingFolder, setEditingFolder] = useState<Folder | null>(null)
+  const [editingDoc, setEditingDoc] = useState<Document | null>(null)
+  const [editingDocName, setEditingDocName] = useState('')
+  const [previewDoc, setPreviewDoc] = useState<{ doc: Document; url: string } | null>(null)
+  const [showUploadDialog, setShowUploadDialog] = useState(false)
+  const [uploading, setUploading] = useState(false)
+  const [newFolder, setNewFolder] = useState({ name: '', color: FOLDER_COLORS[0] })
+  const [newDoc, setNewDoc] = useState({ name: '', description: '' })
+  const [selectedFile, setSelectedFile] = useState<File | null>(null)
+  const fileRef = useRef<HTMLInputElement>(null)
+
+  useEffect(() => {
+    async function load() {
+      const { data: { user } } = await supabase.auth.getUser()
+      if (!user) return
+      setUserId(user.id)
+      const { data: profile } = await supabase.from('profiles').select('couple_id').eq('id', user.id).single()
+      if (!profile?.couple_id) return
+      setCoupleId(profile.couple_id)
+      const { data: fols } = await supabase.from('folders').select('*').eq('couple_id', profile.couple_id).order('created_at')
+      setFolders(fols || [])
+    }
+    load()
+  }, [])
+
+  useEffect(() => {
+    if (!coupleId) return
+    async function loadDocs() {
+      let query = supabase.from('documents').select('*').eq('couple_id', coupleId!).order('created_at', { ascending: false })
+      if (selectedFolder) query = query.eq('folder_id', selectedFolder.id)
+      else query = query.is('folder_id', null)
+      const { data } = await query
+      setDocuments(data || [])
+    }
+    loadDocs()
+  }, [coupleId, selectedFolder])
+
+  function openCreateFolder() {
+    setEditingFolder(null)
+    setNewFolder({ name: '', color: FOLDER_COLORS[0] })
+    setShowFolderDialog(true)
+  }
+
+  function openEditFolder(e: React.MouseEvent, folder: Folder) {
+    e.stopPropagation()
+    setEditingFolder(folder)
+    setNewFolder({ name: folder.name, color: folder.color || FOLDER_COLORS[0] })
+    setShowFolderDialog(true)
+  }
+
+  async function saveFolder() {
+    if (!newFolder.name.trim()) return
+    if (editingFolder) {
+      await supabase.from('folders').update({ name: newFolder.name, color: newFolder.color }).eq('id', editingFolder.id)
+      setFolders(f => f.map(x => x.id === editingFolder.id ? { ...x, name: newFolder.name, color: newFolder.color } : x))
+      if (selectedFolder?.id === editingFolder.id) setSelectedFolder(s => s ? { ...s, name: newFolder.name, color: newFolder.color } : s)
+    } else {
+      if (!coupleId) return
+      const { data } = await supabase.from('folders')
+        .insert({ couple_id: coupleId, name: newFolder.name, color: newFolder.color, created_by: userId })
+        .select().single()
+      if (data) setFolders(f => [...f, data])
+    }
+    setNewFolder({ name: '', color: FOLDER_COLORS[0] })
+    setShowFolderDialog(false)
+  }
+
+  async function deleteFolder(id: string) {
+    if (!confirm('¿Eliminar esta carpeta y todos sus documentos?')) return
+    await supabase.from('folders').delete().eq('id', id)
+    setFolders(f => f.filter(x => x.id !== id))
+    if (selectedFolder?.id === id) setSelectedFolder(null)
+  }
+
+  async function uploadDocument() {
+    if (!coupleId || !selectedFile || !newDoc.name.trim()) return
+    setUploading(true)
+    const ext = selectedFile.name.split('.').pop()
+    const path = `${coupleId}/${Date.now()}-${selectedFile.name}`
+    const { error: uploadError } = await supabase.storage.from('documents').upload(path, selectedFile)
+    if (uploadError) { setUploading(false); return }
+
+    const { data } = await supabase.from('documents').insert({
+      couple_id: coupleId,
+      folder_id: selectedFolder?.id || null,
+      name: newDoc.name,
+      description: newDoc.description,
+      file_path: path,
+      file_type: ext,
+      file_size: selectedFile.size,
+      uploaded_by: userId,
+    }).select().single()
+
+    if (data) setDocuments(d => [data, ...d])
+    setNewDoc({ name: '', description: '' })
+    setSelectedFile(null)
+    setUploading(false)
+    setShowUploadDialog(false)
+  }
+
+  async function deleteDocument(doc: Document) {
+    if (!confirm('¿Eliminar este documento?')) return
+    await supabase.storage.from('documents').remove([doc.file_path])
+    await supabase.from('documents').delete().eq('id', doc.id)
+    setDocuments(d => d.filter(x => x.id !== doc.id))
+  }
+
+  function openEditDoc(e: React.MouseEvent, doc: Document) {
+    e.stopPropagation()
+    setEditingDoc(doc)
+    setEditingDocName(doc.name)
+  }
+
+  async function saveDocName() {
+    if (!editingDoc || !editingDocName.trim()) return
+    await supabase.from('documents').update({ name: editingDocName.trim() }).eq('id', editingDoc.id)
+    setDocuments(d => d.map(x => x.id === editingDoc.id ? { ...x, name: editingDocName.trim() } : x))
+    setEditingDoc(null)
+  }
+
+  async function downloadDocument(doc: Document) {
+    const { data } = await supabase.storage.from('documents').createSignedUrl(doc.file_path, 60, { download: doc.name })
+    if (data?.signedUrl) {
+      const a = document.createElement('a')
+      a.href = data.signedUrl
+      a.download = doc.name
+      document.body.appendChild(a)
+      a.click()
+      document.body.removeChild(a)
+    }
+  }
+
+  async function previewDocument(doc: Document) {
+    const { data } = await supabase.storage.from('documents').createSignedUrl(doc.file_path, 300)
+    if (data?.signedUrl) setPreviewDoc({ doc, url: data.signedUrl })
+  }
+
+  function isImage(type: string | null) {
+    return ['jpg', 'jpeg', 'png', 'gif', 'webp'].includes(type?.toLowerCase() || '')
+  }
+
+  function isPDF(type: string | null) {
+    return type?.toLowerCase() === 'pdf'
+  }
+
+  function canPreview(type: string | null) {
+    return isImage(type) || isPDF(type)
+  }
+
+  function fileIcon(type: string | null) {
+    if (!type) return <File size={20} />
+    if (['jpg', 'jpeg', 'png', 'gif', 'webp'].includes(type)) return <FileImage size={20} />
+    return <File size={20} />
+  }
+
+  function formatSize(bytes: number | null) {
+    if (!bytes) return ''
+    if (bytes < 1024) return `${bytes} B`
+    if (bytes < 1024 * 1024) return `${(bytes / 1024).toFixed(1)} KB`
+    return `${(bytes / 1024 / 1024).toFixed(1)} MB`
+  }
+
+  return (
+    <div className="px-4 py-6 md:p-8 max-w-5xl mx-auto">
+      <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mb-8">
+        <div>
+          <h1 className="text-2xl font-bold text-[var(--foreground)] flex items-center gap-2">
+            <FolderOpen size={24} className="text-[var(--primary)]" />
+            Documentos
+          </h1>
+          <p className="text-sm text-[var(--muted-foreground)] mt-1">
+            Guarda y organiza vuestros documentos importantes
+          </p>
+        </div>
+        <div className="flex gap-2 flex-shrink-0">
+          <Button variant="outline" onClick={openCreateFolder}>
+            <FolderPlus size={16} /> Nueva carpeta
+          </Button>
+          <Button onClick={() => setShowUploadDialog(true)}>
+            <Upload size={16} /> Subir documento
+          </Button>
+        </div>
+      </div>
+
+      {/* Breadcrumb */}
+      <div className="flex items-center gap-2 mb-6 text-sm">
+        <button
+          onClick={() => setSelectedFolder(null)}
+          className={`flex items-center gap-1 transition ${!selectedFolder ? 'text-[var(--primary)] font-medium' : 'text-[var(--muted-foreground)] hover:text-[var(--foreground)]'}`}
+        >
+          <Home size={14} /> Inicio
+        </button>
+        {selectedFolder && (
+          <>
+            <ChevronRight size={14} className="text-[var(--muted-foreground)]" />
+            <span className="text-[var(--foreground)] font-medium">{selectedFolder.name}</span>
+          </>
+        )}
+      </div>
+
+      {/* Folders grid */}
+      {!selectedFolder && folders.length > 0 && (
+        <div className="mb-8">
+          <h2 className="text-sm font-medium text-[var(--muted-foreground)] mb-3">Carpetas</h2>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+            {folders.map(folder => (
+              <div
+                key={folder.id}
+                className="group relative bg-white border border-[var(--border)] rounded-2xl p-4 cursor-pointer hover:shadow-md transition-all hover:-translate-y-0.5"
+                onClick={() => setSelectedFolder(folder)}
+              >
+                <div className="absolute top-2 right-2 md:opacity-0 md:group-hover:opacity-100 flex gap-1 transition">
+                  <button
+                    onClick={e => openEditFolder(e, folder)}
+                    className="p-1 rounded-lg hover:bg-[var(--muted)] text-[var(--muted-foreground)] transition"
+                  >
+                    <Pencil size={13} />
+                  </button>
+                  <button
+                    onClick={e => { e.stopPropagation(); deleteFolder(folder.id) }}
+                    className="p-1 rounded-lg hover:bg-red-50 text-red-400 transition"
+                  >
+                    <Trash2 size={13} />
+                  </button>
+                </div>
+                <div
+                  className="w-10 h-10 rounded-xl flex items-center justify-center mb-3"
+                  style={{ backgroundColor: folder.color + '25', color: folder.color }}
+                >
+                  <FolderOpen size={20} />
+                </div>
+                <p className="text-sm font-medium text-[var(--foreground)] truncate">{folder.name}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Documents */}
+      <div>
+        {!selectedFolder && <h2 className="text-sm font-medium text-[var(--muted-foreground)] mb-3">Documentos sin carpeta</h2>}
+        {documents.length === 0 ? (
+          <div className="text-center py-16">
+            <FolderOpen size={48} className="mx-auto text-[var(--muted-foreground)] opacity-30 mb-3" />
+            <p className="text-[var(--muted-foreground)]">No hay documentos aquí</p>
+            <Button className="mt-4" onClick={() => setShowUploadDialog(true)}>
+              <Upload size={16} /> Subir primero documento
+            </Button>
+          </div>
+        ) : (
+          <div className="flex flex-col gap-2">
+            {documents.map(doc => (
+              <Card
+                key={doc.id}
+                className={`flex items-center gap-4 px-5 py-4 hover:shadow-md transition ${canPreview(doc.file_type) ? 'cursor-pointer' : ''}`}
+                onClick={() => canPreview(doc.file_type) && previewDocument(doc)}
+              >
+                <div className="w-10 h-10 rounded-xl bg-[var(--primary-light)] flex items-center justify-center text-[var(--primary)] flex-shrink-0">
+                  {fileIcon(doc.file_type)}
+                </div>
+                <div className="flex-1 min-w-0">
+                  <p className="text-sm font-medium text-[var(--foreground)] truncate">{doc.name}</p>
+                  <p className="text-xs text-[var(--muted-foreground)]">
+                    {doc.file_type?.toUpperCase()} · {formatSize(doc.file_size)} · {formatDate(doc.created_at)}
+                  </p>
+                  {doc.description && <p className="text-xs text-[var(--muted-foreground)] mt-0.5 truncate">{doc.description}</p>}
+                </div>
+                <div className="flex gap-1" onClick={e => e.stopPropagation()}>
+                  <button onClick={e => openEditDoc(e, doc)} className="p-2 rounded-lg hover:bg-[var(--muted)] text-[var(--muted-foreground)] transition" title="Editar">
+                    <Pencil size={16} />
+                  </button>
+                  <button onClick={() => downloadDocument(doc)} className="p-2 rounded-lg hover:bg-[var(--muted)] text-[var(--muted-foreground)] transition" title="Descargar">
+                    <Download size={16} />
+                  </button>
+                  <button onClick={() => deleteDocument(doc)} className="p-2 rounded-lg hover:bg-red-50 text-red-400 transition" title="Eliminar">
+                    <Trash2 size={16} />
+                  </button>
+                </div>
+              </Card>
+            ))}
+          </div>
+        )}
+      </div>
+
+      {/* Folder dialog (create / edit) */}
+      <Dialog open={showFolderDialog} onClose={() => setShowFolderDialog(false)} title={editingFolder ? 'Editar carpeta' : 'Nueva carpeta'}>
+        <div className="flex flex-col gap-4">
+          <Input label="Nombre" placeholder="Ej: DNI y pasaportes" value={newFolder.name} onChange={e => setNewFolder(f => ({ ...f, name: e.target.value }))} />
+          <div>
+            <label className="text-sm font-medium text-[var(--foreground)] block mb-2">Color</label>
+            <div className="flex gap-2">
+              {FOLDER_COLORS.map(c => (
+                <button
+                  key={c}
+                  onClick={() => setNewFolder(f => ({ ...f, color: c }))}
+                  className={`w-8 h-8 rounded-full transition ${newFolder.color === c ? 'ring-2 ring-offset-2 ring-[var(--primary)]' : ''}`}
+                  style={{ backgroundColor: c }}
+                />
+              ))}
+            </div>
+          </div>
+          <div className="flex justify-end gap-2 mt-2">
+            <Button variant="outline" onClick={() => setShowFolderDialog(false)}>Cancelar</Button>
+            <Button onClick={saveFolder} disabled={!newFolder.name.trim()}>{editingFolder ? 'Guardar' : 'Crear carpeta'}</Button>
+          </div>
+        </div>
+      </Dialog>
+
+      {/* Preview overlay */}
+      {previewDoc && (
+        <div className="fixed inset-0 z-50 bg-black/90 flex flex-col" onClick={() => setPreviewDoc(null)}>
+          <div className="flex items-center justify-between px-4 py-3 flex-shrink-0" onClick={e => e.stopPropagation()}>
+            <p className="text-white font-medium text-sm truncate flex-1 mr-4">{previewDoc.doc.name}</p>
+            <div className="flex gap-2">
+              <button
+                onClick={() => window.open(previewDoc.url, '_blank')}
+                className="p-2 rounded-lg bg-white/10 hover:bg-white/20 text-white transition"
+                title="Descargar"
+              >
+                <Download size={18} />
+              </button>
+              <button
+                onClick={() => setPreviewDoc(null)}
+                className="p-2 rounded-lg bg-white/10 hover:bg-white/20 text-white transition"
+              >
+                <X size={18} />
+              </button>
+            </div>
+          </div>
+          <div className="flex-1 overflow-auto flex items-center justify-center p-4" onClick={e => e.stopPropagation()}>
+            {isImage(previewDoc.doc.file_type) ? (
+              <img
+                src={previewDoc.url}
+                alt={previewDoc.doc.name}
+                className="max-w-full max-h-full object-contain rounded-lg"
+              />
+            ) : isPDF(previewDoc.doc.file_type) ? (
+              <iframe
+                src={previewDoc.url}
+                className="w-full rounded-lg bg-white"
+                style={{ height: 'calc(100vh - 100px)' }}
+                title={previewDoc.doc.name}
+              />
+            ) : null}
+          </div>
+        </div>
+      )}
+
+      {/* Edit document name dialog */}
+      <Dialog open={!!editingDoc} onClose={() => setEditingDoc(null)} title="Editar documento">
+        <div className="flex flex-col gap-4">
+          <Input
+            label="Nombre"
+            value={editingDocName}
+            onChange={e => setEditingDocName(e.target.value)}
+            onKeyDown={e => e.key === 'Enter' && saveDocName()}
+            autoFocus
+          />
+          <div className="flex justify-end gap-2 mt-2">
+            <Button variant="outline" onClick={() => setEditingDoc(null)}>Cancelar</Button>
+            <Button onClick={saveDocName} disabled={!editingDocName.trim()}>Guardar</Button>
+          </div>
+        </div>
+      </Dialog>
+
+      {/* Upload dialog */}
+      <Dialog open={showUploadDialog} onClose={() => setShowUploadDialog(false)} title="Subir documento">
+        <div className="flex flex-col gap-4">
+          <Input label="Nombre del documento" placeholder="Ej: DNI de Ana" value={newDoc.name} onChange={e => setNewDoc(d => ({ ...d, name: e.target.value }))} />
+          <Textarea label="Descripción (opcional)" placeholder="Notas adicionales..." value={newDoc.description} onChange={e => setNewDoc(d => ({ ...d, description: e.target.value }))} rows={2} />
+          <div>
+            <label className="text-sm font-medium text-[var(--foreground)] block mb-2">Archivo</label>
+            <div
+              className="border-2 border-dashed border-[var(--border)] rounded-xl p-6 text-center cursor-pointer hover:border-[var(--primary)] transition"
+              onClick={() => fileRef.current?.click()}
+            >
+              {selectedFile ? (
+                <div className="flex items-center justify-center gap-2">
+                  <File size={18} className="text-[var(--primary)]" />
+                  <span className="text-sm text-[var(--foreground)]">{selectedFile.name}</span>
+                  <button onClick={e => { e.stopPropagation(); setSelectedFile(null) }}>
+                    <X size={14} className="text-[var(--muted-foreground)]" />
+                  </button>
+                </div>
+              ) : (
+                <>
+                  <Upload size={24} className="mx-auto text-[var(--muted-foreground)] mb-2" />
+                  <p className="text-sm text-[var(--muted-foreground)]">Haz clic para seleccionar un archivo</p>
+                  <p className="text-xs text-[var(--muted-foreground)] mt-1">PDF, JPG, PNG, etc.</p>
+                </>
+              )}
+            </div>
+            <input ref={fileRef} type="file" className="hidden" accept=".pdf,.jpg,.jpeg,.png,.webp,.doc,.docx" onChange={e => setSelectedFile(e.target.files?.[0] || null)} />
+          </div>
+          {selectedFolder && (
+            <p className="text-xs text-[var(--muted-foreground)]">Se guardará en: <strong>{selectedFolder.name}</strong></p>
+          )}
+          <div className="flex justify-end gap-2 mt-2">
+            <Button variant="outline" onClick={() => setShowUploadDialog(false)}>Cancelar</Button>
+            <Button onClick={uploadDocument} loading={uploading} disabled={!selectedFile || !newDoc.name.trim()}>
+              Subir
+            </Button>
+          </div>
+        </div>
+      </Dialog>
+    </div>
+  )
 }

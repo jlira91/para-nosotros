@@ -1,3 +1,41 @@
-﻿{
-    "data":  "J3VzZSBjbGllbnQnCgppbXBvcnQgKiBhcyBSZWFjdCBmcm9tICdyZWFjdCcKaW1wb3J0IHsgY24gfSBmcm9tICdAL2xpYi91dGlscycKaW1wb3J0IHsgWCB9IGZyb20gJ2x1Y2lkZS1yZWFjdCcKCmludGVyZmFjZSBEaWFsb2dQcm9wcyB7CiAgb3BlbjogYm9vbGVhbgogIG9uQ2xvc2U6ICgpID0+IHZvaWQKICB0aXRsZT86IHN0cmluZwogIGNoaWxkcmVuOiBSZWFjdC5SZWFjdE5vZGUKICBjbGFzc05hbWU/OiBzdHJpbmcKfQoKZXhwb3J0IGZ1bmN0aW9uIERpYWxvZyh7IG9wZW4sIG9uQ2xvc2UsIHRpdGxlLCBjaGlsZHJlbiwgY2xhc3NOYW1lIH06IERpYWxvZ1Byb3BzKSB7CiAgUmVhY3QudXNlRWZmZWN0KCgpID0+IHsKICAgIGNvbnN0IGhhbmRsZUtleSA9IChlOiBLZXlib2FyZEV2ZW50KSA9PiB7IGlmIChlLmtleSA9PT0gJ0VzY2FwZScpIG9uQ2xvc2UoKSB9CiAgICBpZiAob3BlbikgZG9jdW1lbnQuYWRkRXZlbnRMaXN0ZW5lcigna2V5ZG93bicsIGhhbmRsZUtleSkKICAgIHJldHVybiAoKSA9PiBkb2N1bWVudC5yZW1vdmVFdmVudExpc3RlbmVyKCdrZXlkb3duJywgaGFuZGxlS2V5KQogIH0sIFtvcGVuLCBvbkNsb3NlXSkKCiAgaWYgKCFvcGVuKSByZXR1cm4gbnVsbAoKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9ImZpeGVkIGluc2V0LTAgei01MCBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciI+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJhYnNvbHV0ZSBpbnNldC0wIGJnLWJsYWNrLzMwIGJhY2tkcm9wLWJsdXItc20iIG9uQ2xpY2s9e29uQ2xvc2V9IC8+CiAgICAgIDxkaXYgY2xhc3NOYW1lPXtjbigncmVsYXRpdmUgYmctd2hpdGUgcm91bmRlZC0yeGwgc2hhZG93LXhsIHctZnVsbCBtYXgtdy1tZCBteC00IHAtNicsIGNsYXNzTmFtZSl9PgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gbWItNCI+CiAgICAgICAgICB7dGl0bGUgJiYgPGgyIGNsYXNzTmFtZT0idGV4dC1sZyBmb250LXNlbWlib2xkIHRleHQtW3ZhcigtLWZvcmVncm91bmQpXSI+e3RpdGxlfTwvaDI+fQogICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICBvbkNsaWNrPXtvbkNsb3NlfQogICAgICAgICAgICBjbGFzc05hbWU9Im1sLWF1dG8gcC0xIHJvdW5kZWQtbGcgaG92ZXI6YmctW3ZhcigtLW11dGVkKV0gdGV4dC1bdmFyKC0tbXV0ZWQtZm9yZWdyb3VuZCldIHRyYW5zaXRpb24iCiAgICAgICAgICA+CiAgICAgICAgICAgIDxYIHNpemU9ezE4fSAvPgogICAgICAgICAgPC9idXR0b24+CiAgICAgICAgPC9kaXY+CiAgICAgICAge2NoaWxkcmVufQogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogICkKfQo="
+'use client'
+
+import * as React from 'react'
+import { cn } from '@/lib/utils'
+import { X } from 'lucide-react'
+
+interface DialogProps {
+  open: boolean
+  onClose: () => void
+  title?: string
+  children: React.ReactNode
+  className?: string
+}
+
+export function Dialog({ open, onClose, title, children, className }: DialogProps) {
+  React.useEffect(() => {
+    const handleKey = (e: KeyboardEvent) => { if (e.key === 'Escape') onClose() }
+    if (open) document.addEventListener('keydown', handleKey)
+    return () => document.removeEventListener('keydown', handleKey)
+  }, [open, onClose])
+
+  if (!open) return null
+
+  return (
+    <div className="fixed inset-0 z-50 flex items-center justify-center">
+      <div className="absolute inset-0 bg-black/30 backdrop-blur-sm" onClick={onClose} />
+      <div className={cn('relative bg-white rounded-2xl shadow-xl w-full max-w-md mx-4 p-6', className)}>
+        <div className="flex items-center justify-between mb-4">
+          {title && <h2 className="text-lg font-semibold text-[var(--foreground)]">{title}</h2>}
+          <button
+            onClick={onClose}
+            className="ml-auto p-1 rounded-lg hover:bg-[var(--muted)] text-[var(--muted-foreground)] transition"
+          >
+            <X size={18} />
+          </button>
+        </div>
+        {children}
+      </div>
+    </div>
+  )
 }

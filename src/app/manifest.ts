@@ -1,3 +1,18 @@
-﻿{
-    "data":  "aW1wb3J0IHR5cGUgeyBNZXRhZGF0YVJvdXRlIH0gZnJvbSAnbmV4dCcKCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIG1hbmlmZXN0KCk6IE1ldGFkYXRhUm91dGUuTWFuaWZlc3QgewogIHJldHVybiB7CiAgICBuYW1lOiAnUGFyYSBOb3NvdHJvcycsCiAgICBzaG9ydF9uYW1lOiAnUGFyYSBOb3NvdHJvcycsCiAgICBkZXNjcmlwdGlvbjogJ1R1IGVzcGFjaW8gY29tcGFydGlkbyBlbiBwYXJlamEnLAogICAgc3RhcnRfdXJsOiAnL2Rhc2hib2FyZCcsCiAgICBkaXNwbGF5OiAnc3RhbmRhbG9uZScsCiAgICBvcmllbnRhdGlvbjogJ3BvcnRyYWl0JywKICAgIGJhY2tncm91bmRfY29sb3I6ICcjRkRGQUY3JywKICAgIHRoZW1lX2NvbG9yOiAnI0M0NzM3QScsCiAgICBpY29uczogWwogICAgICB7IHNyYzogJy9pY29uJywgc2l6ZXM6ICc1MTJ4NTEyJywgdHlwZTogJ2ltYWdlL3BuZycgfSwKICAgICAgeyBzcmM6ICcvYXBwbGUtaWNvbicsIHNpemVzOiAnMTgweDE4MCcsIHR5cGU6ICdpbWFnZS9wbmcnIH0sCiAgICBdLAogIH0KfQo="
+import type { MetadataRoute } from 'next'
+
+export default function manifest(): MetadataRoute.Manifest {
+  return {
+    name: 'Para Nosotros',
+    short_name: 'Para Nosotros',
+    description: 'Tu espacio compartido en pareja',
+    start_url: '/dashboard',
+    display: 'standalone',
+    orientation: 'portrait',
+    background_color: '#FDFAF7',
+    theme_color: '#C4737A',
+    icons: [
+      { src: '/icon', sizes: '512x512', type: 'image/png' },
+      { src: '/apple-icon', sizes: '180x180', type: 'image/png' },
+    ],
+  }
 }

@@ -1,3 +1,77 @@
-﻿{
-    "data":  "J3VzZSBjbGllbnQnCgppbXBvcnQgeyB1c2VTdGF0ZSB9IGZyb20gJ3JlYWN0JwppbXBvcnQgeyB1c2VGb3JtU3RhdHVzIH0gZnJvbSAncmVhY3QtZG9tJwppbXBvcnQgeyBsb2dpbkFjdGlvbiB9IGZyb20gJy4vYWN0aW9ucycKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAnQC9jb21wb25lbnRzL3VpL2J1dHRvbicKaW1wb3J0IHsgSW5wdXQgfSBmcm9tICdAL2NvbXBvbmVudHMvdWkvaW5wdXQnCgpjb25zdCBVU0VSUyA9IFsnSm9yZ2UnLCAnQWxlc3NpYSddIGFzIGNvbnN0CnR5cGUgVXNlck5hbWUgPSB0eXBlb2YgVVNFUlNbbnVtYmVyXQoKZnVuY3Rpb24gU3VibWl0QnV0dG9uKCkgewogIGNvbnN0IHsgcGVuZGluZyB9ID0gdXNlRm9ybVN0YXR1cygpCiAgcmV0dXJuICgKICAgIDxCdXR0b24gdHlwZT0ic3VibWl0IiBsb2FkaW5nPXtwZW5kaW5nfSBzaXplPSJsZyIgY2xhc3NOYW1lPSJ3LWZ1bGwiPgogICAgICBFbnRyYXIKICAgIDwvQnV0dG9uPgogICkKfQoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gTG9naW5QYWdlKCkgewogIGNvbnN0IFtzZWxlY3RlZCwgc2V0U2VsZWN0ZWRdID0gdXNlU3RhdGU8VXNlck5hbWUgfCBudWxsPihudWxsKQogIGNvbnN0IFtlcnJvciwgc2V0RXJyb3JdID0gdXNlU3RhdGUoJycpCgogIGFzeW5jIGZ1bmN0aW9uIGhhbmRsZUFjdGlvbihmb3JtRGF0YTogRm9ybURhdGEpIHsKICAgIHNldEVycm9yKCcnKQogICAgY29uc3QgcmVzdWx0ID0gYXdhaXQgbG9naW5BY3Rpb24oZm9ybURhdGEpCiAgICBpZiAocmVzdWx0Py5lcnJvcikgc2V0RXJyb3IocmVzdWx0LmVycm9yKQogIH0KCiAgcmV0dXJuICgKICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGZsZXgtY29sIGdhcC02Ij4KICAgICAgPGRpdj4KICAgICAgICA8aDIgY2xhc3NOYW1lPSJ0ZXh0LXhsIGZvbnQtc2VtaWJvbGQgdGV4dC1bdmFyKC0tZm9yZWdyb3VuZCldIG1iLTEiPsKhSG9sYSEgwr9RdWnDqW4gZXJlcz88L2gyPgogICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LVt2YXIoLS1tdXRlZC1mb3JlZ3JvdW5kKV0iPkVsaWdlIHR1IG5vbWJyZSBwYXJhIGVudHJhcjwvcD4KICAgICAgPC9kaXY+CgogICAgICA8ZGl2IGNsYXNzTmFtZT0iZ3JpZCBncmlkLWNvbHMtMiBnYXAtMyI+CiAgICAgICAge1VTRVJTLm1hcChuYW1lID0+ICgKICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAga2V5PXtuYW1lfQogICAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHsgc2V0U2VsZWN0ZWQobmFtZSk7IHNldEVycm9yKCcnKSB9fQogICAgICAgICAgICBjbGFzc05hbWU9e2BmbGV4IGZsZXgtY29sIGl0ZW1zLWNlbnRlciBnYXAtMyBwLTUgcm91bmRlZC0yeGwgYm9yZGVyLTIgdHJhbnNpdGlvbi1hbGwgY3Vyc29yLXBvaW50ZXIgJHsKICAgICAgICAgICAgICBzZWxlY3RlZCA9PT0gbmFtZQogICAgICAgICAgICAgICAgPyAnYm9yZGVyLVt2YXIoLS1wcmltYXJ5KV0gYmctW3ZhcigtLXByaW1hcnktbGlnaHQpXScKICAgICAgICAgICAgICAgIDogJ2JvcmRlci1bdmFyKC0tYm9yZGVyKV0gYmctd2hpdGUgaG92ZXI6Ym9yZGVyLVt2YXIoLS1wcmltYXJ5KV0gaG92ZXI6YmctW3ZhcigtLXByaW1hcnktbGlnaHQpXScKICAgICAgICAgICAgfWB9CiAgICAgICAgICA+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPXtgdy0xNCBoLTE0IHJvdW5kZWQtZnVsbCBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciB0ZXh0LTJ4bCBmb250LWJvbGQgJHsKICAgICAgICAgICAgICBzZWxlY3RlZCA9PT0gbmFtZSA/ICdiZy1bdmFyKC0tcHJpbWFyeSldIHRleHQtd2hpdGUnIDogJ2JnLVt2YXIoLS1tdXRlZCldIHRleHQtW3ZhcigtLWZvcmVncm91bmQpXScKICAgICAgICAgICAgfWB9PgogICAgICAgICAgICAgIHtuYW1lWzBdfQogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXNtIGZvbnQtc2VtaWJvbGQgdGV4dC1bdmFyKC0tZm9yZWdyb3VuZCldIj57bmFtZX08L3NwYW4+CiAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICApKX0KICAgICAgPC9kaXY+CgogICAgICB7c2VsZWN0ZWQgJiYgKAogICAgICAgIDxmb3JtIGFjdGlvbj17aGFuZGxlQWN0aW9ufSBjbGFzc05hbWU9ImZsZXggZmxleC1jb2wgZ2FwLTMiPgogICAgICAgICAgPGlucHV0IHR5cGU9ImhpZGRlbiIgbmFtZT0ibmFtZSIgdmFsdWU9e3NlbGVjdGVkfSAvPgogICAgICAgICAgPElucHV0CiAgICAgICAgICAgIGxhYmVsPXtgQ29udHJhc2XDsWEgZGUgJHtzZWxlY3RlZH1gfQogICAgICAgICAgICB0eXBlPSJwYXNzd29yZCIKICAgICAgICAgICAgbmFtZT0icGFzc3dvcmQiCiAgICAgICAgICAgIHBsYWNlaG9sZGVyPSLigKLigKLigKLigKLigKLigKLigKLigKIiCiAgICAgICAgICAgIGF1dG9Gb2N1cwogICAgICAgICAgICByZXF1aXJlZAogICAgICAgICAgLz4KICAgICAgICAgIHtlcnJvciAmJiA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1yZWQtNTAwIGJnLXJlZC01MCBweC0zIHB5LTIgcm91bmRlZC14bCI+e2Vycm9yfTwvcD59CiAgICAgICAgICA8U3VibWl0QnV0dG9uIC8+CiAgICAgICAgPC9mb3JtPgogICAgICApfQogICAgPC9kaXY+CiAgKQp9Cg=="
+'use client'
+
+import { useState } from 'react'
+import { useFormStatus } from 'react-dom'
+import { loginAction } from './actions'
+import { Button } from '@/components/ui/button'
+import { Input } from '@/components/ui/input'
+
+const USERS = ['Jorge', 'Alessia'] as const
+type UserName = typeof USERS[number]
+
+function SubmitButton() {
+  const { pending } = useFormStatus()
+  return (
+    <Button type="submit" loading={pending} size="lg" className="w-full">
+      Entrar
+    </Button>
+  )
+}
+
+export default function LoginPage() {
+  const [selected, setSelected] = useState<UserName | null>(null)
+  const [error, setError] = useState('')
+
+  async function handleAction(formData: FormData) {
+    setError('')
+    const result = await loginAction(formData)
+    if (result?.error) setError(result.error)
+  }
+
+  return (
+    <div className="flex flex-col gap-6">
+      <div>
+        <h2 className="text-xl font-semibold text-[var(--foreground)] mb-1">¡Hola! ¿Quién eres?</h2>
+        <p className="text-sm text-[var(--muted-foreground)]">Elige tu nombre para entrar</p>
+      </div>
+
+      <div className="grid grid-cols-2 gap-3">
+        {USERS.map(name => (
+          <button
+            key={name}
+            type="button"
+            onClick={() => { setSelected(name); setError('') }}
+            className={`flex flex-col items-center gap-3 p-5 rounded-2xl border-2 transition-all cursor-pointer ${
+              selected === name
+                ? 'border-[var(--primary)] bg-[var(--primary-light)]'
+                : 'border-[var(--border)] bg-white hover:border-[var(--primary)] hover:bg-[var(--primary-light)]'
+            }`}
+          >
+            <div className={`w-14 h-14 rounded-full flex items-center justify-center text-2xl font-bold ${
+              selected === name ? 'bg-[var(--primary)] text-white' : 'bg-[var(--muted)] text-[var(--foreground)]'
+            }`}>
+              {name[0]}
+            </div>
+            <span className="text-sm font-semibold text-[var(--foreground)]">{name}</span>
+          </button>
+        ))}
+      </div>
+
+      {selected && (
+        <form action={handleAction} className="flex flex-col gap-3">
+          <input type="hidden" name="name" value={selected} />
+          <Input
+            label={`Contraseña de ${selected}`}
+            type="password"
+            name="password"
+            placeholder="••••••••"
+            autoFocus
+            required
+          />
+          {error && <p className="text-sm text-red-500 bg-red-50 px-3 py-2 rounded-xl">{error}</p>}
+          <SubmitButton />
+        </form>
+      )}
+    </div>
+  )
 }

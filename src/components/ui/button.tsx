@@ -1,3 +1,46 @@
-﻿{
-    "data":  "J3VzZSBjbGllbnQnCgppbXBvcnQgKiBhcyBSZWFjdCBmcm9tICdyZWFjdCcKaW1wb3J0IHsgY24gfSBmcm9tICdAL2xpYi91dGlscycKCmludGVyZmFjZSBCdXR0b25Qcm9wcyBleHRlbmRzIFJlYWN0LkJ1dHRvbkhUTUxBdHRyaWJ1dGVzPEhUTUxCdXR0b25FbGVtZW50PiB7CiAgdmFyaWFudD86ICdwcmltYXJ5JyB8ICdzZWNvbmRhcnknIHwgJ2dob3N0JyB8ICdvdXRsaW5lJyB8ICdkYW5nZXInCiAgc2l6ZT86ICdzbScgfCAnbWQnIHwgJ2xnJwogIGxvYWRpbmc/OiBib29sZWFuCn0KCmV4cG9ydCBjb25zdCBCdXR0b24gPSBSZWFjdC5mb3J3YXJkUmVmPEhUTUxCdXR0b25FbGVtZW50LCBCdXR0b25Qcm9wcz4oCiAgKHsgY2xhc3NOYW1lLCB2YXJpYW50ID0gJ3ByaW1hcnknLCBzaXplID0gJ21kJywgbG9hZGluZywgY2hpbGRyZW4sIGRpc2FibGVkLCAuLi5wcm9wcyB9LCByZWYpID0+IHsKICAgIGNvbnN0IGJhc2UgPSAnaW5saW5lLWZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIGdhcC0yIHJvdW5kZWQteGwgZm9udC1tZWRpdW0gdHJhbnNpdGlvbi1hbGwgZm9jdXMtdmlzaWJsZTpvdXRsaW5lLW5vbmUgZm9jdXMtdmlzaWJsZTpyaW5nLTIgZm9jdXMtdmlzaWJsZTpyaW5nLVt2YXIoLS1yaW5nKV0gZGlzYWJsZWQ6b3BhY2l0eS01MCBkaXNhYmxlZDpwb2ludGVyLWV2ZW50cy1ub25lJwogICAgY29uc3QgdmFyaWFudHMgPSB7CiAgICAgIHByaW1hcnk6ICdiZy1bdmFyKC0tcHJpbWFyeSldIHRleHQtd2hpdGUgaG92ZXI6YmctW3ZhcigtLWFjY2VudCldIHNoYWRvdy1zbScsCiAgICAgIHNlY29uZGFyeTogJ2JnLVt2YXIoLS1zZWNvbmRhcnkpXSB0ZXh0LVt2YXIoLS1mb3JlZ3JvdW5kKV0gaG92ZXI6YmctW3ZhcigtLW11dGVkKV0nLAogICAgICBnaG9zdDogJ3RleHQtW3ZhcigtLWZvcmVncm91bmQpXSBob3ZlcjpiZy1bdmFyKC0tbXV0ZWQpXScsCiAgICAgIG91dGxpbmU6ICdib3JkZXIgYm9yZGVyLVt2YXIoLS1ib3JkZXIpXSB0ZXh0LVt2YXIoLS1mb3JlZ3JvdW5kKV0gaG92ZXI6YmctW3ZhcigtLW11dGVkKV0nLAogICAgICBkYW5nZXI6ICdiZy1yZWQtNTAwIHRleHQtd2hpdGUgaG92ZXI6YmctcmVkLTYwMCcsCiAgICB9CiAgICBjb25zdCBzaXplcyA9IHsKICAgICAgc206ICdoLTggcHgtMyB0ZXh0LXNtJywKICAgICAgbWQ6ICdoLTEwIHB4LTQgdGV4dC1zbScsCiAgICAgIGxnOiAnaC0xMiBweC02IHRleHQtYmFzZScsCiAgICB9CgogICAgcmV0dXJuICgKICAgICAgPGJ1dHRvbgogICAgICAgIHJlZj17cmVmfQogICAgICAgIGNsYXNzTmFtZT17Y24oYmFzZSwgdmFyaWFudHNbdmFyaWFudF0sIHNpemVzW3NpemVdLCBjbGFzc05hbWUpfQogICAgICAgIGRpc2FibGVkPXtkaXNhYmxlZCB8fCBsb2FkaW5nfQogICAgICAgIHsuLi5wcm9wc30KICAgICAgPgogICAgICAgIHtsb2FkaW5nICYmICgKICAgICAgICAgIDxzdmcgY2xhc3NOYW1lPSJhbmltYXRlLXNwaW4gaC00IHctNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIj4KICAgICAgICAgICAgPGNpcmNsZSBjbGFzc05hbWU9Im9wYWNpdHktMjUiIGN4PSIxMiIgY3k9IjEyIiByPSIxMCIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZVdpZHRoPSI0IiAvPgogICAgICAgICAgICA8cGF0aCBjbGFzc05hbWU9Im9wYWNpdHktNzUiIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTQgMTJhOCA4IDAgMDE4LTh2OEg0eiIgLz4KICAgICAgICAgIDwvc3ZnPgogICAgICAgICl9CiAgICAgICAge2NoaWxkcmVufQogICAgICA8L2J1dHRvbj4KICAgICkKICB9CikKQnV0dG9uLmRpc3BsYXlOYW1lID0gJ0J1dHRvbicK"
+'use client'
+
+import * as React from 'react'
+import { cn } from '@/lib/utils'
+
+interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+  variant?: 'primary' | 'secondary' | 'ghost' | 'outline' | 'danger'
+  size?: 'sm' | 'md' | 'lg'
+  loading?: boolean
 }
+
+export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
+  ({ className, variant = 'primary', size = 'md', loading, children, disabled, ...props }, ref) => {
+    const base = 'inline-flex items-center justify-center gap-2 rounded-xl font-medium transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--ring)] disabled:opacity-50 disabled:pointer-events-none'
+    const variants = {
+      primary: 'bg-[var(--primary)] text-white hover:bg-[var(--accent)] shadow-sm',
+      secondary: 'bg-[var(--secondary)] text-[var(--foreground)] hover:bg-[var(--muted)]',
+      ghost: 'text-[var(--foreground)] hover:bg-[var(--muted)]',
+      outline: 'border border-[var(--border)] text-[var(--foreground)] hover:bg-[var(--muted)]',
+      danger: 'bg-red-500 text-white hover:bg-red-600',
+    }
+    const sizes = {
+      sm: 'h-8 px-3 text-sm',
+      md: 'h-10 px-4 text-sm',
+      lg: 'h-12 px-6 text-base',
+    }
+
+    return (
+      <button
+        ref={ref}
+        className={cn(base, variants[variant], sizes[size], className)}
+        disabled={disabled || loading}
+        {...props}
+      >
+        {loading && (
+          <svg className="animate-spin h-4 w-4" viewBox="0 0 24 24" fill="none">
+            <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
+            <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v8H4z" />
+          </svg>
+        )}
+        {children}
+      </button>
+    )
+  }
+)
+Button.displayName = 'Button'

@@ -1,3 +1,17 @@
-﻿{
-    "data":  "ZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIG5vdGlmeVBhcnRuZXIoCiAgY291cGxlSWQ6IHN0cmluZywKICBzZW5kZXJJZDogc3RyaW5nLAogIHRpdGxlOiBzdHJpbmcsCiAgYm9keTogc3RyaW5nLAogIHVybD86IHN0cmluZwopIHsKICB0cnkgewogICAgYXdhaXQgZmV0Y2goJy9hcGkvbm90aWZ5JywgewogICAgICBtZXRob2Q6ICdQT1NUJywKICAgICAgaGVhZGVyczogeyAnQ29udGVudC1UeXBlJzogJ2FwcGxpY2F0aW9uL2pzb24nIH0sCiAgICAgIGJvZHk6IEpTT04uc3RyaW5naWZ5KHsgY291cGxlSWQsIHNlbmRlcklkLCB0aXRsZSwgYm9keSwgdXJsIH0pLAogICAgfSkKICB9IGNhdGNoIHsKICAgIC8vIE5vdGlmaWNhdGlvbnMgYXJlIGJlc3QtZWZmb3J0CiAgfQp9Cg=="
+export async function notifyPartner(
+  coupleId: string,
+  senderId: string,
+  title: string,
+  body: string,
+  url?: string
+) {
+  try {
+    await fetch('/api/notify', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ coupleId, senderId, title, body, url }),
+    })
+  } catch {
+    // Notifications are best-effort
+  }
 }

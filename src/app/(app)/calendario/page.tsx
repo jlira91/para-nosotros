@@ -1,3 +1,334 @@
-﻿{
-    "data":  "J3VzZSBjbGllbnQnCgppbXBvcnQgeyB1c2VTdGF0ZSwgdXNlRWZmZWN0IH0gZnJvbSAncmVhY3QnCmltcG9ydCB7IGNyZWF0ZUNsaWVudCB9IGZyb20gJ0AvbGliL3N1cGFiYXNlL2NsaWVudCcKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAnQC9jb21wb25lbnRzL3VpL2J1dHRvbicKaW1wb3J0IHsgSW5wdXQsIFRleHRhcmVhIH0gZnJvbSAnQC9jb21wb25lbnRzL3VpL2lucHV0JwppbXBvcnQgeyBEaWFsb2cgfSBmcm9tICdAL2NvbXBvbmVudHMvdWkvZGlhbG9nJwppbXBvcnQgeyBmb3JtYXREYXRlIH0gZnJvbSAnQC9saWIvdXRpbHMnCmltcG9ydCB0eXBlIHsgQ2FsZW5kYXJFdmVudCB9IGZyb20gJ0AvbGliL3R5cGVzJwppbXBvcnQgeyBDYWxlbmRhciwgUGx1cywgVHJhc2gyLCBNYXBQaW4sIENoZXZyb25MZWZ0LCBDaGV2cm9uUmlnaHQsIExpbmsyLCBDaGVjaywgUGVuY2lsIH0gZnJvbSAnbHVjaWRlLXJlYWN0JwppbXBvcnQgeyBub3RpZnlQYXJ0bmVyIH0gZnJvbSAnQC9saWIvbm90aWZ5JwoKY29uc3QgQ09MT1JTID0gWycjQzQ3MzdBJywgJyM3QTlCQzQnLCAnIzdBQzRBMCcsICcjQzRBODdBJywgJyNBODdBQzQnLCAnI0ZGNkI2QicsICcjNEVDREM0J10KCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIENhbGVuZGFyaW9QYWdlKCkgewogIGNvbnN0IHN1cGFiYXNlID0gY3JlYXRlQ2xpZW50KCkKICBjb25zdCBbZXZlbnRzLCBzZXRFdmVudHNdID0gdXNlU3RhdGU8Q2FsZW5kYXJFdmVudFtdPihbXSkKICBjb25zdCBbY291cGxlSWQsIHNldENvdXBsZUlkXSA9IHVzZVN0YXRlPHN0cmluZyB8IG51bGw+KG51bGwpCiAgY29uc3QgW3VzZXJJZCwgc2V0VXNlcklkXSA9IHVzZVN0YXRlPHN0cmluZyB8IG51bGw+KG51bGwpCiAgY29uc3QgW3Nob3dEaWFsb2csIHNldFNob3dEaWFsb2ddID0gdXNlU3RhdGUoZmFsc2UpCiAgY29uc3QgW2VkaXRpbmdFdmVudCwgc2V0RWRpdGluZ0V2ZW50XSA9IHVzZVN0YXRlPENhbGVuZGFyRXZlbnQgfCBudWxsPihudWxsKQogIGNvbnN0IFtjdXJyZW50RGF0ZSwgc2V0Q3VycmVudERhdGVdID0gdXNlU3RhdGUobmV3IERhdGUoKSkKICBjb25zdCBbc2VsZWN0ZWREYXRlLCBzZXRTZWxlY3RlZERhdGVdID0gdXNlU3RhdGU8RGF0ZSB8IG51bGw+KG51bGwpCiAgY29uc3QgW2Zvcm0sIHNldEZvcm1dID0gdXNlU3RhdGUoeyB0aXRsZTogJycsIGRlc2NyaXB0aW9uOiAnJywgc3RhcnRfZGF0ZTogJycsIGVuZF9kYXRlOiAnJywgYWxsX2RheTogdHJ1ZSwgY29sb3I6IENPTE9SU1swXSwgbG9jYXRpb246ICcnIH0pCiAgY29uc3QgW2xvYWRpbmcsIHNldExvYWRpbmddID0gdXNlU3RhdGUoZmFsc2UpCiAgY29uc3QgW2NvcGllZCwgc2V0Q29waWVkXSA9IHVzZVN0YXRlKGZhbHNlKQoKICBhc3luYyBmdW5jdGlvbiBjb3B5RmVlZFVybCgpIHsKICAgIGlmICghY291cGxlSWQpIHJldHVybgogICAgY29uc3QgdXJsID0gYCR7d2luZG93LmxvY2F0aW9uLm9yaWdpbn0vYXBpL2NhbGVuZGFyLyR7Y291cGxlSWR9YAogICAgYXdhaXQgbmF2aWdhdG9yLmNsaXBib2FyZC53cml0ZVRleHQodXJsKQogICAgc2V0Q29waWVkKHRydWUpCiAgICBzZXRUaW1lb3V0KCgpID0+IHNldENvcGllZChmYWxzZSksIDI1MDApCiAgfQoKICB1c2VFZmZlY3QoKCkgPT4gewogICAgYXN5bmMgZnVuY3Rpb24gbG9hZCgpIHsKICAgICAgY29uc3QgeyBkYXRhOiB7IHVzZXIgfSB9ID0gYXdhaXQgc3VwYWJhc2UuYXV0aC5nZXRVc2VyKCkKICAgICAgaWYgKCF1c2VyKSByZXR1cm4KICAgICAgc2V0VXNlcklkKHVzZXIuaWQpCiAgICAgIGNvbnN0IHsgZGF0YTogcHJvZmlsZSB9ID0gYXdhaXQgc3VwYWJhc2UuZnJvbSgncHJvZmlsZXMnKS5zZWxlY3QoJ2NvdXBsZV9pZCcpLmVxKCdpZCcsIHVzZXIuaWQpLnNpbmdsZSgpCiAgICAgIGlmICghcHJvZmlsZT8uY291cGxlX2lkKSByZXR1cm4KICAgICAgc2V0Q291cGxlSWQocHJvZmlsZS5jb3VwbGVfaWQpCiAgICAgIGNvbnN0IHsgZGF0YSB9ID0gYXdhaXQgc3VwYWJhc2UuZnJvbSgnZXZlbnRzJykuc2VsZWN0KCcqJykuZXEoJ2NvdXBsZV9pZCcsIHByb2ZpbGUuY291cGxlX2lkKS5vcmRlcignc3RhcnRfZGF0ZScpCiAgICAgIHNldEV2ZW50cyhkYXRhIHx8IFtdKQogICAgfQogICAgbG9hZCgpCiAgfSwgW10pCgogIGZ1bmN0aW9uIG9wZW5DcmVhdGUoZGF0ZVN0cj86IHN0cmluZykgewogICAgc2V0RWRpdGluZ0V2ZW50KG51bGwpCiAgICBzZXRGb3JtKHsgdGl0bGU6ICcnLCBkZXNjcmlwdGlvbjogJycsIHN0YXJ0X2RhdGU6IGRhdGVTdHIgfHwgJycsIGVuZF9kYXRlOiAnJywgYWxsX2RheTogdHJ1ZSwgY29sb3I6IENPTE9SU1swXSwgbG9jYXRpb246ICcnIH0pCiAgICBzZXRTaG93RGlhbG9nKHRydWUpCiAgfQoKICBmdW5jdGlvbiBvcGVuRWRpdChlOiBSZWFjdC5Nb3VzZUV2ZW50LCBldmVudDogQ2FsZW5kYXJFdmVudCkgewogICAgZS5zdG9wUHJvcGFnYXRpb24oKQogICAgc2V0RWRpdGluZ0V2ZW50KGV2ZW50KQogICAgc2V0Rm9ybSh7CiAgICAgIHRpdGxlOiBldmVudC50aXRsZSwKICAgICAgZGVzY3JpcHRpb246IGV2ZW50LmRlc2NyaXB0aW9uIHx8ICcnLAogICAgICBzdGFydF9kYXRlOiBldmVudC5zdGFydF9kYXRlLAogICAgICBlbmRfZGF0ZTogZXZlbnQuZW5kX2RhdGUgfHwgJycsCiAgICAgIGFsbF9kYXk6IGV2ZW50LmFsbF9kYXksCiAgICAgIGNvbG9yOiBldmVudC5jb2xvciwKICAgICAgbG9jYXRpb246IGV2ZW50LmxvY2F0aW9uIHx8ICcnLAogICAgfSkKICAgIHNldFNob3dEaWFsb2codHJ1ZSkKICB9CgogIGFzeW5jIGZ1bmN0aW9uIHNhdmVFdmVudCgpIHsKICAgIGlmICghZm9ybS50aXRsZS50cmltKCkgfHwgIWZvcm0uc3RhcnRfZGF0ZSkgcmV0dXJuCiAgICBzZXRMb2FkaW5nKHRydWUpCiAgICBpZiAoZWRpdGluZ0V2ZW50KSB7CiAgICAgIGF3YWl0IHN1cGFiYXNlLmZyb20oJ2V2ZW50cycpLnVwZGF0ZSh7CiAgICAgICAgdGl0bGU6IGZvcm0udGl0bGUsCiAgICAgICAgZGVzY3JpcHRpb246IGZvcm0uZGVzY3JpcHRpb24gfHwgbnVsbCwKICAgICAgICBzdGFydF9kYXRlOiBmb3JtLnN0YXJ0X2RhdGUsCiAgICAgICAgZW5kX2RhdGU6IGZvcm0uZW5kX2RhdGUgfHwgbnVsbCwKICAgICAgICBhbGxfZGF5OiBmb3JtLmFsbF9kYXksCiAgICAgICAgY29sb3I6IGZvcm0uY29sb3IsCiAgICAgICAgbG9jYXRpb246IGZvcm0ubG9jYXRpb24gfHwgbnVsbCwKICAgICAgfSkuZXEoJ2lkJywgZWRpdGluZ0V2ZW50LmlkKQogICAgICBzZXRFdmVudHMoZSA9PiBlLm1hcCh4ID0+IHguaWQgPT09IGVkaXRpbmdFdmVudC5pZCA/IHsgLi4ueCwgdGl0bGU6IGZvcm0udGl0bGUsIGRlc2NyaXB0aW9uOiBmb3JtLmRlc2NyaXB0aW9uIHx8IG51bGwsIHN0YXJ0X2RhdGU6IGZvcm0uc3RhcnRfZGF0ZSwgZW5kX2RhdGU6IGZvcm0uZW5kX2RhdGUgfHwgbnVsbCwgYWxsX2RheTogZm9ybS5hbGxfZGF5LCBjb2xvcjogZm9ybS5jb2xvciwgbG9jYXRpb246IGZvcm0ubG9jYXRpb24gfHwgbnVsbCB9IDogeCkuc29ydCgoYSwgYikgPT4gYS5zdGFydF9kYXRlLmxvY2FsZUNvbXBhcmUoYi5zdGFydF9kYXRlKSkpCiAgICB9IGVsc2UgewogICAgICBpZiAoIWNvdXBsZUlkKSB7IHNldExvYWRpbmcoZmFsc2UpOyByZXR1cm4gfQogICAgICBjb25zdCB7IGRhdGEgfSA9IGF3YWl0IHN1cGFiYXNlLmZyb20oJ2V2ZW50cycpLmluc2VydCh7CiAgICAgICAgY291cGxlX2lkOiBjb3VwbGVJZCwKICAgICAgICB0aXRsZTogZm9ybS50aXRsZSwKICAgICAgICBkZXNjcmlwdGlvbjogZm9ybS5kZXNjcmlwdGlvbiB8fCBudWxsLAogICAgICAgIHN0YXJ0X2RhdGU6IGZvcm0uc3RhcnRfZGF0ZSwKICAgICAgICBlbmRfZGF0ZTogZm9ybS5lbmRfZGF0ZSB8fCBudWxsLAogICAgICAgIGFsbF9kYXk6IGZvcm0uYWxsX2RheSwKICAgICAgICBjb2xvcjogZm9ybS5jb2xvciwKICAgICAgICBsb2NhdGlvbjogZm9ybS5sb2NhdGlvbiB8fCBudWxsLAogICAgICAgIGNyZWF0ZWRfYnk6IHVzZXJJZCwKICAgICAgfSkuc2VsZWN0KCkuc2luZ2xlKCkKICAgICAgaWYgKGRhdGEpIHsKICAgICAgICBzZXRFdmVudHMoZSA9PiBbLi4uZSwgZGF0YV0uc29ydCgoYSwgYikgPT4gYS5zdGFydF9kYXRlLmxvY2FsZUNvbXBhcmUoYi5zdGFydF9kYXRlKSkpCiAgICAgICAgbm90aWZ5UGFydG5lcihjb3VwbGVJZCwgdXNlcklkISwgJ/Cfk4UgQ2FsZW5kYXJpbycsIGBOdWV2byBldmVudG86ICIke2Zvcm0udGl0bGV9ImAsICcvY2FsZW5kYXJpbycpCiAgICAgIH0KICAgIH0KICAgIHNldExvYWRpbmcoZmFsc2UpCiAgICBzZXRTaG93RGlhbG9nKGZhbHNlKQogIH0KCiAgYXN5bmMgZnVuY3Rpb24gZGVsZXRlRXZlbnQoaWQ6IHN0cmluZykgewogICAgYXdhaXQgc3VwYWJhc2UuZnJvbSgnZXZlbnRzJykuZGVsZXRlKCkuZXEoJ2lkJywgaWQpCiAgICBzZXRFdmVudHMoZSA9PiBlLmZpbHRlcih4ID0+IHguaWQgIT09IGlkKSkKICB9CgogIC8vIENhbGVuZGFyIGdyaWQKICBjb25zdCB5ZWFyID0gY3VycmVudERhdGUuZ2V0RnVsbFllYXIoKQogIGNvbnN0IG1vbnRoID0gY3VycmVudERhdGUuZ2V0TW9udGgoKQogIGNvbnN0IGZpcnN0RGF5ID0gbmV3IERhdGUoeWVhciwgbW9udGgsIDEpLmdldERheSgpCiAgY29uc3QgZGF5c0luTW9udGggPSBuZXcgRGF0ZSh5ZWFyLCBtb250aCArIDEsIDApLmdldERhdGUoKQogIGNvbnN0IG1vbnRoTmFtZSA9IG5ldyBEYXRlKHllYXIsIG1vbnRoKS50b0xvY2FsZURhdGVTdHJpbmcoJ2VzJywgeyBtb250aDogJ2xvbmcnLCB5ZWFyOiAnbnVtZXJpYycgfSkKICBjb25zdCB0b2RheSA9IG5ldyBEYXRlKCkKCiAgZnVuY3Rpb24gcHJldk1vbnRoKCkgeyBzZXRDdXJyZW50RGF0ZShuZXcgRGF0ZSh5ZWFyLCBtb250aCAtIDEpKSB9CiAgZnVuY3Rpb24gbmV4dE1vbnRoKCkgeyBzZXRDdXJyZW50RGF0ZShuZXcgRGF0ZSh5ZWFyLCBtb250aCArIDEpKSB9CgogIGZ1bmN0aW9uIGV2ZW50c09uRGF5KGRheTogbnVtYmVyKSB7CiAgICBjb25zdCBjZWxsRGF0ZSA9IG5ldyBEYXRlKERhdGUuVVRDKHllYXIsIG1vbnRoLCBkYXkpKQogICAgcmV0dXJuIGV2ZW50cy5maWx0ZXIoZSA9PiB7CiAgICAgIGlmIChlLmFsbF9kYXkpIHsKICAgICAgICBjb25zdCBzdGFydCA9IG5ldyBEYXRlKGUuc3RhcnRfZGF0ZSkKICAgICAgICBjb25zdCBzdGFydFVUQyA9IERhdGUuVVRDKHN0YXJ0LmdldFVUQ0Z1bGxZZWFyKCksIHN0YXJ0LmdldFVUQ01vbnRoKCksIHN0YXJ0LmdldFVUQ0RhdGUoKSkKICAgICAgICBjb25zdCBlbmRVVEMgPSBlLmVuZF9kYXRlCiAgICAgICAgICA/ICgoKSA9PiB7IGNvbnN0IGVkID0gbmV3IERhdGUoZS5lbmRfZGF0ZSk7IHJldHVybiBEYXRlLlVUQyhlZC5nZXRVVENGdWxsWWVhcigpLCBlZC5nZXRVVENNb250aCgpLCBlZC5nZXRVVENEYXRlKCkpIH0pKCkKICAgICAgICAgIDogc3RhcnRVVEMKICAgICAgICByZXR1cm4gY2VsbERhdGUuZ2V0VGltZSgpID49IHN0YXJ0VVRDICYmIGNlbGxEYXRlLmdldFRpbWUoKSA8PSBlbmRVVEMKICAgICAgfQogICAgICBjb25zdCBkID0gbmV3IERhdGUoZS5zdGFydF9kYXRlKQogICAgICByZXR1cm4gZC5nZXRGdWxsWWVhcigpID09PSB5ZWFyICYmIGQuZ2V0TW9udGgoKSA9PT0gbW9udGggJiYgZC5nZXREYXRlKCkgPT09IGRheQogICAgfSkKICB9CgogIGZ1bmN0aW9uIGZvcm1hdEV2ZW50RGF0ZShkYXRlU3RyOiBzdHJpbmcsIGFsbERheTogYm9vbGVhbikgewogICAgY29uc3QgZCA9IG5ldyBEYXRlKGRhdGVTdHIpCiAgICBpZiAoYWxsRGF5KSB7CiAgICAgIC8vIFVzZSBVVEMgdG8gYXZvaWQgb2ZmLWJ5LW9uZSBmcm9tIHRpbWV6b25lIG9mZnNldAogICAgICByZXR1cm4gbmV3IERhdGUoZC5nZXRVVENGdWxsWWVhcigpLCBkLmdldFVUQ01vbnRoKCksIGQuZ2V0VVRDRGF0ZSgpKQogICAgICAgIC50b0xvY2FsZURhdGVTdHJpbmcoJ2VzJywgeyBkYXk6ICdudW1lcmljJywgbW9udGg6ICdzaG9ydCcgfSkKICAgIH0KICAgIHJldHVybiBkLnRvTG9jYWxlRGF0ZVN0cmluZygnZXMnLCB7IGRheTogJ251bWVyaWMnLCBtb250aDogJ3Nob3J0JyB9KQogIH0KCiAgY29uc3Qgc2VsZWN0ZWRFdmVudHMgPSBzZWxlY3RlZERhdGUgPyBldmVudHNPbkRheShzZWxlY3RlZERhdGUuZ2V0RGF0ZSgpKSA6IFtdCgogIC8vIFVwY29taW5nIGV2ZW50cwogIGNvbnN0IG5vdyA9IG5ldyBEYXRlKCkKICBjb25zdCB1cGNvbWluZyA9IGV2ZW50cy5maWx0ZXIoZSA9PiBuZXcgRGF0ZShlLnN0YXJ0X2RhdGUpID49IG5vdykuc2xpY2UoMCwgNSkKCiAgZnVuY3Rpb24gb3BlbkRpYWxvZ0ZvckRhdGUoZGF5OiBudW1iZXIpIHsKICAgIGNvbnN0IGRhdGVTdHIgPSBgJHt5ZWFyfS0ke1N0cmluZyhtb250aCArIDEpLnBhZFN0YXJ0KDIsICcwJyl9LSR7U3RyaW5nKGRheSkucGFkU3RhcnQoMiwgJzAnKX1gCiAgICBvcGVuQ3JlYXRlKGRhdGVTdHIpCiAgfQoKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9InB4LTQgcHktNiBtZDpwLTggbWF4LXctNXhsIG14LWF1dG8iPgogICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIG1iLTgiPgogICAgICAgIDxkaXY+CiAgICAgICAgICA8aDEgY2xhc3NOYW1lPSJ0ZXh0LTJ4bCBmb250LWJvbGQgdGV4dC1bdmFyKC0tZm9yZWdyb3VuZCldIGZsZXggaXRlbXMtY2VudGVyIGdhcC0yIj4KICAgICAgICAgICAgPENhbGVuZGFyIHNpemU9ezI0fSBjbGFzc05hbWU9InRleHQtW3ZhcigtLXByaW1hcnkpXSIgLz4KICAgICAgICAgICAgQ2FsZW5kYXJpbwogICAgICAgICAgPC9oMT4KICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LVt2YXIoLS1tdXRlZC1mb3JlZ3JvdW5kKV0gbXQtMSI+VnVlc3Ryb3MgZXZlbnRvcyBpbXBvcnRhbnRlczwvcD4KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBnYXAtMiI+CiAgICAgICAgICA8QnV0dG9uIHZhcmlhbnQ9Im91dGxpbmUiIG9uQ2xpY2s9e2NvcHlGZWVkVXJsfSB0aXRsZT0iQ29waWFyIGVubGFjZSBwYXJhIHN1c2NyaWJpcnNlIGVuIEdvb2dsZSBDYWxlbmRhciAvIE91dGxvb2siPgogICAgICAgICAgICB7Y29waWVkID8gPENoZWNrIHNpemU9ezE2fSBjbGFzc05hbWU9InRleHQtZ3JlZW4tNTAwIiAvPiA6IDxMaW5rMiBzaXplPXsxNn0gLz59CiAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iaGlkZGVuIHNtOmlubGluZSI+e2NvcGllZCA/ICdDb3BpYWRvJyA6ICdTdXNjcmliaXJzZSd9PC9zcGFuPgogICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICA8QnV0dG9uIG9uQ2xpY2s9eygpID0+IG9wZW5DcmVhdGUoKX0+CiAgICAgICAgICAgIDxQbHVzIHNpemU9ezE2fSAvPiA8c3BhbiBjbGFzc05hbWU9ImhpZGRlbiBzbTppbmxpbmUiPk51ZXZvIGV2ZW50bzwvc3Bhbj4KICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KCiAgICAgIDxkaXYgY2xhc3NOYW1lPSJncmlkIGdyaWQtY29scy0xIG1kOmdyaWQtY29scy0zIGdhcC02Ij4KICAgICAgICB7LyogQ2FsZW5kYXIgKi99CiAgICAgICAgPGRpdiBjbGFzc05hbWU9Im1kOmNvbC1zcGFuLTIgYmctd2hpdGUgcm91bmRlZC0yeGwgYm9yZGVyIGJvcmRlci1bdmFyKC0tYm9yZGVyKV0gcC02Ij4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gbWItNCI+CiAgICAgICAgICAgIDxidXR0b24gb25DbGljaz17cHJldk1vbnRofSBjbGFzc05hbWU9InAtMS41IHJvdW5kZWQtbGcgaG92ZXI6YmctW3ZhcigtLW11dGVkKV0gdHJhbnNpdGlvbiI+PENoZXZyb25MZWZ0IHNpemU9ezE4fSAvPjwvYnV0dG9uPgogICAgICAgICAgICA8aDIgY2xhc3NOYW1lPSJmb250LXNlbWlib2xkIHRleHQtW3ZhcigtLWZvcmVncm91bmQpXSBjYXBpdGFsaXplIj57bW9udGhOYW1lfTwvaDI+CiAgICAgICAgICAgIDxidXR0b24gb25DbGljaz17bmV4dE1vbnRofSBjbGFzc05hbWU9InAtMS41IHJvdW5kZWQtbGcgaG92ZXI6YmctW3ZhcigtLW11dGVkKV0gdHJhbnNpdGlvbiI+PENoZXZyb25SaWdodCBzaXplPXsxOH0gLz48L2J1dHRvbj4KICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJncmlkIGdyaWQtY29scy03IG1iLTIiPgogICAgICAgICAgICB7WydEJywgJ0wnLCAnTScsICdYJywgJ0onLCAnVicsICdTJ10ubWFwKGQgPT4gKAogICAgICAgICAgICAgIDxkaXYga2V5PXtkfSBjbGFzc05hbWU9InRleHQtY2VudGVyIHRleHQteHMgZm9udC1tZWRpdW0gdGV4dC1bdmFyKC0tbXV0ZWQtZm9yZWdyb3VuZCldIHB5LTEiPntkfTwvZGl2PgogICAgICAgICAgICApKX0KICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJncmlkIGdyaWQtY29scy03IGdhcC0xIj4KICAgICAgICAgICAge0FycmF5LmZyb20oeyBsZW5ndGg6IGZpcnN0RGF5IH0pLm1hcCgoXywgaSkgPT4gPGRpdiBrZXk9e2BlbXB0eS0ke2l9YH0gLz4pfQogICAgICAgICAgICB7QXJyYXkuZnJvbSh7IGxlbmd0aDogZGF5c0luTW9udGggfSwgKF8sIGkpID0+IGkgKyAxKS5tYXAoZGF5ID0+IHsKICAgICAgICAgICAgICBjb25zdCBkYXlFdmVudHMgPSBldmVudHNPbkRheShkYXkpCiAgICAgICAgICAgICAgY29uc3QgaXNUb2RheSA9IHRvZGF5LmdldEZ1bGxZZWFyKCkgPT09IHllYXIgJiYgdG9kYXkuZ2V0TW9udGgoKSA9PT0gbW9udGggJiYgdG9kYXkuZ2V0RGF0ZSgpID09PSBkYXkKICAgICAgICAgICAgICBjb25zdCBpc1NlbGVjdGVkID0gc2VsZWN0ZWREYXRlPy5nZXREYXRlKCkgPT09IGRheSAmJiBzZWxlY3RlZERhdGU/LmdldE1vbnRoKCkgPT09IG1vbnRoICYmIHNlbGVjdGVkRGF0ZT8uZ2V0RnVsbFllYXIoKSA9PT0geWVhcgogICAgICAgICAgICAgIHJldHVybiAoCiAgICAgICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgICAgIGtleT17ZGF5fQogICAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiBzZXRTZWxlY3RlZERhdGUoaXNTZWxlY3RlZCA/IG51bGwgOiBuZXcgRGF0ZSh5ZWFyLCBtb250aCwgZGF5KSl9CiAgICAgICAgICAgICAgICAgIG9uRG91YmxlQ2xpY2s9eygpID0+IG9wZW5EaWFsb2dGb3JEYXRlKGRheSl9CiAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT17YHJlbGF0aXZlIGFzcGVjdC1zcXVhcmUgZmxleCBmbGV4LWNvbCBpdGVtcy1jZW50ZXIganVzdGlmeS1zdGFydCBwdC0xIHJvdW5kZWQteGwgdGV4dC1zbSB0cmFuc2l0aW9uICR7aXNUb2RheSA/ICdiZy1bdmFyKC0tcHJpbWFyeSldIHRleHQtd2hpdGUgZm9udC1ib2xkJyA6IGlzU2VsZWN0ZWQgPyAnYmctW3ZhcigtLXByaW1hcnktbGlnaHQpXSB0ZXh0LVt2YXIoLS1wcmltYXJ5KV0gZm9udC1tZWRpdW0nIDogJ2hvdmVyOmJnLVt2YXIoLS1tdXRlZCldJ31gfQogICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICB7ZGF5fQogICAgICAgICAgICAgICAgICB7ZGF5RXZlbnRzLmxlbmd0aCA+IDAgJiYgKAogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGdhcC0wLjUgbXQtMC41Ij4KICAgICAgICAgICAgICAgICAgICAgIHtkYXlFdmVudHMuc2xpY2UoMCwgMykubWFwKGUgPT4gKAogICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGtleT17ZS5pZH0gY2xhc3NOYW1lPSJ3LTEgaC0xIHJvdW5kZWQtZnVsbCIgc3R5bGU9e3sgYmFja2dyb3VuZENvbG9yOiBpc1RvZGF5ID8gJ3doaXRlJyA6IGUuY29sb3IgfX0gLz4KICAgICAgICAgICAgICAgICAgICAgICkpfQogICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgKQogICAgICAgICAgICB9KX0KICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgIHtzZWxlY3RlZERhdGUgJiYgKAogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibXQtNCBib3JkZXItdCBib3JkZXItW3ZhcigtLWJvcmRlcildIHB0LTQiPgogICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSBmb250LW1lZGl1bSB0ZXh0LVt2YXIoLS1mb3JlZ3JvdW5kKV0gbWItMiBjYXBpdGFsaXplIj4KICAgICAgICAgICAgICAgIHtzZWxlY3RlZERhdGUudG9Mb2NhbGVEYXRlU3RyaW5nKCdlcycsIHsgd2Vla2RheTogJ2xvbmcnLCBkYXk6ICdudW1lcmljJywgbW9udGg6ICdsb25nJyB9KX0KICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAge3NlbGVjdGVkRXZlbnRzLmxlbmd0aCA9PT0gMCA/ICgKICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4iPgogICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1bdmFyKC0tbXV0ZWQtZm9yZWdyb3VuZCldIj5TaW4gZXZlbnRvczwvcD4KICAgICAgICAgICAgICAgICAgPEJ1dHRvbiBzaXplPSJzbSIgdmFyaWFudD0iZ2hvc3QiIG9uQ2xpY2s9eygpID0+IG9wZW5EaWFsb2dGb3JEYXRlKHNlbGVjdGVkRGF0ZS5nZXREYXRlKCkpfT4KICAgICAgICAgICAgICAgICAgICA8UGx1cyBzaXplPXsxNH0gLz4gQcOxYWRpcgogICAgICAgICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICkgOiAoCiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LWNvbCBnYXAtMiI+CiAgICAgICAgICAgICAgICAgIHtzZWxlY3RlZEV2ZW50cy5tYXAoZSA9PiAoCiAgICAgICAgICAgICAgICAgICAgPGRpdiBrZXk9e2UuaWR9IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgZ3JvdXAiPgogICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InctMiBoLTIgcm91bmRlZC1mdWxsIGZsZXgtc2hyaW5rLTAiIHN0eWxlPXt7IGJhY2tncm91bmRDb2xvcjogZS5jb2xvciB9fSAvPgogICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXgtMSBtaW4tdy0wIj4KICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtW3ZhcigtLWZvcmVncm91bmQpXSI+e2UudGl0bGV9PC9zcGFuPgogICAgICAgICAgICAgICAgICAgICAgICB7IWUuYWxsX2RheSAmJiAoCiAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtW3ZhcigtLW11dGVkLWZvcmVncm91bmQpXSBtbC0xLjUiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAge25ldyBEYXRlKGUuc3RhcnRfZGF0ZSkudG9Mb2NhbGVUaW1lU3RyaW5nKCdlcycsIHsgaG91cjogJzItZGlnaXQnLCBtaW51dGU6ICcyLWRpZ2l0JyB9KX0KICAgICAgICAgICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgIDxidXR0b24gb25DbGljaz17ZXYgPT4gb3BlbkVkaXQoZXYsIGUpfSBjbGFzc05hbWU9Im1kOm9wYWNpdHktMCBtZDpncm91cC1ob3ZlcjpvcGFjaXR5LTEwMCBwLTEgcm91bmRlZCBob3ZlcjpiZy1bdmFyKC0tbXV0ZWQpXSB0ZXh0LVt2YXIoLS1tdXRlZC1mb3JlZ3JvdW5kKV0gdHJhbnNpdGlvbiI+CiAgICAgICAgICAgICAgICAgICAgICAgIDxQZW5jaWwgc2l6ZT17MTN9IC8+CiAgICAgICAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICAgICAgICAgIDxidXR0b24gb25DbGljaz17KCkgPT4gZGVsZXRlRXZlbnQoZS5pZCl9IGNsYXNzTmFtZT0ibWQ6b3BhY2l0eS0wIG1kOmdyb3VwLWhvdmVyOm9wYWNpdHktMTAwIHAtMSByb3VuZGVkIGhvdmVyOmJnLXJlZC01MCB0ZXh0LXJlZC00MDAgdHJhbnNpdGlvbiI+CiAgICAgICAgICAgICAgICAgICAgICAgIDxUcmFzaDIgc2l6ZT17MTN9IC8+CiAgICAgICAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgKSl9CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICApfQogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICl9CiAgICAgICAgPC9kaXY+CgogICAgICAgIHsvKiBVcGNvbWluZyAqL30KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYmctd2hpdGUgcm91bmRlZC0yeGwgYm9yZGVyIGJvcmRlci1bdmFyKC0tYm9yZGVyKV0gcC01Ij4KICAgICAgICAgIDxoMiBjbGFzc05hbWU9ImZvbnQtc2VtaWJvbGQgdGV4dC1bdmFyKC0tZm9yZWdyb3VuZCldIG1iLTQiPlByw7N4aW1vcyBldmVudG9zPC9oMj4KICAgICAgICAgIHt1cGNvbWluZy5sZW5ndGggPT09IDAgPyAoCiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LVt2YXIoLS1tdXRlZC1mb3JlZ3JvdW5kKV0iPk5vIGhheSBldmVudG9zIHByw7N4aW1vczwvcD4KICAgICAgICAgICkgOiAoCiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGZsZXgtY29sIGdhcC0zIj4KICAgICAgICAgICAgICB7dXBjb21pbmcubWFwKGV2ZW50ID0+ICgKICAgICAgICAgICAgICAgIDxkaXYga2V5PXtldmVudC5pZH0gY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLXN0YXJ0IGdhcC0zIGdyb3VwIj4KICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InctMS41IGgtMTAgcm91bmRlZC1mdWxsIGZsZXgtc2hyaW5rLTAgbXQtMC41IiBzdHlsZT17eyBiYWNrZ3JvdW5kQ29sb3I6IGV2ZW50LmNvbG9yIH19IC8+CiAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4LTEgbWluLXctMCI+CiAgICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIGZvbnQtbWVkaXVtIHRleHQtW3ZhcigtLWZvcmVncm91bmQpXSB0cnVuY2F0ZSI+e2V2ZW50LnRpdGxlfTwvcD4KICAgICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQteHMgdGV4dC1bdmFyKC0tbXV0ZWQtZm9yZWdyb3VuZCldIj4KICAgICAgICAgICAgICAgICAgICAgIHtmb3JtYXRFdmVudERhdGUoZXZlbnQuc3RhcnRfZGF0ZSwgZXZlbnQuYWxsX2RheSl9CiAgICAgICAgICAgICAgICAgICAgICB7IWV2ZW50LmFsbF9kYXkgJiYgKAogICAgICAgICAgICAgICAgICAgICAgICA8c3Bhbj4gwrcge25ldyBEYXRlKGV2ZW50LnN0YXJ0X2RhdGUpLnRvTG9jYWxlVGltZVN0cmluZygnZXMnLCB7IGhvdXI6ICcyLWRpZ2l0JywgbWludXRlOiAnMi1kaWdpdCcgfSl9PC9zcGFuPgogICAgICAgICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgICAgICAge2V2ZW50LmxvY2F0aW9uICYmICgKICAgICAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LVt2YXIoLS1tdXRlZC1mb3JlZ3JvdW5kKV0gZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEgbXQtMC41Ij4KICAgICAgICAgICAgICAgICAgICAgICAgPE1hcFBpbiBzaXplPXsxMH0gLz4ge2V2ZW50LmxvY2F0aW9ufQogICAgICAgICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibWQ6b3BhY2l0eS0wIG1kOmdyb3VwLWhvdmVyOm9wYWNpdHktMTAwIGZsZXggZ2FwLTEgZmxleC1zaHJpbmstMCBtdC0xIHRyYW5zaXRpb24iPgogICAgICAgICAgICAgICAgICAgIDxidXR0b24gb25DbGljaz17ZSA9PiBvcGVuRWRpdChlLCBldmVudCl9IGNsYXNzTmFtZT0icC0xIHJvdW5kZWQgaG92ZXI6YmctW3ZhcigtLW11dGVkKV0gdGV4dC1bdmFyKC0tbXV0ZWQtZm9yZWdyb3VuZCldIHRyYW5zaXRpb24iPgogICAgICAgICAgICAgICAgICAgICAgPFBlbmNpbCBzaXplPXsxM30gLz4KICAgICAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICAgICAgICA8YnV0dG9uIG9uQ2xpY2s9eygpID0+IGRlbGV0ZUV2ZW50KGV2ZW50LmlkKX0gY2xhc3NOYW1lPSJwLTEgcm91bmRlZCBob3ZlcjpiZy1yZWQtNTAgdGV4dC1yZWQtNDAwIHRyYW5zaXRpb24iPgogICAgICAgICAgICAgICAgICAgICAgPFRyYXNoMiBzaXplPXsxM30gLz4KICAgICAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICApfQogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KCiAgICAgIDxEaWFsb2cgb3Blbj17c2hvd0RpYWxvZ30gb25DbG9zZT17KCkgPT4gc2V0U2hvd0RpYWxvZyhmYWxzZSl9IHRpdGxlPXtlZGl0aW5nRXZlbnQgPyAnRWRpdGFyIGV2ZW50bycgOiAnTnVldm8gZXZlbnRvJ30+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZmxleC1jb2wgZ2FwLTQiPgogICAgICAgICAgPElucHV0IGxhYmVsPSJUw610dWxvIiBwbGFjZWhvbGRlcj0iRWo6IEFuaXZlcnNhcmlvIiB2YWx1ZT17Zm9ybS50aXRsZX0gb25DaGFuZ2U9e2UgPT4gc2V0Rm9ybShmID0+ICh7IC4uLmYsIHRpdGxlOiBlLnRhcmdldC52YWx1ZSB9KSl9IC8+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZ3JpZCBncmlkLWNvbHMtMiBnYXAtMyI+CiAgICAgICAgICAgIDxJbnB1dCBsYWJlbD0iRmVjaGEgaW5pY2lvIiB0eXBlPXtmb3JtLmFsbF9kYXkgPyAnZGF0ZScgOiAnZGF0ZXRpbWUtbG9jYWwnfSB2YWx1ZT17Zm9ybS5zdGFydF9kYXRlfSBvbkNoYW5nZT17ZSA9PiBzZXRGb3JtKGYgPT4gKHsgLi4uZiwgc3RhcnRfZGF0ZTogZS50YXJnZXQudmFsdWUgfSkpfSAvPgogICAgICAgICAgICA8SW5wdXQgbGFiZWw9IkZlY2hhIGZpbiAob3BjaW9uYWwpIiB0eXBlPXtmb3JtLmFsbF9kYXkgPyAnZGF0ZScgOiAnZGF0ZXRpbWUtbG9jYWwnfSB2YWx1ZT17Zm9ybS5lbmRfZGF0ZX0gb25DaGFuZ2U9e2UgPT4gc2V0Rm9ybShmID0+ICh7IC4uLmYsIGVuZF9kYXRlOiBlLnRhcmdldC52YWx1ZSB9KSl9IC8+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxsYWJlbCBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIHRleHQtc20gY3Vyc29yLXBvaW50ZXIiPgogICAgICAgICAgICA8aW5wdXQgdHlwZT0iY2hlY2tib3giIGNoZWNrZWQ9e2Zvcm0uYWxsX2RheX0gb25DaGFuZ2U9e2UgPT4gc2V0Rm9ybShmID0+ICh7IC4uLmYsIGFsbF9kYXk6IGUudGFyZ2V0LmNoZWNrZWQgfSkpfSBjbGFzc05hbWU9InJvdW5kZWQiIC8+CiAgICAgICAgICAgIFRvZG8gZWwgZMOtYQogICAgICAgICAgPC9sYWJlbD4KICAgICAgICAgIDxJbnB1dCBsYWJlbD0iTHVnYXIgKG9wY2lvbmFsKSIgcGxhY2Vob2xkZXI9IkVqOiBSb21hLCBJdGFsaWEiIHZhbHVlPXtmb3JtLmxvY2F0aW9ufSBvbkNoYW5nZT17ZSA9PiBzZXRGb3JtKGYgPT4gKHsgLi4uZiwgbG9jYXRpb246IGUudGFyZ2V0LnZhbHVlIH0pKX0gLz4KICAgICAgICAgIDxUZXh0YXJlYSBsYWJlbD0iRGVzY3JpcGNpw7NuIChvcGNpb25hbCkiIHBsYWNlaG9sZGVyPSJEZXRhbGxlcyBkZWwgZXZlbnRvLi4uIiB2YWx1ZT17Zm9ybS5kZXNjcmlwdGlvbn0gb25DaGFuZ2U9e2UgPT4gc2V0Rm9ybShmID0+ICh7IC4uLmYsIGRlc2NyaXB0aW9uOiBlLnRhcmdldC52YWx1ZSB9KSl9IHJvd3M9ezJ9IC8+CiAgICAgICAgICA8ZGl2PgogICAgICAgICAgICA8bGFiZWwgY2xhc3NOYW1lPSJ0ZXh0LXNtIGZvbnQtbWVkaXVtIHRleHQtW3ZhcigtLWZvcmVncm91bmQpXSBibG9jayBtYi0yIj5Db2xvcjwvbGFiZWw+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGdhcC0yIj4KICAgICAgICAgICAgICB7Q09MT1JTLm1hcChjID0+ICgKICAgICAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICAgICAga2V5PXtjfQogICAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiBzZXRGb3JtKGYgPT4gKHsgLi4uZiwgY29sb3I6IGMgfSkpfQogICAgICAgICAgICAgICAgICBjbGFzc05hbWU9e2B3LTcgaC03IHJvdW5kZWQtZnVsbCB0cmFuc2l0aW9uICR7Zm9ybS5jb2xvciA9PT0gYyA/ICdyaW5nLTIgcmluZy1vZmZzZXQtMiByaW5nLVt2YXIoLS1wcmltYXJ5KV0nIDogJyd9YH0KICAgICAgICAgICAgICAgICAgc3R5bGU9e3sgYmFja2dyb3VuZENvbG9yOiBjIH19CiAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICkpfQogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXgganVzdGlmeS1lbmQgZ2FwLTIgbXQtMiI+CiAgICAgICAgICAgIDxCdXR0b24gdmFyaWFudD0ib3V0bGluZSIgb25DbGljaz17KCkgPT4gc2V0U2hvd0RpYWxvZyhmYWxzZSl9PkNhbmNlbGFyPC9CdXR0b24+CiAgICAgICAgICAgIDxCdXR0b24gb25DbGljaz17c2F2ZUV2ZW50fSBsb2FkaW5nPXtsb2FkaW5nfSBkaXNhYmxlZD17IWZvcm0udGl0bGUudHJpbSgpIHx8ICFmb3JtLnN0YXJ0X2RhdGV9PntlZGl0aW5nRXZlbnQgPyAnR3VhcmRhcicgOiAnQ3JlYXIgZXZlbnRvJ308L0J1dHRvbj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICA8L0RpYWxvZz4KICAgIDwvZGl2PgogICkKfQo="
+'use client'
+
+import { useState, useEffect } from 'react'
+import { createClient } from '@/lib/supabase/client'
+import { Button } from '@/components/ui/button'
+import { Input, Textarea } from '@/components/ui/input'
+import { Dialog } from '@/components/ui/dialog'
+import { formatDate } from '@/lib/utils'
+import type { CalendarEvent } from '@/lib/types'
+import { Calendar, Plus, Trash2, MapPin, ChevronLeft, ChevronRight, Link2, Check, Pencil } from 'lucide-react'
+import { notifyPartner } from '@/lib/notify'
+
+const COLORS = ['#C4737A', '#7A9BC4', '#7AC4A0', '#C4A87A', '#A87AC4', '#FF6B6B', '#4ECDC4']
+
+export default function CalendarioPage() {
+  const supabase = createClient()
+  const [events, setEvents] = useState<CalendarEvent[]>([])
+  const [coupleId, setCoupleId] = useState<string | null>(null)
+  const [userId, setUserId] = useState<string | null>(null)
+  const [showDialog, setShowDialog] = useState(false)
+  const [editingEvent, setEditingEvent] = useState<CalendarEvent | null>(null)
+  const [currentDate, setCurrentDate] = useState(new Date())
+  const [selectedDate, setSelectedDate] = useState<Date | null>(null)
+  const [form, setForm] = useState({ title: '', description: '', start_date: '', end_date: '', all_day: true, color: COLORS[0], location: '' })
+  const [loading, setLoading] = useState(false)
+  const [copied, setCopied] = useState(false)
+
+  async function copyFeedUrl() {
+    if (!coupleId) return
+    const url = `${window.location.origin}/api/calendar/${coupleId}`
+    await navigator.clipboard.writeText(url)
+    setCopied(true)
+    setTimeout(() => setCopied(false), 2500)
+  }
+
+  useEffect(() => {
+    async function load() {
+      const { data: { user } } = await supabase.auth.getUser()
+      if (!user) return
+      setUserId(user.id)
+      const { data: profile } = await supabase.from('profiles').select('couple_id').eq('id', user.id).single()
+      if (!profile?.couple_id) return
+      setCoupleId(profile.couple_id)
+      const { data } = await supabase.from('events').select('*').eq('couple_id', profile.couple_id).order('start_date')
+      setEvents(data || [])
+    }
+    load()
+  }, [])
+
+  function openCreate(dateStr?: string) {
+    setEditingEvent(null)
+    setForm({ title: '', description: '', start_date: dateStr || '', end_date: '', all_day: true, color: COLORS[0], location: '' })
+    setShowDialog(true)
+  }
+
+  function openEdit(e: React.MouseEvent, event: CalendarEvent) {
+    e.stopPropagation()
+    setEditingEvent(event)
+    setForm({
+      title: event.title,
+      description: event.description || '',
+      start_date: event.start_date,
+      end_date: event.end_date || '',
+      all_day: event.all_day,
+      color: event.color,
+      location: event.location || '',
+    })
+    setShowDialog(true)
+  }
+
+  async function saveEvent() {
+    if (!form.title.trim() || !form.start_date) return
+    setLoading(true)
+    if (editingEvent) {
+      await supabase.from('events').update({
+        title: form.title,
+        description: form.description || null,
+        start_date: form.start_date,
+        end_date: form.end_date || null,
+        all_day: form.all_day,
+        color: form.color,
+        location: form.location || null,
+      }).eq('id', editingEvent.id)
+      setEvents(e => e.map(x => x.id === editingEvent.id ? { ...x, title: form.title, description: form.description || null, start_date: form.start_date, end_date: form.end_date || null, all_day: form.all_day, color: form.color, location: form.location || null } : x).sort((a, b) => a.start_date.localeCompare(b.start_date)))
+    } else {
+      if (!coupleId) { setLoading(false); return }
+      const { data } = await supabase.from('events').insert({
+        couple_id: coupleId,
+        title: form.title,
+        description: form.description || null,
+        start_date: form.start_date,
+        end_date: form.end_date || null,
+        all_day: form.all_day,
+        color: form.color,
+        location: form.location || null,
+        created_by: userId,
+      }).select().single()
+      if (data) {
+        setEvents(e => [...e, data].sort((a, b) => a.start_date.localeCompare(b.start_date)))
+        notifyPartner(coupleId, userId!, '📅 Calendario', `Nuevo evento: "${form.title}"`, '/calendario')
+      }
+    }
+    setLoading(false)
+    setShowDialog(false)
+  }
+
+  async function deleteEvent(id: string) {
+    await supabase.from('events').delete().eq('id', id)
+    setEvents(e => e.filter(x => x.id !== id))
+  }
+
+  // Calendar grid
+  const year = currentDate.getFullYear()
+  const month = currentDate.getMonth()
+  const firstDay = new Date(year, month, 1).getDay()
+  const daysInMonth = new Date(year, month + 1, 0).getDate()
+  const monthName = new Date(year, month).toLocaleDateString('es', { month: 'long', year: 'numeric' })
+  const today = new Date()
+
+  function prevMonth() { setCurrentDate(new Date(year, month - 1)) }
+  function nextMonth() { setCurrentDate(new Date(year, month + 1)) }
+
+  function eventsOnDay(day: number) {
+    const cellDate = new Date(Date.UTC(year, month, day))
+    return events.filter(e => {
+      if (e.all_day) {
+        const start = new Date(e.start_date)
+        const startUTC = Date.UTC(start.getUTCFullYear(), start.getUTCMonth(), start.getUTCDate())
+        const endUTC = e.end_date
+          ? (() => { const ed = new Date(e.end_date); return Date.UTC(ed.getUTCFullYear(), ed.getUTCMonth(), ed.getUTCDate()) })()
+          : startUTC
+        return cellDate.getTime() >= startUTC && cellDate.getTime() <= endUTC
+      }
+      const d = new Date(e.start_date)
+      return d.getFullYear() === year && d.getMonth() === month && d.getDate() === day
+    })
+  }
+
+  function formatEventDate(dateStr: string, allDay: boolean) {
+    const d = new Date(dateStr)
+    if (allDay) {
+      // Use UTC to avoid off-by-one from timezone offset
+      return new Date(d.getUTCFullYear(), d.getUTCMonth(), d.getUTCDate())
+        .toLocaleDateString('es', { day: 'numeric', month: 'short' })
+    }
+    return d.toLocaleDateString('es', { day: 'numeric', month: 'short' })
+  }
+
+  const selectedEvents = selectedDate ? eventsOnDay(selectedDate.getDate()) : []
+
+  // Upcoming events
+  const now = new Date()
+  const upcoming = events.filter(e => new Date(e.start_date) >= now).slice(0, 5)
+
+  function openDialogForDate(day: number) {
+    const dateStr = `${year}-${String(month + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`
+    openCreate(dateStr)
+  }
+
+  return (
+    <div className="px-4 py-6 md:p-8 max-w-5xl mx-auto">
+      <div className="flex items-center justify-between mb-8">
+        <div>
+          <h1 className="text-2xl font-bold text-[var(--foreground)] flex items-center gap-2">
+            <Calendar size={24} className="text-[var(--primary)]" />
+            Calendario
+          </h1>
+          <p className="text-sm text-[var(--muted-foreground)] mt-1">Vuestros eventos importantes</p>
+        </div>
+        <div className="flex gap-2">
+          <Button variant="outline" onClick={copyFeedUrl} title="Copiar enlace para suscribirse en Google Calendar / Outlook">
+            {copied ? <Check size={16} className="text-green-500" /> : <Link2 size={16} />}
+            <span className="hidden sm:inline">{copied ? 'Copiado' : 'Suscribirse'}</span>
+          </Button>
+          <Button onClick={() => openCreate()}>
+            <Plus size={16} /> <span className="hidden sm:inline">Nuevo evento</span>
+          </Button>
+        </div>
+      </div>
+
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        {/* Calendar */}
+        <div className="md:col-span-2 bg-white rounded-2xl border border-[var(--border)] p-6">
+          <div className="flex items-center justify-between mb-4">
+            <button onClick={prevMonth} className="p-1.5 rounded-lg hover:bg-[var(--muted)] transition"><ChevronLeft size={18} /></button>
+            <h2 className="font-semibold text-[var(--foreground)] capitalize">{monthName}</h2>
+            <button onClick={nextMonth} className="p-1.5 rounded-lg hover:bg-[var(--muted)] transition"><ChevronRight size={18} /></button>
+          </div>
+
+          <div className="grid grid-cols-7 mb-2">
+            {['D', 'L', 'M', 'X', 'J', 'V', 'S'].map(d => (
+              <div key={d} className="text-center text-xs font-medium text-[var(--muted-foreground)] py-1">{d}</div>
+            ))}
+          </div>
+
+          <div className="grid grid-cols-7 gap-1">
+            {Array.from({ length: firstDay }).map((_, i) => <div key={`empty-${i}`} />)}
+            {Array.from({ length: daysInMonth }, (_, i) => i + 1).map(day => {
+              const dayEvents = eventsOnDay(day)
+              const isToday = today.getFullYear() === year && today.getMonth() === month && today.getDate() === day
+              const isSelected = selectedDate?.getDate() === day && selectedDate?.getMonth() === month && selectedDate?.getFullYear() === year
+              return (
+                <button
+                  key={day}
+                  onClick={() => setSelectedDate(isSelected ? null : new Date(year, month, day))}
+                  onDoubleClick={() => openDialogForDate(day)}
+                  className={`relative aspect-square flex flex-col items-center justify-start pt-1 rounded-xl text-sm transition ${isToday ? 'bg-[var(--primary)] text-white font-bold' : isSelected ? 'bg-[var(--primary-light)] text-[var(--primary)] font-medium' : 'hover:bg-[var(--muted)]'}`}
+                >
+                  {day}
+                  {dayEvents.length > 0 && (
+                    <div className="flex gap-0.5 mt-0.5">
+                      {dayEvents.slice(0, 3).map(e => (
+                        <div key={e.id} className="w-1 h-1 rounded-full" style={{ backgroundColor: isToday ? 'white' : e.color }} />
+                      ))}
+                    </div>
+                  )}
+                </button>
+              )
+            })}
+          </div>
+
+          {selectedDate && (
+            <div className="mt-4 border-t border-[var(--border)] pt-4">
+              <p className="text-sm font-medium text-[var(--foreground)] mb-2 capitalize">
+                {selectedDate.toLocaleDateString('es', { weekday: 'long', day: 'numeric', month: 'long' })}
+              </p>
+              {selectedEvents.length === 0 ? (
+                <div className="flex items-center justify-between">
+                  <p className="text-sm text-[var(--muted-foreground)]">Sin eventos</p>
+                  <Button size="sm" variant="ghost" onClick={() => openDialogForDate(selectedDate.getDate())}>
+                    <Plus size={14} /> Añadir
+                  </Button>
+                </div>
+              ) : (
+                <div className="flex flex-col gap-2">
+                  {selectedEvents.map(e => (
+                    <div key={e.id} className="flex items-center gap-2 group">
+                      <div className="w-2 h-2 rounded-full flex-shrink-0" style={{ backgroundColor: e.color }} />
+                      <div className="flex-1 min-w-0">
+                        <span className="text-sm text-[var(--foreground)]">{e.title}</span>
+                        {!e.all_day && (
+                          <span className="text-xs text-[var(--muted-foreground)] ml-1.5">
+                            {new Date(e.start_date).toLocaleTimeString('es', { hour: '2-digit', minute: '2-digit' })}
+                          </span>
+                        )}
+                      </div>
+                      <button onClick={ev => openEdit(ev, e)} className="md:opacity-0 md:group-hover:opacity-100 p-1 rounded hover:bg-[var(--muted)] text-[var(--muted-foreground)] transition">
+                        <Pencil size={13} />
+                      </button>
+                      <button onClick={() => deleteEvent(e.id)} className="md:opacity-0 md:group-hover:opacity-100 p-1 rounded hover:bg-red-50 text-red-400 transition">
+                        <Trash2 size={13} />
+                      </button>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+          )}
+        </div>
+
+        {/* Upcoming */}
+        <div className="bg-white rounded-2xl border border-[var(--border)] p-5">
+          <h2 className="font-semibold text-[var(--foreground)] mb-4">Próximos eventos</h2>
+          {upcoming.length === 0 ? (
+            <p className="text-sm text-[var(--muted-foreground)]">No hay eventos próximos</p>
+          ) : (
+            <div className="flex flex-col gap-3">
+              {upcoming.map(event => (
+                <div key={event.id} className="flex items-start gap-3 group">
+                  <div className="w-1.5 h-10 rounded-full flex-shrink-0 mt-0.5" style={{ backgroundColor: event.color }} />
+                  <div className="flex-1 min-w-0">
+                    <p className="text-sm font-medium text-[var(--foreground)] truncate">{event.title}</p>
+                    <p className="text-xs text-[var(--muted-foreground)]">
+                      {formatEventDate(event.start_date, event.all_day)}
+                      {!event.all_day && (
+                        <span> · {new Date(event.start_date).toLocaleTimeString('es', { hour: '2-digit', minute: '2-digit' })}</span>
+                      )}
+                    </p>
+                    {event.location && (
+                      <p className="text-xs text-[var(--muted-foreground)] flex items-center gap-1 mt-0.5">
+                        <MapPin size={10} /> {event.location}
+                      </p>
+                    )}
+                  </div>
+                  <div className="md:opacity-0 md:group-hover:opacity-100 flex gap-1 flex-shrink-0 mt-1 transition">
+                    <button onClick={e => openEdit(e, event)} className="p-1 rounded hover:bg-[var(--muted)] text-[var(--muted-foreground)] transition">
+                      <Pencil size={13} />
+                    </button>
+                    <button onClick={() => deleteEvent(event.id)} className="p-1 rounded hover:bg-red-50 text-red-400 transition">
+                      <Trash2 size={13} />
+                    </button>
+                  </div>
+                </div>
+              ))}
+            </div>
+          )}
+        </div>
+      </div>
+
+      <Dialog open={showDialog} onClose={() => setShowDialog(false)} title={editingEvent ? 'Editar evento' : 'Nuevo evento'}>
+        <div className="flex flex-col gap-4">
+          <Input label="Título" placeholder="Ej: Aniversario" value={form.title} onChange={e => setForm(f => ({ ...f, title: e.target.value }))} />
+          <div className="grid grid-cols-2 gap-3">
+            <Input label="Fecha inicio" type={form.all_day ? 'date' : 'datetime-local'} value={form.start_date} onChange={e => setForm(f => ({ ...f, start_date: e.target.value }))} />
+            <Input label="Fecha fin (opcional)" type={form.all_day ? 'date' : 'datetime-local'} value={form.end_date} onChange={e => setForm(f => ({ ...f, end_date: e.target.value }))} />
+          </div>
+          <label className="flex items-center gap-2 text-sm cursor-pointer">
+            <input type="checkbox" checked={form.all_day} onChange={e => setForm(f => ({ ...f, all_day: e.target.checked }))} className="rounded" />
+            Todo el día
+          </label>
+          <Input label="Lugar (opcional)" placeholder="Ej: Roma, Italia" value={form.location} onChange={e => setForm(f => ({ ...f, location: e.target.value }))} />
+          <Textarea label="Descripción (opcional)" placeholder="Detalles del evento..." value={form.description} onChange={e => setForm(f => ({ ...f, description: e.target.value }))} rows={2} />
+          <div>
+            <label className="text-sm font-medium text-[var(--foreground)] block mb-2">Color</label>
+            <div className="flex gap-2">
+              {COLORS.map(c => (
+                <button
+                  key={c}
+                  onClick={() => setForm(f => ({ ...f, color: c }))}
+                  className={`w-7 h-7 rounded-full transition ${form.color === c ? 'ring-2 ring-offset-2 ring-[var(--primary)]' : ''}`}
+                  style={{ backgroundColor: c }}
+                />
+              ))}
+            </div>
+          </div>
+          <div className="flex justify-end gap-2 mt-2">
+            <Button variant="outline" onClick={() => setShowDialog(false)}>Cancelar</Button>
+            <Button onClick={saveEvent} loading={loading} disabled={!form.title.trim() || !form.start_date}>{editingEvent ? 'Guardar' : 'Crear evento'}</Button>
+          </div>
+        </div>
+      </Dialog>
+    </div>
+  )
 }

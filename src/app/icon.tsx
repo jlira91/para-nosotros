@@ -1,3 +1,26 @@
-﻿{
-    "data":  "aW1wb3J0IHsgSW1hZ2VSZXNwb25zZSB9IGZyb20gJ25leHQvb2cnCgpleHBvcnQgY29uc3Qgc2l6ZSA9IHsgd2lkdGg6IDUxMiwgaGVpZ2h0OiA1MTIgfQpleHBvcnQgY29uc3QgY29udGVudFR5cGUgPSAnaW1hZ2UvcG5nJwoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gSWNvbigpIHsKICByZXR1cm4gbmV3IEltYWdlUmVzcG9uc2UoCiAgICA8ZGl2CiAgICAgIHN0eWxlPXt7CiAgICAgICAgd2lkdGg6ICcxMDAlJywKICAgICAgICBoZWlnaHQ6ICcxMDAlJywKICAgICAgICBiYWNrZ3JvdW5kOiAnbGluZWFyLWdyYWRpZW50KDEzNWRlZywgI0M0NzM3QSAwJSwgIzlCNTk2OCAxMDAlKScsCiAgICAgICAgZGlzcGxheTogJ2ZsZXgnLAogICAgICAgIGFsaWduSXRlbXM6ICdjZW50ZXInLAogICAgICAgIGp1c3RpZnlDb250ZW50OiAnY2VudGVyJywKICAgICAgfX0KICAgID4KICAgICAgPHN2ZyB3aWR0aD0iNDgwIiBoZWlnaHQ9IjQ0MCIgdmlld0JveD0iMCAwIDEwMCA5MCI+CiAgICAgICAgPHBhdGgKICAgICAgICAgIGQ9Ik0gNTAgODAgQyA1MCA4MCwgNSA1MCwgNSAyNSBDIDUgMTAgMTcgMiAzMCA4IEMgMzggMTIgNDQgMTggNTAgMjUgQyA1NiAxOCA2MiAxMiA3MCA4IEMgODMgMiA5NSAxMCA5NSAyNSBDIDk1IDUwIDUwIDgwIDUwIDgwIFoiCiAgICAgICAgICBmaWxsPSJ3aGl0ZSIKICAgICAgICAvPgogICAgICA8L3N2Zz4KICAgIDwvZGl2PgogICkKfQo="
+import { ImageResponse } from 'next/og'
+
+export const size = { width: 512, height: 512 }
+export const contentType = 'image/png'
+
+export default function Icon() {
+  return new ImageResponse(
+    <div
+      style={{
+        width: '100%',
+        height: '100%',
+        background: 'linear-gradient(135deg, #C4737A 0%, #9B5968 100%)',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+      }}
+    >
+      <svg width="480" height="440" viewBox="0 0 100 90">
+        <path
+          d="M 50 80 C 50 80, 5 50, 5 25 C 5 10 17 2 30 8 C 38 12 44 18 50 25 C 56 18 62 12 70 8 C 83 2 95 10 95 25 C 95 50 50 80 50 80 Z"
+          fill="white"
+        />
+      </svg>
+    </div>
+  )
 }
