@@ -8,7 +8,7 @@ import { Input, Textarea } from '@/components/ui/input'
 import { Dialog } from '@/components/ui/dialog'
 import { Badge } from '@/components/ui/badge'
 import type { List, ListItem, ItemStatus } from '@/lib/types'
-import { ArrowLeft, Plus, Star, CheckCircle2, Circle, Trash2, ExternalLink, SkipForward, ArrowDownAZ, Clock, Pencil } from 'lucide-react'
+import { ArrowLeft, Plus, Star, CheckCircle2, Circle, Trash2, ExternalLink, SkipForward, ArrowDownAZ, Clock, Pencil, RotateCcw } from 'lucide-react'
 import { notifyPartner } from '@/lib/notify'
 
 const STATUS_LABEL: Record<ItemStatus, string> = { pending: 'Pendiente', done: 'Hecho', skipped: 'Descartado' }
@@ -179,8 +179,13 @@ export default function ListDetailPage() {
                   <button
                     onClick={() => updateStatus(item, item.status === 'pending' ? 'done' : 'pending')}
                     className="mt-0.5 text-[var(--muted-foreground)] hover:text-[var(--primary)] transition flex-shrink-0"
+                    title={item.status === 'skipped' ? 'Restaurar' : item.status === 'done' ? 'Marcar pendiente' : 'Marcar hecho'}
                   >
-                    {item.status === 'done' ? <CheckCircle2 size={20} className="text-green-500" /> : <Circle size={20} />}
+                    {item.status === 'done'
+                      ? <CheckCircle2 size={20} className="text-green-500" />
+                      : item.status === 'skipped'
+                        ? <RotateCcw size={20} className="text-amber-400" />
+                        : <Circle size={20} />}
                   </button>
 
                   <div className="flex-1 min-w-0">
@@ -223,11 +228,11 @@ export default function ListDetailPage() {
                       <Pencil size={14} />
                     </button>
                     <button
-                      onClick={() => updateStatus(item, 'skipped')}
-                      className="p-1.5 rounded-lg hover:bg-[var(--muted)] text-[var(--muted-foreground)] transition"
-                      title="Descartar"
+                      onClick={() => updateStatus(item, item.status === 'skipped' ? 'pending' : 'skipped')}
+                      className={`p-1.5 rounded-lg transition ${item.status === 'skipped' ? 'text-amber-400 hover:bg-amber-50' : 'hover:bg-[var(--muted)] text-[var(--muted-foreground)]'}`}
+                      title={item.status === 'skipped' ? 'Restaurar' : 'Descartar'}
                     >
-                      <SkipForward size={14} />
+                      {item.status === 'skipped' ? <RotateCcw size={14} /> : <SkipForward size={14} />}
                     </button>
                     <button onClick={() => deleteItem(item.id)} className="p-1.5 rounded-lg hover:bg-red-50 text-red-400 transition">
                       <Trash2 size={14} />
