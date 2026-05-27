@@ -11,6 +11,14 @@ import { Calendar, Plus, Trash2, MapPin, ChevronLeft, ChevronRight, Link2, Check
 import { notifyPartner } from '@/lib/notify'
 
 const COLORS = ['#C4737A', '#7A9BC4', '#7AC4A0', '#C4A87A', '#A87AC4', '#FF6B6B', '#4ECDC4']
+const TZ = 'America/Lima'
+
+/** Devuelve { year, month (0-based), day } de una Date en zona Lima */
+function limaParts(date: Date) {
+  const str = date.toLocaleDateString('en-CA', { timeZone: TZ }) // "YYYY-MM-DD"
+  const [y, m, d] = str.split('-').map(Number)
+  return { year: y, month: m - 1, day: d }
+}
 
 export default function CalendarioPage() {
   const supabase = createClient()
@@ -116,6 +124,7 @@ export default function CalendarioPage() {
   const daysInMonth = new Date(year, month + 1, 0).getDate()
   const monthName = new Date(year, month).toLocaleDateString('es', { month: 'long', year: 'numeric' })
   const today = new Date()
+  const todayLima = limaParts(today)
 
   function prevMonth() { setCurrentDate(new Date(year, month - 1)) }
   function nextMonth() { setCurrentDate(new Date(year, month + 1)) }
@@ -131,26 +140,26 @@ export default function CalendarioPage() {
           : startUTC
         return cellDate.getTime() >= startUTC && cellDate.getTime() <= endUTC
       }
-      const d = new Date(e.start_date)
-      return d.getFullYear() === year && d.getMonth() === month && d.getDate() === day
+      // Eventos con hora: comparar en zona Lima
+      const p = limaParts(new Date(e.start_date))
+      return p.year === year && p.month === month && p.day === day
     })
   }
 
   function formatEventDate(dateStr: string, allDay: boolean) {
     const d = new Date(dateStr)
     if (allDay) {
-      // Use UTC to avoid off-by-one from timezone offset
       return new Date(d.getUTCFullYear(), d.getUTCMonth(), d.getUTCDate())
         .toLocaleDateString('es', { day: 'numeric', month: 'short' })
     }
-    return d.toLocaleDateString('es', { day: 'numeric', month: 'short' })
+    return d.toLocaleDateString('es', { day: 'numeric', month: 'short', timeZone: TZ })
   }
 
   const selectedEvents = selectedDate ? eventsOnDay(selectedDate.getDate()) : []
 
-  // Upcoming events
-  const now = new Date()
-  const upcoming = events.filter(e => new Date(e.start_date) >= now).slice(0, 5)
+  // Upcoming events — comparar contra "ahora" en Lima
+  const nowLima = new Date(new Date().toLocaleString('en-US', { timeZone: TZ }))
+  const upcoming = events.filter(e => new Date(e.start_date) >= nowLima).slice(0, 5)
 
   function openDialogForDate(day: number) {
     const dateStr = `${year}-${String(month + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`
@@ -197,7 +206,7 @@ export default function CalendarioPage() {
             {Array.from({ length: firstDay }).map((_, i) => <div key={`empty-${i}`} />)}
             {Array.from({ length: daysInMonth }, (_, i) => i + 1).map(day => {
               const dayEvents = eventsOnDay(day)
-              const isToday = today.getFullYear() === year && today.getMonth() === month && today.getDate() === day
+              const isToday = todayLima.year === year && todayLima.month === month && todayLima.day === day
               const isSelected = selectedDate?.getDate() === day && selectedDate?.getMonth() === month && selectedDate?.getFullYear() === year
               return (
                 <button
@@ -240,7 +249,7 @@ export default function CalendarioPage() {
                         <span className="text-sm text-[var(--foreground)]">{e.title}</span>
                         {!e.all_day && (
                           <span className="text-xs text-[var(--muted-foreground)] ml-1.5">
-                            {new Date(e.start_date).toLocaleTimeString('es', { hour: '2-digit', minute: '2-digit' })}
+                            {new Date(e.start_date).toLocaleTimeString('es', { hour: '2-digit', minute: '2-digit', timeZone: TZ })}
                           </span>
                         )}
                       </div>
@@ -273,7 +282,7 @@ export default function CalendarioPage() {
                     <p className="text-xs text-[var(--muted-foreground)]">
                       {formatEventDate(event.start_date, event.all_day)}
                       {!event.all_day && (
-                        <span> · {new Date(event.start_date).toLocaleTimeString('es', { hour: '2-digit', minute: '2-digit' })}</span>
+                        <span> · {new Date(event.start_date).toLocaleTimeString('es', { hour: '2-digit', minute: '2-digit', timeZone: TZ })}</span>
                       )}
                     </p>
                     {event.location && (
