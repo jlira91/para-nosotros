@@ -12,6 +12,11 @@ import {
   FolderOpen, Plus, Upload, File, FileImage, Trash2,
   Download, ChevronRight, Home, FolderPlus, X, Pencil
 } from 'lucide-react'
+import { Document as PDFDocument, Page as PDFPage, pdfjs } from 'react-pdf'
+import 'react-pdf/dist/Page/AnnotationLayer.css'
+import 'react-pdf/dist/Page/TextLayer.css'
+
+pdfjs.GlobalWorkerOptions.workerSrc = `https://unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.mjs`
 
 const FOLDER_COLORS = ['#C4737A', '#7A9BC4', '#7AC4A0', '#C4A87A', '#A87AC4', '#C4C47A']
 
@@ -27,6 +32,8 @@ export default function DocumentosPage() {
   const [editingDoc, setEditingDoc] = useState<Document | null>(null)
   const [editingDocName, setEditingDocName] = useState('')
   const [previewDoc, setPreviewDoc] = useState<{ doc: Document; url: string } | null>(null)
+  const [pdfNumPages, setPdfNumPages] = useState<number>(0)
+  const [pdfWidth, setPdfWidth] = useState<number>(600)
   const [showUploadDialog, setShowUploadDialog] = useState(false)
   const [uploading, setUploading] = useState(false)
   const [newFolder, setNewFolder] = useState({ name: '', color: FOLDER_COLORS[0] })
@@ -157,7 +164,11 @@ export default function DocumentosPage() {
 
   async function previewDocument(doc: Document) {
     const { data } = await supabase.storage.from('documents').createSignedUrl(doc.file_path, 300)
-    if (data?.signedUrl) setPreviewDoc({ doc, url: data.signedUrl })
+    if (data?.signedUrl) {
+      setPdfNumPages(0)
+      setPdfWidth(Math.min(window.innerWidth - 32, 800))
+      setPreviewDoc({ doc, url: data.signedUrl })
+    }
   }
 
   function isImage(type: string | null) {
@@ -360,12 +371,29 @@ export default function DocumentosPage() {
                 className="max-w-full max-h-full object-contain rounded-lg"
               />
             ) : isPDF(previewDoc.doc.file_type) ? (
-              <iframe
-                src={previewDoc.url}
-                className="w-full rounded-lg bg-white"
-                style={{ height: 'calc(100vh - 100px)' }}
-                title={previewDoc.doc.name}
-              />
+              <div className="w-full flex flex-col items-center gap-3 pb-8">
+                <PDFDocument
+                  file={previewDoc.url}
+                  onLoadSuccess={({ numPages }) => setPdfNumPages(numPages)}
+                  loading={<p className="text-white/70 text-sm mt-8">Cargando PDF...</p>}
+                  error={<p className="text-red-400 text-sm mt-8">No se pudo cargar el PDF</p>}
+                >
+                  {Array.from({ length: pdfNumPages }, (_, i) => (
+                    <div key={i + 1} className="flex flex-col items-center gap-1">
+                      {pdfNumPages > 1 && (
+                        <p className="text-white/40 text-xs">{i + 1} / {pdfNumPages}</p>
+                      )}
+                      <PDFPage
+                        pageNumber={i + 1}
+                        width={pdfWidth}
+                        className="rounded-lg overflow-hidden shadow-2xl"
+                        renderAnnotationLayer
+                        renderTextLayer
+                      />
+                    </div>
+                  ))}
+                </PDFDocument>
+              </div>
             ) : null}
           </div>
         </div>
