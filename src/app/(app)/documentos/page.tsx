@@ -151,7 +151,10 @@ export default function DocumentosPage() {
     if (!coupleId || !selectedFile || !newDoc.name.trim()) return
     setUploading(true)
     const ext = selectedFile.name.split('.').pop()
-    const path = `${coupleId}/${Date.now()}-${selectedFile.name}`
+    const safeName = selectedFile.name
+      .normalize('NFD').replace(/\p{Mn}/gu, '')
+      .replace(/[^a-zA-Z0-9._-]/g, '-')
+    const path = `${coupleId}/${Date.now()}-${safeName}`
     const { error: uploadError } = await supabase.storage.from('documents').upload(path, selectedFile)
     if (uploadError) { setUploading(false); return }
 
