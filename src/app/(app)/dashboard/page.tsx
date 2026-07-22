@@ -79,24 +79,6 @@ export default async function DashboardPage() {
         <p className="text-[var(--muted-foreground)] text-sm mt-1">{formatDate(new Date())}</p>
       </div>
 
-      {pinnedNotes && pinnedNotes.length > 0 && (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
-          {pinnedNotes.map((note: { id: string; title: string; content: string | null }) => (
-            <Link key={note.id} href={`/notas/${note.id}`}>
-              <div className="rounded-2xl border-2 border-[var(--primary)] bg-[var(--primary-light)] p-5 hover:shadow-md transition-all hover:-translate-y-0.5 cursor-pointer">
-                <div className="flex items-center gap-2 mb-3">
-                  <Pin size={14} className="text-[var(--primary)] flex-shrink-0" fill="currentColor" />
-                  <p className="text-xs font-semibold text-[var(--primary)] uppercase tracking-wide">{note.title}</p>
-                </div>
-                {note.content && (
-                  <p className="text-sm text-[var(--foreground)] whitespace-pre-line leading-relaxed">{note.content}</p>
-                )}
-              </div>
-            </Link>
-          ))}
-        </div>
-      )}
-
       <div className="grid grid-cols-3 md:grid-cols-6 gap-3 mb-8">
         {quickLinks.map(({ href, icon: Icon, label, color }) => (
           <Link key={href} href={href}>
@@ -248,6 +230,26 @@ export default async function DashboardPage() {
           </CardContent>
         </Card>
       </div>
+
+      {pinnedNotes && pinnedNotes.length > 0 && (
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
+          {pinnedNotes.map((note: { id: string; title: string; content: string | null }) => (
+            <Link key={note.id} href={`/notas/${note.id}`}>
+              <div className="rounded-2xl border-2 border-[var(--primary)] bg-[var(--primary-light)] p-5 hover:shadow-md transition-all hover:-translate-y-0.5 cursor-pointer">
+                <div className="flex items-center gap-2 mb-2">
+                  <Pin size={13} className="text-[var(--primary)] flex-shrink-0" fill="currentColor" />
+                  <p className="text-xs font-semibold text-[var(--primary)] uppercase tracking-wide">{note.title}</p>
+                </div>
+                {note.content && (
+                  <div className="h-28 overflow-y-auto">
+                    <p className="text-sm text-[var(--foreground)] whitespace-pre-line leading-relaxed">{note.content}</p>
+                  </div>
+                )}
+              </div>
+            </Link>
+          ))}
+        </div>
+      )}
     </div>
   )
 }
