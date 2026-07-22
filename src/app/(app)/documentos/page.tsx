@@ -18,6 +18,38 @@ import 'react-pdf/dist/Page/TextLayer.css'
 
 pdfjs.GlobalWorkerOptions.workerSrc = `https://unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.mjs`
 
+// Renderiza la página PDF solo cuando entra al viewport — evita agotar la memoria en iOS
+function LazyPDFPage({ pageNumber, width, scrollRoot }: { pageNumber: number; width: number; scrollRoot: React.RefObject<HTMLDivElement | null> }) {
+  const ref = useRef<HTMLDivElement>(null)
+  const [visible, setVisible] = useState(false)
+  const A4_RATIO = 1.414
+
+  useEffect(() => {
+    const el = ref.current
+    if (!el) return
+    const observer = new IntersectionObserver(
+      ([entry]) => { if (entry.isIntersecting) setVisible(true) },
+      { root: scrollRoot.current, rootMargin: '400px' }
+    )
+    observer.observe(el)
+    return () => observer.disconnect()
+  }, [scrollRoot])
+
+  return (
+    <div ref={ref} style={{ minHeight: visible ? undefined : Math.round(width * A4_RATIO) }}>
+      {visible && (
+        <PDFPage
+          pageNumber={pageNumber}
+          width={width}
+          className="rounded-lg overflow-hidden shadow-2xl"
+          renderAnnotationLayer
+          renderTextLayer
+        />
+      )}
+    </div>
+  )
+}
+
 const FOLDER_COLORS = ['#C4737A', '#7A9BC4', '#7AC4A0', '#C4A87A', '#A87AC4', '#C4C47A']
 
 export default function DocumentosPage() {
@@ -168,7 +200,7 @@ export default function DocumentosPage() {
   }
 
   async function previewDocument(doc: Document) {
-    const { data } = await supabase.storage.from('documents').createSignedUrl(doc.file_path, 300)
+    const { data } = await supabase.storage.from('documents').createSignedUrl(doc.file_path, 3600)
     if (data?.signedUrl) {
       setPdfNumPages(0)
       setPdfWidth(Math.min(window.innerWidth - 32, 800))
@@ -400,12 +432,10 @@ export default function DocumentosPage() {
                       {pdfNumPages > 1 && (
                         <p className="text-white/40 text-xs">{i + 1} / {pdfNumPages}</p>
                       )}
-                      <PDFPage
+                      <LazyPDFPage
                         pageNumber={i + 1}
                         width={pdfWidth}
-                        className="rounded-lg overflow-hidden shadow-2xl"
-                        renderAnnotationLayer
-                        renderTextLayer
+                        scrollRoot={previewScrollRef}
                       />
                     </div>
                   ))}
