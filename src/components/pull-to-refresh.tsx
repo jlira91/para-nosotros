@@ -14,6 +14,7 @@ export function PullToRefresh() {
   useEffect(() => {
     function onTouchStart(e: TouchEvent) {
       if (window.scrollY > 2) return
+      if (document.body.dataset.overlayOpen) return
       startY.current = e.touches[0].clientY
       active.current = true
     }

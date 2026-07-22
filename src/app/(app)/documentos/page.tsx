@@ -69,7 +69,13 @@ export default function DocumentosPage() {
   const previewScrollRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
-    if (previewDoc) previewScrollRef.current?.scrollTo(0, 0)
+    if (previewDoc) {
+      document.body.dataset.overlayOpen = '1'
+      previewScrollRef.current?.scrollTo(0, 0)
+    } else {
+      delete document.body.dataset.overlayOpen
+    }
+    return () => { delete document.body.dataset.overlayOpen }
   }, [previewDoc])
   const [showUploadDialog, setShowUploadDialog] = useState(false)
   const [uploading, setUploading] = useState(false)
