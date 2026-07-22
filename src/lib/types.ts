@@ -124,6 +124,7 @@ export interface Note {
   title: string
   content: string | null
   category: NoteCategory
+  pinned: boolean
   created_by: string | null
   created_at: string
   updated_at: string

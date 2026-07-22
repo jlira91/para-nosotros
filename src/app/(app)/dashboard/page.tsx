@@ -3,7 +3,7 @@ import { redirect } from 'next/navigation'
 import Link from 'next/link'
 import { Card, CardContent } from '@/components/ui/card'
 import { daysUntilBirthday, formatDate } from '@/lib/utils'
-import { FolderOpen, List, Cake, Calendar, NotebookPen, ShoppingCart, Heart, ArrowRight } from 'lucide-react'
+import { FolderOpen, List, Cake, Calendar, NotebookPen, ShoppingCart, Heart, ArrowRight, Pin } from 'lucide-react'
 
 export default async function DashboardPage() {
   const supabase = await createClient()
@@ -20,6 +20,7 @@ export default async function DashboardPage() {
     { data: upcomingBirthdays },
     { data: lists },
     { data: recentNotes },
+    { data: pinnedNotes },
   ] = await Promise.all([
     supabase.from('events')
       .select('*')
@@ -38,8 +39,14 @@ export default async function DashboardPage() {
     supabase.from('notes')
       .select('*')
       .eq('couple_id', coupleId)
+      .eq('pinned', false)
       .order('updated_at', { ascending: false })
       .limit(3),
+    supabase.from('notes')
+      .select('*')
+      .eq('couple_id', coupleId)
+      .eq('pinned', true)
+      .order('title'),
   ])
 
   const sortedBirthdays = (upcomingBirthdays || [])
@@ -71,6 +78,24 @@ export default async function DashboardPage() {
         </h1>
         <p className="text-[var(--muted-foreground)] text-sm mt-1">{formatDate(new Date())}</p>
       </div>
+
+      {pinnedNotes && pinnedNotes.length > 0 && (
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+          {pinnedNotes.map((note: { id: string; title: string; content: string | null }) => (
+            <Link key={note.id} href={`/notas/${note.id}`}>
+              <div className="rounded-2xl border-2 border-[var(--primary)] bg-[var(--primary-light)] p-5 hover:shadow-md transition-all hover:-translate-y-0.5 cursor-pointer">
+                <div className="flex items-center gap-2 mb-3">
+                  <Pin size={14} className="text-[var(--primary)] flex-shrink-0" fill="currentColor" />
+                  <p className="text-xs font-semibold text-[var(--primary)] uppercase tracking-wide">{note.title}</p>
+                </div>
+                {note.content && (
+                  <p className="text-sm text-[var(--foreground)] whitespace-pre-line leading-relaxed">{note.content}</p>
+                )}
+              </div>
+            </Link>
+          ))}
+        </div>
+      )}
 
       <div className="grid grid-cols-3 md:grid-cols-6 gap-3 mb-8">
         {quickLinks.map(({ href, icon: Icon, label, color }) => (

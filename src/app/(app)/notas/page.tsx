@@ -40,7 +40,7 @@ export default function NotasPage() {
       const { data: profile } = await supabase.from('profiles').select('couple_id').eq('id', user.id).single()
       if (!profile?.couple_id) return
       setCoupleId(profile.couple_id)
-      const { data } = await supabase.from('notes').select('*').eq('couple_id', profile.couple_id).order('updated_at', { ascending: false })
+      const { data } = await supabase.from('notes').select('*').eq('couple_id', profile.couple_id).eq('pinned', false).order('updated_at', { ascending: false })
       setNotes(data || [])
     }
     load()
