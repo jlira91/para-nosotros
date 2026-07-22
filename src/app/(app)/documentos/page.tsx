@@ -34,6 +34,11 @@ export default function DocumentosPage() {
   const [previewDoc, setPreviewDoc] = useState<{ doc: Document; url: string } | null>(null)
   const [pdfNumPages, setPdfNumPages] = useState<number>(0)
   const [pdfWidth, setPdfWidth] = useState<number>(600)
+  const previewScrollRef = useRef<HTMLDivElement>(null)
+
+  useEffect(() => {
+    if (previewDoc) previewScrollRef.current?.scrollTo(0, 0)
+  }, [previewDoc])
   const [showUploadDialog, setShowUploadDialog] = useState(false)
   const [uploading, setUploading] = useState(false)
   const [newFolder, setNewFolder] = useState({ name: '', color: FOLDER_COLORS[0] })
@@ -344,14 +349,15 @@ export default function DocumentosPage() {
 
       {/* Preview overlay */}
       {previewDoc && (
-        <div className="fixed inset-0 z-50 bg-black/90 flex flex-col" onClick={() => setPreviewDoc(null)}>
-          <div className="flex items-center justify-between px-4 py-3 flex-shrink-0" onClick={e => e.stopPropagation()}>
+        <div className="fixed inset-0 z-50 bg-black/90 flex flex-col">
+          {/* Header — siempre visible */}
+          <div className="flex items-center justify-between px-4 py-3 flex-shrink-0">
             <p className="text-white font-medium text-sm truncate flex-1 mr-4">{previewDoc.doc.name}</p>
             <div className="flex gap-2">
               <button
                 onClick={() => window.open(previewDoc.url, '_blank')}
                 className="p-2 rounded-lg bg-white/10 hover:bg-white/20 text-white transition"
-                title="Descargar"
+                title="Abrir en nueva pestaña"
               >
                 <Download size={18} />
               </button>
@@ -363,20 +369,31 @@ export default function DocumentosPage() {
               </button>
             </div>
           </div>
-          <div className="flex-1 overflow-auto flex items-center justify-center p-4" onClick={e => e.stopPropagation()}>
+
+          {/* Área de scroll — contiene el contenido */}
+          <div
+            ref={previewScrollRef}
+            className="flex-1 overflow-y-auto overflow-x-hidden"
+            style={{ overscrollBehavior: 'contain', WebkitOverflowScrolling: 'touch' } as React.CSSProperties}
+          >
             {isImage(previewDoc.doc.file_type) ? (
-              <img
-                src={previewDoc.url}
-                alt={previewDoc.doc.name}
-                className="max-w-full max-h-full object-contain rounded-lg"
-              />
+              <div className="flex items-center justify-center min-h-full p-4">
+                <img
+                  src={previewDoc.url}
+                  alt={previewDoc.doc.name}
+                  className="max-w-full object-contain rounded-lg"
+                />
+              </div>
             ) : isPDF(previewDoc.doc.file_type) ? (
-              <div className="w-full flex flex-col items-center gap-3 pb-8">
+              <div className="flex flex-col items-center gap-3 py-4 px-2 pb-12">
                 <PDFDocument
                   file={previewDoc.url}
-                  onLoadSuccess={({ numPages }) => setPdfNumPages(numPages)}
-                  loading={<p className="text-white/70 text-sm mt-8">Cargando PDF...</p>}
-                  error={<p className="text-red-400 text-sm mt-8">No se pudo cargar el PDF</p>}
+                  onLoadSuccess={({ numPages }) => {
+                    setPdfNumPages(numPages)
+                    previewScrollRef.current?.scrollTo(0, 0)
+                  }}
+                  loading={<p className="text-white/70 text-sm mt-12">Cargando PDF...</p>}
+                  error={<p className="text-red-400 text-sm mt-12">No se pudo cargar el PDF</p>}
                 >
                   {Array.from({ length: pdfNumPages }, (_, i) => (
                     <div key={i + 1} className="flex flex-col items-center gap-1">
